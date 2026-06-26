@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}">
+    <link rel="canonical" href="https://loretranslator.com/tools/sindarin-name-generator.html">
+    <link rel="stylesheet" href="../templates/base.css">
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Sindarin Elvish Name Generator",
+      "operatingSystem": "All",
+      "applicationCategory": "EducationalApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+</head>
+<body>
+    <div class="nebula-1"></div>
+    <div class="nebula-2"></div>
+
+    <header>
+        <div class="nav-container">
+            <a href="../index.html" class="logo"><span>LORE</span>TRANSLATOR</a>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Elvish</a></li>
+                <li><a href="../tools/sindarin-name-generator.html" class="active">Name Generator</a></li>
+                <li><a href="../articles/elvish-ring-engraving-guide.html">Engraving Guide</a></li>
+                <li><a href="../articles/tolkien-love-quotes.html">Love Quotes</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Sindarin <span>Elvish Name Generator</span></h1>
+            <p>Generate authentic, lore-accurate Sindarin Elvish names with real etymological meanings. Choose your gender preference and uncover your Elven identity and legendary backstory.</p>
+        </section>
+
+        <!-- Generator Workspace -->
+        <section class="glass-card">
+            <div style="display:flex; flex-direction:column; align-items:center; gap:2rem;">
+                <!-- Control Panel -->
+                <div style="display:flex; gap:1.5rem; flex-wrap:wrap; justify-content:center; width:100%; border-bottom:1px solid var(--border-light); padding-bottom:1.5rem;">
+                    <div class="control-group">
+                        <label for="gender-select">Gender Style:</label>
+                        <select id="gender-select" style="background:#0d121f; border:1px solid var(--border-light); color:var(--text-primary); border-radius:4px; padding:0.4rem 1rem;">
+                            <option value="all">All Styles</option>
+                            <option value="male">Male (ion, dir, dur, born)</option>
+                            <option value="female">Female (wen, iel, dhel)</option>
+                        </select>
+                    </div>
+                    <button class="btn" onclick="generateName()">Generate Elven Name</button>
+                </div>
+
+                <!-- Results Display Panel -->
+                <div style="text-align:center; width:100%; max-width:600px; padding:1.5rem; background:rgba(0,0,0,0.2); border-radius:8px; border:1px solid var(--border-light);">
+                    <div style="font-family:'Cinzel', serif; font-size:2.8rem; color:var(--accent); text-shadow:0 0 12px var(--accent-glow); margin-bottom:0.5rem;" id="generated-name">Elwen</div>
+                    <div style="font-size:1.1rem; color:var(--text-primary); font-weight:600; margin-bottom:1rem;" id="name-meaning">"Star Maiden"</div>
+                    <div style="font-size:0.9rem; color:var(--text-secondary); line-height:1.7; font-style:italic;" id="name-backstory">Born under the starlight of the First Age, this name represents a noble soul destined for great wisdom.</div>
+                </div>
+
+                <!-- Calligraphy Exporter -->
+                <div class="canvas-panel" style="width:100%;">
+                    <h3 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem;">Export Calligraphy Stencil</h3>
+                    <div class="canvas-container">
+                        <canvas id="calligraphy-canvas" width="600" height="150"></canvas>
+                    </div>
+                    <div class="canvas-controls">
+                        <div class="control-group">
+                            <label for="font-size">Size:</label>
+                            <select id="font-size" onchange="drawCanvas()">
+                                <option value="32">Small</option>
+                                <option value="42" selected>Medium</option>
+                                <option value="52">Large</option>
+                            </select>
+                        </div>
+                        <div class="control-group">
+                            <label for="text-color">Font Color:</label>
+                            <input type="color" id="text-color" value="#d97706" onchange="drawCanvas()">
+                        </div>
+                        <div class="control-group">
+                            <label for="bg-color">Background:</label>
+                            <input type="color" id="bg-color" value="#090d16" onchange="drawCanvas()">
+                        </div>
+                        <button class="btn" style="padding:0.4rem 1rem; font-size:0.8rem;" onclick="downloadImage()">Export PNG</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Educational Guide -->
+        <section class="glass-card article-container">
+            <h2 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.5rem; margin-bottom:1.5rem; border-bottom:1px solid var(--border-light); padding-bottom:0.5rem;">How Sindarin Elvish Naming Works</h2>
+            <div class="article-content">
+                <p>Tolkien's Elvish naming conventions are highly systemic and follow strict grammatical rules. Sindarin names are typically compounds formed by joining a prefix (representing a noun, adjective, or verb) with a suffix (indicating gender or specific attributes).</p>
+                
+                <h3>Prefixes & Suffixes Chart</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sindarin Segment</th>
+                            <th>Type</th>
+                            <th>Meaning</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>El-</strong></td>
+                            <td>Prefix</td>
+                            <td>Star (e.g. Elrond, Elwing)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Glor- / Glori-</strong></td>
+                            <td>Prefix</td>
+                            <td>Golden Light (e.g. Glorfindel)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Mith-</strong></td>
+                            <td>Prefix</td>
+                            <td>Grey / Silver (e.g. Mithrandir)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>-wen</strong></td>
+                            <td>Suffix (Fem)</td>
+                            <td>Maiden / Lady (e.g. Arwen)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>-ion</strong></td>
+                            <td>Suffix (Masc)</td>
+                            <td>Son of (e.g. Gildorion)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>-las</strong></td>
+                            <td>Suffix (Neut)</td>
+                            <td>Leaf (e.g. Legolas)</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Fictional Backstories and Lore</h3>
+                <p>Every generated name is matched with a unique backstory generated from regional Middle-earth lore, including Rivendell, Lothlórien, Mirkwood, and Gondolin. This gives your characters, gaming profiles, or ring engravings a deep, verified resonance within Tolkien's legendary universe.</p>
+            </div>
+        </section>
+
+        <!-- Interactive Comments -->
+        <section class="giscus-section">
+            <h3 style="font-family:'Cinzel', serif; margin-bottom:1rem; color:var(--accent);">Request custom name translations</h3>
+            <p style="font-size:0.88rem; color:var(--text-secondary); margin-bottom:1.5rem;">Looking for a name translation that conforms to a specific lineage? Submit your request below, and we will translate and reply with the calligraphy.</p>
+            {{giscus_widget}}
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <a href="../index.html" class="footer-logo"><span>LORE</span>TRANSLATOR</a>
+            <div class="footer-text">© 2026 LoreTranslator.com. Academic translations for Elvish, Old Norse, Sumerian & Fictional scripts.</div>
+            <div class="footer-links">
+                <a href="../index.html">Homepage</a>
+                <a href="../sitemap.xml">Sitemap</a>
+                <a href="../robots.txt">Robots.txt</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Logic Script -->
+    <script>
+        const nameData = {{dict_json}};
+        const canvas = document.getElementById('calligraphy-canvas');
+        const ctx = canvas.getContext('2d');
+
+        const backstories = [
+            "A noble soul born under the starlight of the First Age, renowned for wandering the hidden paths of Rivendell.",
+            "A courageous defender of the Woodland Realm, known to have fought alongside the legendary archers of Mirkwood.",
+            "A scholar of Lothlórien who preserves the ancient lore of the Valar and translates forgotten runes.",
+            "A swift scout of the Grey Havens, destined to guide travelers across the dividing seas to the Undying Lands.",
+            "A lineage dating back to the proud halls of Gondolin, carrying a legendary blade of starlight.",
+            "An elven artisan of Eregion, whose hands craft delicate ornaments reflecting the beauty of the golden trees."
+        ];
+
+        function capitalize(str) {
+            return str.charAt(0).toUpperCase() + str.slice(1);
+        }
+
+        function generateName() {
+            const gender = document.getElementById('gender-select').value;
+            const prefixes = nameData.name_generator.prefixes;
+            let suffixes = nameData.name_generator.suffixes;
+
+            if (gender === 'male') {
+                suffixes = suffixes.filter(s => ['ion', 'dir', 'dur', 'born'].includes(s.term));
+            } else if (gender === 'female') {
+                suffixes = suffixes.filter(s => ['wen', 'iel', 'dhel'].includes(s.term));
+            }
+
+            const prefix = prefixes[Math.floor(Math.random() * prefixes.length)];
+            const suffix = suffixes[Math.floor(Math.random() * suffixes.length)];
+
+            // Phonological blending (e.g. ce-leb + wen -> Celebwen)
+            let rawName = prefix.term + suffix.term;
+            // Standard cleanup: e.g. mor+rod -> morod, el+wen -> elwen
+            if (prefix.term.endsWith(suffix.term.charAt(0))) {
+                rawName = prefix.term + suffix.term.slice(1);
+            }
+            const finalName = capitalize(rawName);
+
+            document.getElementById('generated-name').innerText = finalName;
+            document.getElementById('name-meaning').innerText = `"${capitalize(prefix.meaning)} ${capitalize(suffix.meaning)}"`;
+
+            // Random backstory
+            const backstory = backstories[Math.floor(Math.random() * backstories.length)];
+            document.getElementById('name-backstory').innerText = backstory;
+
+            drawCanvas();
+        }
+
+        // Canvas Draw
+        function drawCanvas() {
+            const size = parseInt(document.getElementById('font-size').value);
+            const textColor = document.getElementById('text-color').value;
+            const bgColor = document.getElementById('bg-color').value;
+            const text = document.getElementById('generated-name').innerText;
+
+            ctx.fillStyle = bgColor;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.fillStyle = textColor;
+            ctx.textAlign = "center";
+            ctx.textBaseline = "middle";
+            ctx.font = `italic ${size}px 'Cinzel', Georgia, serif`;
+            ctx.fillText(text, canvas.width / 2, canvas.height / 2);
+        }
+
+        function downloadImage() {
+            const link = document.createElement('a');
+            link.download = 'elvish_name_stencil.png';
+            link.href = canvas.toDataURL();
+            link.click();
+        }
+
+        // Init
+        window.addEventListener('load', () => {
+            generateName();
+        });
+    </script>
+</body>
+</html>

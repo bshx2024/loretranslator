@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}">
+    <link rel="canonical" href="https://loretranslator.com/articles/{{slug}}.html">
+    <link rel="stylesheet" href="../templates/base.css">
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "{{h1}}",
+      "datePublished": "{{publish_date}}",
+      "author": {
+        "@type": "Person",
+        "name": "LoreTranslator Editorial"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "LoreTranslator",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://loretranslator.com/assets/logo.png"
+        }
+      }
+    }
+    </script>
+</head>
+<body>
+    <div class="nebula-1"></div>
+    <div class="nebula-2"></div>
+
+    <header>
+        <div class="nav-container">
+            <a href="../index.html" class="logo"><span>LORE</span>TRANSLATOR</a>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Elvish</a></li>
+                <li><a href="../tools/sindarin-name-generator.html">Name Generator</a></li>
+                <li><a href="../articles/elvish-ring-engraving-guide.html">Engraving Guide</a></li>
+                <li><a href="../articles/tolkien-love-quotes.html">Love Quotes</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <article class="article-container glass-card">
+            <!-- Breadcrumbs -->
+            <div style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1rem;">
+                <a href="../index.html" style="color:var(--text-muted); text-decoration:none;">Home</a> &gt; 
+                <a href="#" style="color:var(--text-muted); text-decoration:none;">Articles</a> &gt; 
+                <span style="color:var(--accent);">{{h1}}</span>
+            </div>
+
+            <!-- Title -->
+            <h1 style="font-family:'Cinzel', serif; font-size:2.2rem; color:var(--text-primary); margin-bottom:1rem; line-height:1.2;">
+                {{h1}}
+            </h1>
+
+            <!-- Meta -->
+            <div class="article-meta">
+                <span>Published: {{publish_date}}</span>
+                <span>•</span>
+                <span>By LoreTranslator Editorial Team</span>
+                <span>•</span>
+                <span>Verified Academic Translation</span>
+            </div>
+
+            <!-- Body -->
+            <div class="article-content" style="margin-top:2rem;">
+                {{article_body}}
+            </div>
+
+            <!-- Contextual High-Intent Monetization (Affiliate Routing) -->
+            <div style="background:rgba(217,119,6,0.05); border:1px dashed var(--accent); border-radius:8px; padding:1.5rem; margin-top:3rem; text-align:center;">
+                <h3 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.2rem; margin-bottom:0.5rem;">Need a Custom Design stencil?</h3>
+                <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">Get your translation formatted by a professional jeweler or calligrapher. Check out resizing, customized engraving services, or stencil commissions on Etsy.</p>
+                <a href="https://www.etsy.com/search?q=elvish+engraved+ring" target="_blank" rel="noopener noreferrer" class="btn">Shop Engraving Services on Etsy</a>
+            </div>
+        </article>
+
+        <!-- Back to Home -->
+        <div style="text-align:center; margin-top:2rem; margin-bottom:4rem;">
+            <a href="../index.html" class="btn btn-secondary">← Back to Homepage</a>
+        </div>
+
+        <!-- Comments -->
+        <section class="giscus-section article-container">
+            <h3 style="font-family:'Cinzel', serif; margin-bottom:1rem; color:var(--accent);">Article Discussion & Translation Verification</h3>
+            <p style="font-size:0.88rem; color:var(--text-secondary); margin-bottom:1.5rem;">Have questions about the translations in this guide? Join the discussion below or submit your custom engraving query.</p>
+            {{giscus_widget}}
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <a href="../index.html" class="footer-logo"><span>LORE</span>TRANSLATOR</a>
+            <div class="footer-text">© 2026 LoreTranslator.com. Academic translations for Elvish, Old Norse, Sumerian & Fictional scripts.</div>
+            <div class="footer-links">
+                <a href="../index.html">Homepage</a>
+                <a href="../sitemap.xml">Sitemap</a>
+                <a href="../robots.txt">Robots.txt</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

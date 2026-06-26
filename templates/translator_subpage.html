@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}">
+    <link rel="canonical" href="https://loretranslator.com/translators/{{slug_url}}.html">
+    <link rel="stylesheet" href="../templates/base.css">
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Lore {{h1}} Tool",
+      "operatingSystem": "All",
+      "applicationCategory": "EducationalApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+</head>
+<body>
+    <div class="nebula-1"></div>
+    <div class="nebula-2"></div>
+
+    <header>
+        <div class="nav-container">
+            <a href="../index.html" class="logo"><span>LORE</span>TRANSLATOR</a>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Elvish</a></li>
+                <li><a href="../tools/sindarin-name-generator.html">Name Generator</a></li>
+                <li><a href="../articles/elvish-ring-engraving-guide.html">Engraving Guide</a></li>
+                <li><a href="../articles/tolkien-love-quotes.html">Love Quotes</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Online English to <span>{{h1}}</span></h1>
+            <p>Convert and translate modern English prose into authentic historical or fictional {{h1}} scripts instantly. Adjust size and download transparent calligraphy stencils.</p>
+        </section>
+
+        <!-- Translator Workspace -->
+        <section class="glass-card">
+            <div class="translator-workspace">
+                <div>
+                    <div class="panel-label">
+                        Input English Text
+                        {{keyboard_panel_header}}
+                    </div>
+                    <textarea id="input-text" placeholder="Type text here (e.g. love, friend, star, strength)..."></textarea>
+                    
+                    <!-- Navajo Accents Virtual Keyboard -->
+                    <div class="virtual-keyboard" id="virtual-keyboard-area">
+                        {{virtual_keyboard_keys}}
+                    </div>
+                </div>
+                <div>
+                    <div class="panel-label">
+                        Output Translation
+                        <span id="translit-mode">{{font_mode}} Mode</span>
+                    </div>
+                    <div class="output-box {{font_class}}" id="output-text">...</div>
+                </div>
+            </div>
+            
+            <div class="action-bar">
+                <button class="btn btn-secondary" onclick="clearText()">Clear</button>
+                <button class="btn" onclick="copyTranslation()">Copy Text</button>
+            </div>
+
+            <!-- Canvas Calligraphy Exporter -->
+            <div class="canvas-panel">
+                <h3 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem;">Interactive Calligraphy Exporter</h3>
+                <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1rem; text-align:center;">Generate a custom PNG layout of the calligraphy script above. Ideal for tattoos, stickers, or engraving layouts.</p>
+                
+                <div class="canvas-container">
+                    <canvas id="calligraphy-canvas" width="600" height="150"></canvas>
+                </div>
+
+                <div class="canvas-controls">
+                    <div class="control-group">
+                        <label for="font-size">Size:</label>
+                        <select id="font-size" onchange="drawCanvas()">
+                            <option value="32">Small</option>
+                            <option value="42" selected>Medium</option>
+                            <option value="52">Large</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label for="text-color">Font Color:</label>
+                        <input type="color" id="text-color" value="#d97706" onchange="drawCanvas()">
+                    </div>
+                    <div class="control-group">
+                        <label for="bg-color">Background:</label>
+                        <input type="color" id="bg-color" value="#090d16" onchange="drawCanvas()">
+                    </div>
+                    <button class="btn" style="padding:0.4rem 1rem; font-size:0.8rem;" onclick="downloadImage()">Export PNG</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rich Academic Content Section (Exceeds Thin Content) -->
+        <section class="glass-card article-container">
+            <h2 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.5rem; margin-bottom:1.5rem; border-bottom:1px solid var(--border-light); padding-bottom:0.5rem;">Academic Guide & Vocabulary Mapping</h2>
+            <div class="article-content">
+                {{style_description}}
+                
+                <!-- Syllabary / Reference Dictionary Table -->
+                <h3 style="color:var(--accent); font-family:'Cinzel', serif; margin-top:2rem;">Core Verified Dictionaries</h3>
+                <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">Here are some of the most requested concepts mapped to their verified translation values in our database:</p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>English Concept</th>
+                            <th>{{h1}} Script / Notation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{dictionary_table_rows}}
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- FAQ Accordions (FAQ Schema) -->
+        <section class="glass-card article-container">
+            <h2 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.4rem; margin-bottom:1.5rem; border-bottom:1px solid var(--border-light); padding-bottom:0.5rem;">Frequently Asked Questions (FAQ)</h2>
+            <div class="article-content">
+                {{faq_accordion_items}}
+            </div>
+        </section>
+
+        <!-- Link back to home -->
+        <div style="text-align:center; margin-bottom:3rem;">
+            <a href="../index.html" class="btn btn-secondary">← Back to Elvish Calligraphy Board</a>
+        </div>
+
+        <!-- Interactive Comments -->
+        <section class="giscus-section">
+            <h3 style="font-family:'Cinzel', serif; margin-bottom:1rem; color:var(--accent);">Request Translations & Join Discussions</h3>
+            <p style="font-size:0.88rem; color:var(--text-secondary); margin-bottom:1.5rem;">Need assistance transliterating custom quotes? Share your requests below and our community linguists will verify it.</p>
+            {{giscus_widget}}
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <a href="../index.html" class="footer-logo"><span>LORE</span>TRANSLATOR</a>
+            <div class="footer-text">© 2026 LoreTranslator.com. Academic translations for Elvish, Old Norse, Sumerian & Fictional scripts.</div>
+            <div class="footer-links">
+                <a href="../index.html">Homepage</a>
+                <a href="../sitemap.xml">Sitemap</a>
+                <a href="../robots.txt">Robots.txt</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Translator Logic Script -->
+    <script>
+        const slug = "{{slug}}";
+        const dict = {{dict_json}};
+        const localDict = {{local_dict_json}};
+        const inputArea = document.getElementById('input-text');
+        const outputBox = document.getElementById('output-text');
+        const canvas = document.getElementById('calligraphy-canvas');
+        const ctx = canvas.getContext('2d');
+
+        // Navajo accents keyboard click handler
+        function insertAccent(char) {
+            const pos = inputArea.selectionStart;
+            const text = inputArea.value;
+            inputArea.value = text.slice(0, pos) + char + text.slice(pos);
+            inputArea.focus();
+            inputArea.setSelectionRange(pos + char.length, pos + char.length);
+            translate();
+        }
+
+        function translate() {
+            const raw = inputArea.value.trim().toLowerCase();
+            if(!raw) {
+                outputBox.innerText = "...";
+                drawCanvas();
+                return;
+            }
+
+            let result = "";
+
+            const dbKey = slug.replace("-", "_");
+
+            if (slug === "sindarin") {
+                // Sindarin dictionary lookup
+                const words = raw.split(/\s+/);
+                const translated = words.map(w => {
+                    const clean = w.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
+                    if (dict.elvish && dict.elvish.sindarin && dict.elvish.sindarin[clean]) {
+                        return dict.elvish.sindarin[clean];
+                    }
+                    return w;
+                });
+                result = translated.join(" ");
+            }
+            else if (dict[dbKey] && dict[dbKey].dictionary) {
+                const words = raw.split(/\s+/);
+                const translated = words.map(w => {
+                    const clean = w.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
+                    if (dict[dbKey].dictionary[clean]) {
+                        return dict[dbKey].dictionary[clean];
+                    }
+                    
+                    // Sumerian Syllabary fallback inside its dictionary block
+                    if (slug === "sumerian") {
+                        let syllableWord = "";
+                        let i = 0;
+                        while (i < clean.length) {
+                            if (i + 1 < clean.length) {
+                                const digram = clean.substring(i, i+2);
+                                if (dict.sumerian.syllabary[digram]) {
+                                    syllableWord += dict.sumerian.syllabary[digram];
+                                    i += 2;
+                                    continue;
+                                }
+                            }
+                            const single = clean.charAt(i);
+                            syllableWord += dict.sumerian.syllabary[single] || single;
+                            i++;
+                        }
+                        return syllableWord;
+                    }
+                    return w;
+                });
+                result = translated.join(" ");
+            }
+            else if (slug === "old-norse") {
+                // Runic Old Norse younger futhark transliteration
+                // Check if runes type is elder or younger
+                const isYounger = document.getElementById('runes-type') ? (document.getElementById('runes-type').value === "younger") : true;
+                const charMap = isYounger ? dict.runic.younger_futhark : dict.runic.elder_futhark;
+
+                // check if entire word matches custom concept
+                const words = raw.split(/\s+/);
+                const translated = words.map(w => {
+                    const clean = w.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
+                    if (localDict[clean]) {
+                        return localDict[clean];
+                    }
+                    // letter mapping
+                    return Array.from(clean).map(char => charMap[char] || char).join("");
+                });
+                result = translated.join(" ");
+            }
+            else if (slug === "alien") {
+                // Alien symbol replacement
+                result = Array.from(raw).map(char => dict.alien.character_map[char] || char).join("");
+            }
+            else {
+                // General dictionary lookup mode: works for sindarin, ancient-greek, navi, old-english, navajo, aramaic, coptic, shakespearean
+                const words = raw.split(/\s+/);
+                const translated = words.map(w => {
+                    const clean = w.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
+                    if (localDict[clean]) {
+                        return localDict[clean];
+                    }
+                    return w; // fallback
+                });
+                result = translated.join(" ");
+            }
+
+            outputBox.innerText = result;
+            drawCanvas();
+        }
+
+        inputArea.addEventListener('input', translate);
+
+        function copyTranslation() {
+            navigator.clipboard.writeText(outputBox.innerText);
+            alert("Translation copied to clipboard!");
+        }
+
+        function clearText() {
+            inputArea.value = "";
+            outputBox.innerText = "...";
+            drawCanvas();
+        }
+
+        // Canvas Calligraphy Exporter Rendering
+        function drawCanvas() {
+            const size = parseInt(document.getElementById('font-size').value);
+            const textColor = document.getElementById('text-color').value;
+            const bgColor = document.getElementById('bg-color').value;
+            const text = outputBox.innerText;
+
+            ctx.fillStyle = bgColor;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.fillStyle = textColor;
+            ctx.textAlign = "center";
+            ctx.textBaseline = "middle";
+            ctx.font = `normal ${size}px sans-serif`;
+            
+            // Adjust canvas styling based on language
+            if (slug === "sumerian" || slug === "runic" || slug === "old-norse") {
+                ctx.font = `normal ${size + 8}px 'Courier New', Courier, monospace`;
+            } else if (slug === "alien") {
+                ctx.font = `normal ${size + 4}px 'Impact', Arial Black, sans-serif`;
+            } else {
+                ctx.font = `italic ${size}px Georgia, serif`;
+            }
+
+            ctx.fillText(text, canvas.width / 2, canvas.height / 2);
+        }
+
+        function downloadImage() {
+            const link = document.createElement('a');
+            link.download = `${slug}_translation_stencil.png`;
+            link.href = canvas.toDataURL();
+            link.click();
+        }
+
+        // Run runes selector change
+        document.addEventListener('DOMContentLoaded', () => {
+            const selectEl = document.getElementById('runes-type');
+            if (selectEl) {
+                selectEl.addEventListener('change', translate);
+            }
+            drawCanvas();
+        });
+    </script>
+</body>
+</html>

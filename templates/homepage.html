@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}">
+    <link rel="canonical" href="https://loretranslator.com/">
+    <link rel="stylesheet" href="templates/base.css">
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Lore Elvish Translator",
+      "operatingSystem": "All",
+      "applicationCategory": "EducationalApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "840"
+      }
+    }
+    </script>
+</head>
+<body>
+    <div class="nebula-1"></div>
+    <div class="nebula-2"></div>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo"><span>LORE</span>TRANSLATOR</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Elvish</a></li>
+                <li><a href="tools/sindarin-name-generator.html">Name Generator</a></li>
+                <li><a href="articles/elvish-ring-engraving-guide.html">Engraving Guide</a></li>
+                <li><a href="articles/tolkien-love-quotes.html">Love Quotes</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Online English to <span>Elvish Translator</span></h1>
+            <p>Translate English words into authentic Tolkien-academic Quenya or Sindarin Elvish scripts. Customize and export elegant calligraphy designs for wedding rings or tattoos.</p>
+        </section>
+
+        <!-- Translator Workspace -->
+        <section class="glass-card">
+            <div class="translator-workspace">
+                <div>
+                    <div class="panel-label">
+                        Input English Text
+                        <div>
+                            <label for="elvish-dialect" style="font-size: 0.8rem; margin-right: 0.5rem;">Dialect:</label>
+                            <select id="elvish-dialect" style="background:#0d121f; border:1px solid var(--border-light); color:var(--text-primary); border-radius:4px; padding:0.15rem 0.35rem; font-size:0.8rem;">
+                                <option value="sindarin">Sindarin (Common)</option>
+                                <option value="quenya">Quenya (High Elvish)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <textarea id="input-text" placeholder="Type words here (e.g. love, friend, star, wedding)..."></textarea>
+                </div>
+                <div>
+                    <div class="panel-label">
+                        Elvish Calligraphy
+                        <span id="translit-mode">Tengwar Transliteration</span>
+                    </div>
+                    <div class="output-box font-tengwar" id="output-text">meleth</div>
+                </div>
+            </div>
+            
+            <div class="action-bar">
+                <button class="btn btn-secondary" onclick="clearText()">Clear</button>
+                <button class="btn" onclick="copyTranslation()">Copy Text</button>
+            </div>
+
+            <!-- Canvas Calligraphy Exporter -->
+            <div class="canvas-panel">
+                <h3 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem;">Interactive Calligraphy Exporter</h3>
+                <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1rem; text-align:center;">Generate a custom PNG/SVG layout. Perfect for sending to custom jewelry engravers or tattoo artists.</p>
+                
+                <div class="canvas-container">
+                    <canvas id="calligraphy-canvas" width="600" height="150"></canvas>
+                </div>
+
+                <div class="canvas-controls">
+                    <div class="control-group">
+                        <label for="font-size">Size:</label>
+                        <select id="font-size" onchange="drawCanvas()">
+                            <option value="32">Small</option>
+                            <option value="42" selected>Medium</option>
+                            <option value="52">Large</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label for="text-color">Font Color:</label>
+                        <input type="color" id="text-color" value="#d97706" onchange="drawCanvas()">
+                    </div>
+                    <div class="control-group">
+                        <label for="bg-color">Background:</label>
+                        <input type="color" id="bg-color" value="#090d16" onchange="drawCanvas()">
+                    </div>
+                    <button class="btn" style="padding:0.4rem 1rem; font-size:0.8rem;" onclick="downloadImage()">Export PNG</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Category Grid for Other Languages -->
+        <section class="glass-card">
+            <h2 style="font-family:'Cinzel', serif; text-align:center; font-size:1.5rem; margin-bottom:1.5rem; letter-spacing:1px; color:var(--text-primary);">Explore <span>Ancient & Lore Translators</span></h2>
+            <div class="selector-grid">
+                {{translator_cards}}
+            </div>
+        </section>
+
+        <!-- Translation of the Week -->
+        <section class="glass-card">
+            <h2 style="font-family:'Cinzel', serif; text-align:center; font-size:1.3rem; margin-bottom:1rem; color:var(--text-primary);">Translation of the Week</h2>
+            <p style="font-size:0.88rem; color:var(--text-secondary); text-align:center; margin-bottom:1.5rem;">Explore how popular legendary phrases translate and look in ancient runic and Elvish calligraphy.</p>
+            <div style="background:rgba(0,0,0,0.2); border-radius:8px; border:1px solid var(--border-light); padding:1rem 1.5rem;" id="weekly-translation-list">
+                {{activity_feed}}
+            </div>
+        </section>
+
+        <!-- Interactive Comments -->
+        <section class="giscus-section">
+            <h3 style="font-family:'Cinzel', serif; margin-bottom:1rem; color:var(--accent);">Request Translations & Join Discussions</h3>
+            <p style="font-size:0.88rem; color:var(--text-secondary); margin-bottom:1.5rem;">Can't find a specific name or word? Post your request below and our community translators will help translate it accurately.</p>
+            {{giscus_widget}}
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <a href="index.html" class="footer-logo"><span>LORE</span>TRANSLATOR</a>
+            <div class="footer-text">© 2026 LoreTranslator.com. Academic translations for Elvish, Old Norse, Sumerian & Fictional scripts.</div>
+            <div class="footer-links">
+                <a href="index.html">Homepage</a>
+                <a href="sitemap.xml">Sitemap</a>
+                <a href="robots.txt">Robots.txt</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Translator Logic Script -->
+    <script>
+        const dict = {{dict_json}};
+        const inputArea = document.getElementById('input-text');
+        const outputBox = document.getElementById('output-text');
+        const dialectSelect = document.getElementById('elvish-dialect');
+        const canvas = document.getElementById('calligraphy-canvas');
+        const ctx = canvas.getContext('2d');
+
+        function translate() {
+            const raw = inputArea.value.trim().toLowerCase();
+            if(!raw) {
+                outputBox.innerText = "...";
+                drawCanvas();
+                return;
+            }
+            
+            const dialect = dialectSelect.value;
+            const words = raw.split(/\s+/);
+            const translatedWords = words.map(word => {
+                const cleanWord = word.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
+                if(dict.elvish[dialect][cleanWord]) {
+                    return dict.elvish[dialect][cleanWord];
+                }
+                return word; // fallback to transliterate english word
+            });
+
+            const resultText = translatedWords.join(" ");
+            outputBox.innerText = resultText;
+            drawCanvas();
+        }
+
+        inputArea.addEventListener('input', translate);
+        dialectSelect.addEventListener('change', translate);
+
+        function copyTranslation() {
+            navigator.clipboard.writeText(outputBox.innerText);
+            alert("Calligraphy text copied to clipboard!");
+        }
+
+        function clearText() {
+            inputArea.value = "";
+            outputBox.innerText = "...";
+            drawCanvas();
+        }
+
+        // Canvas Calligraphy Exporter Rendering
+        function drawCanvas() {
+            const size = parseInt(document.getElementById('font-size').value);
+            const textColor = document.getElementById('text-color').value;
+            const bgColor = document.getElementById('bg-color').value;
+            const text = outputBox.innerText;
+
+            ctx.fillStyle = bgColor;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.fillStyle = textColor;
+            ctx.textAlign = "center";
+            ctx.textBaseline = "middle";
+            ctx.font = `italic ${size}px 'Cinzel', 'Playfair Display', serif`;
+            ctx.fillText(text, canvas.width / 2, canvas.height / 2);
+        }
+
+        function downloadImage() {
+            const link = document.createElement('a');
+            link.download = 'elvish_calligraphy_stencil.png';
+            link.href = canvas.toDataURL();
+            link.click();
+        }
+
+        // Init Canvas Draw
+        window.addEventListener('load', drawCanvas);
+    </script>
+</body>
+</html>

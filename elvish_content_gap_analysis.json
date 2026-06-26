@@ -1,0 +1,1790 @@
+{
+  "target_page_keywords": [
+    "elvish language converter",
+    "translate in elvish",
+    "elven language translator",
+    "elvish language translator",
+    "english to elvish translator",
+    "tradurtore",
+    "elvish translator"
+  ],
+  "total_competitor_keywords": 131,
+  "total_gaps": 125,
+  "goldmine_keywords": [
+    {
+      "keyword": "elf naming",
+      "volume": 4400,
+      "kd": 21,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 4,
+      "comp2_traffic": 154
+    },
+    {
+      "keyword": "translation elvish",
+      "volume": 2400,
+      "kd": 25,
+      "comp1_rank": 13,
+      "comp1_traffic": 7,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elves or elfs",
+      "volume": 1600,
+      "kd": 25,
+      "comp1_rank": 0,
+      "comp1_traffic": 0,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "sindarin translator",
+      "volume": 1600,
+      "kd": 8,
+      "comp1_rank": 15,
+      "comp1_traffic": 6,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "sauron's tower",
+      "volume": 1600,
+      "kd": 29,
+      "comp1_rank": 12,
+      "comp1_traffic": 4,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "how much does it cost to get a ring resized",
+      "volume": 1600,
+      "kd": 5,
+      "comp1_rank": 12,
+      "comp1_traffic": 4,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lord of rings elves names",
+      "volume": 1600,
+      "kd": 25,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 7,
+      "comp2_traffic": 20
+    },
+    {
+      "keyword": "english to elvish",
+      "volume": 1300,
+      "kd": 20,
+      "comp1_rank": 3,
+      "comp1_traffic": 106,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elf language translator",
+      "volume": 1300,
+      "kd": 11,
+      "comp1_rank": 12,
+      "comp1_traffic": 6,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lóte",
+      "volume": 1300,
+      "kd": 13,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 9,
+      "comp2_traffic": 24
+    },
+    {
+      "keyword": "lotr elf names",
+      "volume": 1300,
+      "kd": 26,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 9,
+      "comp2_traffic": 9
+    },
+    {
+      "keyword": "english to lotr elvish translator",
+      "volume": 1000,
+      "kd": 28,
+      "comp1_rank": 3,
+      "comp1_traffic": 82,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lord of the rings love quotes",
+      "volume": 1000,
+      "kd": 25,
+      "comp1_rank": 3,
+      "comp1_traffic": 44,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lord of the rings elvish translator",
+      "volume": 880,
+      "kd": 23,
+      "comp1_rank": 4,
+      "comp1_traffic": 57,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "tolkien elvish translator",
+      "volume": 880,
+      "kd": 19,
+      "comp1_rank": 5,
+      "comp1_traffic": 38,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "noldorin",
+      "volume": 880,
+      "kd": 23,
+      "comp1_rank": 10,
+      "comp1_traffic": 11,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lotr elvish translation",
+      "volume": 720,
+      "kd": 27,
+      "comp1_rank": 3,
+      "comp1_traffic": 59,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lotr english to elvish translator",
+      "volume": 720,
+      "kd": 18,
+      "comp1_rank": 3,
+      "comp1_traffic": 59,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "tolkien translator english to elvish",
+      "volume": 720,
+      "kd": 18,
+      "comp1_rank": 4,
+      "comp1_traffic": 46,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lotr elvish translator",
+      "volume": 720,
+      "kd": 20,
+      "comp1_rank": 5,
+      "comp1_traffic": 31,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elven names in lord of the rings",
+      "volume": 720,
+      "kd": 24,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 7,
+      "comp2_traffic": 9
+    },
+    {
+      "keyword": "lord of the rings elf names",
+      "volume": 720,
+      "kd": 25,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 7,
+      "comp2_traffic": 6
+    },
+    {
+      "keyword": "lotr elf language translator",
+      "volume": 590,
+      "kd": 17,
+      "comp1_rank": 4,
+      "comp1_traffic": 25,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "english to elvish translator lotr",
+      "volume": 480,
+      "kd": 18,
+      "comp1_rank": 3,
+      "comp1_traffic": 39,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish alphabet lotr",
+      "volume": 480,
+      "kd": 26,
+      "comp1_rank": 7,
+      "comp1_traffic": 11,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "english to elvish language translator",
+      "volume": 480,
+      "kd": 29,
+      "comp1_rank": 8,
+      "comp1_traffic": 11,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elven lord of the rings names",
+      "volume": 480,
+      "kd": 27,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 8,
+      "comp2_traffic": 10
+    },
+    {
+      "keyword": "lord of the rings elves names",
+      "volume": 480,
+      "kd": 28,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 7,
+      "comp2_traffic": 10
+    },
+    {
+      "keyword": "tolkien elvish language translator",
+      "volume": 390,
+      "kd": 18,
+      "comp1_rank": 4,
+      "comp1_traffic": 25,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish to english translator",
+      "volume": 390,
+      "kd": 29,
+      "comp1_rank": 4,
+      "comp1_traffic": 17,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "tolkien elven translator",
+      "volume": 390,
+      "kd": 19,
+      "comp1_rank": 5,
+      "comp1_traffic": 17,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elf names from lotr",
+      "volume": 390,
+      "kd": 24,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 10,
+      "comp2_traffic": 5
+    },
+    {
+      "keyword": "english to elvish translator lord of the rings",
+      "volume": 320,
+      "kd": 28,
+      "comp1_rank": 3,
+      "comp1_traffic": 26,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lord of the rings quotes love",
+      "volume": 320,
+      "kd": 22,
+      "comp1_rank": 2,
+      "comp1_traffic": 26,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lord of the rings elvish translation",
+      "volume": 320,
+      "kd": 11,
+      "comp1_rank": 3,
+      "comp1_traffic": 26,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish translator lord of the rings",
+      "volume": 320,
+      "kd": 20,
+      "comp1_rank": 3,
+      "comp1_traffic": 20,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish lord of the rings translator",
+      "volume": 320,
+      "kd": 18,
+      "comp1_rank": 3,
+      "comp1_traffic": 20,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "tolkien elf translator",
+      "volume": 320,
+      "kd": 19,
+      "comp1_rank": 6,
+      "comp1_traffic": 11,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish writing",
+      "volume": 320,
+      "kd": 24,
+      "comp1_rank": 8,
+      "comp1_traffic": 7,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "tolkien elf names",
+      "volume": 320,
+      "kd": 21,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 8,
+      "comp2_traffic": 7
+    },
+    {
+      "keyword": "tolkien elf language translator",
+      "volume": 260,
+      "kd": 24,
+      "comp1_rank": 3,
+      "comp1_traffic": 21,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish translation",
+      "volume": 260,
+      "kd": 19,
+      "comp1_rank": 4,
+      "comp1_traffic": 16,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "english to elven",
+      "volume": 260,
+      "kd": 29,
+      "comp1_rank": 5,
+      "comp1_traffic": 9,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish translator tolkien",
+      "volume": 260,
+      "kd": 26,
+      "comp1_rank": 6,
+      "comp1_traffic": 9,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "melinion",
+      "volume": 260,
+      "kd": 26,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 1,
+      "comp2_traffic": 34
+    },
+    {
+      "keyword": "sindarin name generator",
+      "volume": 260,
+      "kd": 13,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 5,
+      "comp2_traffic": 11
+    },
+    {
+      "keyword": "convert english to elvish",
+      "volume": 210,
+      "kd": 15,
+      "comp1_rank": 2,
+      "comp1_traffic": 27,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "love quotes lord of the rings",
+      "volume": 210,
+      "kd": 22,
+      "comp1_rank": 2,
+      "comp1_traffic": 17,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lotr elvish language translator",
+      "volume": 210,
+      "kd": 20,
+      "comp1_rank": 4,
+      "comp1_traffic": 13,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "translate to elvish",
+      "volume": 210,
+      "kd": 21,
+      "comp1_rank": 5,
+      "comp1_traffic": 9,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "english to elvish converter",
+      "volume": 210,
+      "kd": 10,
+      "comp1_rank": 6,
+      "comp1_traffic": 7,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish lotr translator",
+      "volume": 170,
+      "kd": 20,
+      "comp1_rank": 3,
+      "comp1_traffic": 13,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "english to elven translator",
+      "volume": 170,
+      "kd": 17,
+      "comp1_rank": 4,
+      "comp1_traffic": 11,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish names lotr",
+      "volume": 170,
+      "kd": 23,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 7,
+      "comp2_traffic": 4
+    },
+    {
+      "keyword": "elf names lord of the rings",
+      "volume": 170,
+      "kd": 25,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 6,
+      "comp2_traffic": 4
+    },
+    {
+      "keyword": "tattoo elvish",
+      "volume": 170,
+      "kd": 25,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 5,
+      "comp2_traffic": 3
+    },
+    {
+      "keyword": "the lord of the rings elves names",
+      "volume": 170,
+      "kd": 24,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 8,
+      "comp2_traffic": 3
+    },
+    {
+      "keyword": "sindarin girl names",
+      "volume": 170,
+      "kd": 19,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 10,
+      "comp2_traffic": 2
+    },
+    {
+      "keyword": "lotr quotes about love",
+      "volume": 140,
+      "kd": 23,
+      "comp1_rank": 2,
+      "comp1_traffic": 11,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "tolkien love quotes",
+      "volume": 140,
+      "kd": 22,
+      "comp1_rank": 2,
+      "comp1_traffic": 11,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "tolkien quotes on love",
+      "volume": 140,
+      "kd": 20,
+      "comp1_rank": 3,
+      "comp1_traffic": 9,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elfish translator",
+      "volume": 140,
+      "kd": 26,
+      "comp1_rank": 5,
+      "comp1_traffic": 6,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "eramath",
+      "volume": 140,
+      "kd": 11,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 2,
+      "comp2_traffic": 11
+    },
+    {
+      "keyword": "elven wedding",
+      "volume": 140,
+      "kd": 14,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 4,
+      "comp2_traffic": 4
+    },
+    {
+      "keyword": "my name in elvish",
+      "volume": 110,
+      "kd": 18,
+      "comp1_rank": 3,
+      "comp1_traffic": 9,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lotr love quotes",
+      "volume": 110,
+      "kd": 22,
+      "comp1_rank": 3,
+      "comp1_traffic": 7,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "english to tolkien elvish translator",
+      "volume": 110,
+      "kd": 11,
+      "comp1_rank": 4,
+      "comp1_traffic": 7,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish tolkien translator",
+      "volume": 110,
+      "kd": 23,
+      "comp1_rank": 5,
+      "comp1_traffic": 4,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "english to sindarin translator",
+      "volume": 110,
+      "kd": 30,
+      "comp1_rank": 5,
+      "comp1_traffic": 4,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "quenya names",
+      "volume": 110,
+      "kd": 11,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 5,
+      "comp2_traffic": 4
+    },
+    {
+      "keyword": "elvish names from lord of the rings",
+      "volume": 110,
+      "kd": 29,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 5,
+      "comp2_traffic": 3
+    },
+    {
+      "keyword": "elvish language tattoo",
+      "volume": 110,
+      "kd": 21,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 5,
+      "comp2_traffic": 3
+    }
+  ],
+  "all_gaps": [
+    {
+      "keyword": "minas morgul",
+      "volume": 9900,
+      "kd": 43,
+      "comp1_rank": 6,
+      "comp1_traffic": 49,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "minas ithil",
+      "volume": 6600,
+      "kd": 38,
+      "comp1_rank": 11,
+      "comp1_traffic": 19,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "gothmog",
+      "volume": 5400,
+      "kd": 41,
+      "comp1_rank": 7,
+      "comp1_traffic": 16,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elf naming",
+      "volume": 4400,
+      "kd": 21,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 4,
+      "comp2_traffic": 154
+    },
+    {
+      "keyword": "elvish",
+      "volume": 3600,
+      "kd": 50,
+      "comp1_rank": 15,
+      "comp1_traffic": 5,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "gondolin",
+      "volume": 2900,
+      "kd": 51,
+      "comp1_rank": 8,
+      "comp1_traffic": 1,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "morgul",
+      "volume": 2900,
+      "kd": 36,
+      "comp1_rank": 11,
+      "comp1_traffic": 8,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "translation elvish",
+      "volume": 2400,
+      "kd": 25,
+      "comp1_rank": 13,
+      "comp1_traffic": 7,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "quenya",
+      "volume": 2400,
+      "kd": 58,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 18,
+      "comp2_traffic": 3
+    },
+    {
+      "keyword": "gondolín",
+      "volume": 1900,
+      "kd": 47,
+      "comp1_rank": 7,
+      "comp1_traffic": 13,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lotr dwarves",
+      "volume": 1900,
+      "kd": 33,
+      "comp1_rank": 10,
+      "comp1_traffic": 5,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elves or elfs",
+      "volume": 1600,
+      "kd": 25,
+      "comp1_rank": 0,
+      "comp1_traffic": 0,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "sindarin translator",
+      "volume": 1600,
+      "kd": 8,
+      "comp1_rank": 15,
+      "comp1_traffic": 6,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "sauron's tower",
+      "volume": 1600,
+      "kd": 29,
+      "comp1_rank": 12,
+      "comp1_traffic": 4,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "how much does it cost to get a ring resized",
+      "volume": 1600,
+      "kd": 5,
+      "comp1_rank": 12,
+      "comp1_traffic": 4,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lord of rings elves names",
+      "volume": 1600,
+      "kd": 25,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 7,
+      "comp2_traffic": 20
+    },
+    {
+      "keyword": "english to elvish",
+      "volume": 1300,
+      "kd": 20,
+      "comp1_rank": 3,
+      "comp1_traffic": 106,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elf language translator",
+      "volume": 1300,
+      "kd": 11,
+      "comp1_rank": 12,
+      "comp1_traffic": 6,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lóte",
+      "volume": 1300,
+      "kd": 13,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 9,
+      "comp2_traffic": 24
+    },
+    {
+      "keyword": "lotr elf names",
+      "volume": 1300,
+      "kd": 26,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 9,
+      "comp2_traffic": 9
+    },
+    {
+      "keyword": "elvish converter",
+      "volume": 1000,
+      "kd": 45,
+      "comp1_rank": 2,
+      "comp1_traffic": 132,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "english to lotr elvish translator",
+      "volume": 1000,
+      "kd": 28,
+      "comp1_rank": 3,
+      "comp1_traffic": 82,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lord of the rings love quotes",
+      "volume": 1000,
+      "kd": 25,
+      "comp1_rank": 3,
+      "comp1_traffic": 44,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elven translator",
+      "volume": 1000,
+      "kd": 38,
+      "comp1_rank": 6,
+      "comp1_traffic": 35,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elfs or elves",
+      "volume": 1000,
+      "kd": 31,
+      "comp1_rank": 0,
+      "comp1_traffic": 0,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lord of the rings elvish translator",
+      "volume": 880,
+      "kd": 23,
+      "comp1_rank": 4,
+      "comp1_traffic": 57,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "english into elvish",
+      "volume": 880,
+      "kd": 31,
+      "comp1_rank": 4,
+      "comp1_traffic": 57,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "tolkien elvish translator",
+      "volume": 880,
+      "kd": 19,
+      "comp1_rank": 5,
+      "comp1_traffic": 38,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "noldorin",
+      "volume": 880,
+      "kd": 23,
+      "comp1_rank": 10,
+      "comp1_traffic": 11,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lotr elvish translation",
+      "volume": 720,
+      "kd": 27,
+      "comp1_rank": 3,
+      "comp1_traffic": 59,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lotr english to elvish translator",
+      "volume": 720,
+      "kd": 18,
+      "comp1_rank": 3,
+      "comp1_traffic": 59,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish language translator tolkien",
+      "volume": 720,
+      "kd": 36,
+      "comp1_rank": 4,
+      "comp1_traffic": 46,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "tolkien translator english to elvish",
+      "volume": 720,
+      "kd": 18,
+      "comp1_rank": 4,
+      "comp1_traffic": 46,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lotr elvish translator",
+      "volume": 720,
+      "kd": 20,
+      "comp1_rank": 5,
+      "comp1_traffic": 31,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elven names in lord of the rings",
+      "volume": 720,
+      "kd": 24,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 7,
+      "comp2_traffic": 9
+    },
+    {
+      "keyword": "lord of the rings elf names",
+      "volume": 720,
+      "kd": 25,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 7,
+      "comp2_traffic": 6
+    },
+    {
+      "keyword": "english to elvish language",
+      "volume": 590,
+      "kd": 42,
+      "comp1_rank": 4,
+      "comp1_traffic": 38,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lotr elf language translator",
+      "volume": 590,
+      "kd": 17,
+      "comp1_rank": 4,
+      "comp1_traffic": 25,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "mordor tower",
+      "volume": 590,
+      "kd": 34,
+      "comp1_rank": 0,
+      "comp1_traffic": 0,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "english to elvish translator lotr",
+      "volume": 480,
+      "kd": 18,
+      "comp1_rank": 3,
+      "comp1_traffic": 39,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish alphabet lotr",
+      "volume": 480,
+      "kd": 26,
+      "comp1_rank": 7,
+      "comp1_traffic": 11,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "english to elvish language translator",
+      "volume": 480,
+      "kd": 29,
+      "comp1_rank": 8,
+      "comp1_traffic": 11,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elven lord of the rings names",
+      "volume": 480,
+      "kd": 27,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 8,
+      "comp2_traffic": 10
+    },
+    {
+      "keyword": "lord of the rings elves names",
+      "volume": 480,
+      "kd": 28,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 7,
+      "comp2_traffic": 10
+    },
+    {
+      "keyword": "tolkien elvish language translator",
+      "volume": 390,
+      "kd": 18,
+      "comp1_rank": 4,
+      "comp1_traffic": 25,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish to english translator",
+      "volume": 390,
+      "kd": 29,
+      "comp1_rank": 4,
+      "comp1_traffic": 17,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "tolkien elven translator",
+      "volume": 390,
+      "kd": 19,
+      "comp1_rank": 5,
+      "comp1_traffic": 17,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elf names from lotr",
+      "volume": 390,
+      "kd": 24,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 10,
+      "comp2_traffic": 5
+    },
+    {
+      "keyword": "english to elvish translator lord of the rings",
+      "volume": 320,
+      "kd": 28,
+      "comp1_rank": 3,
+      "comp1_traffic": 26,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lord of the rings quotes love",
+      "volume": 320,
+      "kd": 22,
+      "comp1_rank": 2,
+      "comp1_traffic": 26,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lord of the rings elvish translation",
+      "volume": 320,
+      "kd": 11,
+      "comp1_rank": 3,
+      "comp1_traffic": 26,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish translator lord of the rings",
+      "volume": 320,
+      "kd": 20,
+      "comp1_rank": 3,
+      "comp1_traffic": 20,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "english to elvish translator tolkien",
+      "volume": 320,
+      "kd": 35,
+      "comp1_rank": 4,
+      "comp1_traffic": 20,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish lord of the rings translator",
+      "volume": 320,
+      "kd": 18,
+      "comp1_rank": 3,
+      "comp1_traffic": 20,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "tolkien elf translator",
+      "volume": 320,
+      "kd": 19,
+      "comp1_rank": 6,
+      "comp1_traffic": 11,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "tolkien elvish translation",
+      "volume": 320,
+      "kd": 33,
+      "comp1_rank": 6,
+      "comp1_traffic": 9,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lotr elvish script",
+      "volume": 320,
+      "kd": 39,
+      "comp1_rank": 4,
+      "comp1_traffic": 9,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish writing",
+      "volume": 320,
+      "kd": 24,
+      "comp1_rank": 8,
+      "comp1_traffic": 7,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "gondolin lotr",
+      "volume": 320,
+      "kd": 32,
+      "comp1_rank": 0,
+      "comp1_traffic": 0,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "tolkien elf names",
+      "volume": 320,
+      "kd": 21,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 8,
+      "comp2_traffic": 7
+    },
+    {
+      "keyword": "estanle",
+      "volume": 320,
+      "kd": 37,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 7,
+      "comp2_traffic": 4
+    },
+    {
+      "keyword": "tolkien elf language translator",
+      "volume": 260,
+      "kd": 24,
+      "comp1_rank": 3,
+      "comp1_traffic": 21,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish translator lotr",
+      "volume": 260,
+      "kd": 33,
+      "comp1_rank": 4,
+      "comp1_traffic": 16,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish translation",
+      "volume": 260,
+      "kd": 19,
+      "comp1_rank": 4,
+      "comp1_traffic": 16,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "english to elven",
+      "volume": 260,
+      "kd": 29,
+      "comp1_rank": 5,
+      "comp1_traffic": 9,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish translator tolkien",
+      "volume": 260,
+      "kd": 26,
+      "comp1_rank": 6,
+      "comp1_traffic": 9,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "melinion",
+      "volume": 260,
+      "kd": 26,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 1,
+      "comp2_traffic": 34
+    },
+    {
+      "keyword": "sindarin name generator",
+      "volume": 260,
+      "kd": 13,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 5,
+      "comp2_traffic": 11
+    },
+    {
+      "keyword": "convert english to elvish",
+      "volume": 210,
+      "kd": 15,
+      "comp1_rank": 2,
+      "comp1_traffic": 27,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "love quotes lord of the rings",
+      "volume": 210,
+      "kd": 22,
+      "comp1_rank": 2,
+      "comp1_traffic": 17,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lotr elvish language translator",
+      "volume": 210,
+      "kd": 20,
+      "comp1_rank": 4,
+      "comp1_traffic": 13,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "translate to elvish",
+      "volume": 210,
+      "kd": 21,
+      "comp1_rank": 5,
+      "comp1_traffic": 9,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "english to elvish converter",
+      "volume": 210,
+      "kd": 10,
+      "comp1_rank": 6,
+      "comp1_traffic": 7,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish lotr translator",
+      "volume": 170,
+      "kd": 20,
+      "comp1_rank": 3,
+      "comp1_traffic": 13,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "english to elven translator",
+      "volume": 170,
+      "kd": 17,
+      "comp1_rank": 4,
+      "comp1_traffic": 11,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish names lotr",
+      "volume": 170,
+      "kd": 23,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 7,
+      "comp2_traffic": 4
+    },
+    {
+      "keyword": "elf names lord of the rings",
+      "volume": 170,
+      "kd": 25,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 6,
+      "comp2_traffic": 4
+    },
+    {
+      "keyword": "tattoo elvish",
+      "volume": 170,
+      "kd": 25,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 5,
+      "comp2_traffic": 3
+    },
+    {
+      "keyword": "the lord of the rings elves names",
+      "volume": 170,
+      "kd": 24,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 8,
+      "comp2_traffic": 3
+    },
+    {
+      "keyword": "sindarin girl names",
+      "volume": 170,
+      "kd": 19,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 10,
+      "comp2_traffic": 2
+    },
+    {
+      "keyword": "lotr quotes about love",
+      "volume": 140,
+      "kd": 23,
+      "comp1_rank": 2,
+      "comp1_traffic": 11,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "tolkien love quotes",
+      "volume": 140,
+      "kd": 22,
+      "comp1_rank": 2,
+      "comp1_traffic": 11,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "tolkien quotes on love",
+      "volume": 140,
+      "kd": 20,
+      "comp1_rank": 3,
+      "comp1_traffic": 9,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elfish translator",
+      "volume": 140,
+      "kd": 26,
+      "comp1_rank": 5,
+      "comp1_traffic": 6,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "eramath",
+      "volume": 140,
+      "kd": 11,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 2,
+      "comp2_traffic": 11
+    },
+    {
+      "keyword": "elven wedding",
+      "volume": 140,
+      "kd": 14,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 4,
+      "comp2_traffic": 4
+    },
+    {
+      "keyword": "my name in elvish",
+      "volume": 110,
+      "kd": 18,
+      "comp1_rank": 3,
+      "comp1_traffic": 9,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lotr love quotes",
+      "volume": 110,
+      "kd": 22,
+      "comp1_rank": 3,
+      "comp1_traffic": 7,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "english to tolkien elvish translator",
+      "volume": 110,
+      "kd": 11,
+      "comp1_rank": 4,
+      "comp1_traffic": 7,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish tolkien translator",
+      "volume": 110,
+      "kd": 23,
+      "comp1_rank": 5,
+      "comp1_traffic": 4,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "english to sindarin translator",
+      "volume": 110,
+      "kd": 30,
+      "comp1_rank": 5,
+      "comp1_traffic": 4,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "quenya names",
+      "volume": 110,
+      "kd": 11,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 5,
+      "comp2_traffic": 4
+    },
+    {
+      "keyword": "elvish names from lord of the rings",
+      "volume": 110,
+      "kd": 29,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 5,
+      "comp2_traffic": 3
+    },
+    {
+      "keyword": "elvish language tattoo",
+      "volume": 110,
+      "kd": 21,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 5,
+      "comp2_traffic": 3
+    },
+    {
+      "keyword": "lord of the rings quotes about love",
+      "volume": 90,
+      "kd": 22,
+      "comp1_rank": 2,
+      "comp1_traffic": 7,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "write your name in elvish",
+      "volume": 90,
+      "kd": 12,
+      "comp1_rank": 3,
+      "comp1_traffic": 7,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lord of the ring elvish translator",
+      "volume": 90,
+      "kd": 14,
+      "comp1_rank": 4,
+      "comp1_traffic": 5,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elf names tolkien",
+      "volume": 90,
+      "kd": 16,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 5,
+      "comp2_traffic": 3
+    },
+    {
+      "keyword": "tolkien quotes about love",
+      "volume": 70,
+      "kd": 19,
+      "comp1_rank": 1,
+      "comp1_traffic": 17,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "love quotes jrr tolkien",
+      "volume": 70,
+      "kd": 21,
+      "comp1_rank": 2,
+      "comp1_traffic": 5,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "write my name in elvish",
+      "volume": 70,
+      "kd": 17,
+      "comp1_rank": 2,
+      "comp1_traffic": 5,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish generator",
+      "volume": 70,
+      "kd": 12,
+      "comp1_rank": 3,
+      "comp1_traffic": 5,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish script translator",
+      "volume": 70,
+      "kd": 10,
+      "comp1_rank": 3,
+      "comp1_traffic": 5,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "translation to elvish",
+      "volume": 70,
+      "kd": 36,
+      "comp1_rank": 4,
+      "comp1_traffic": 4,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "jrr tolkien love quotes",
+      "volume": 70,
+      "kd": 18,
+      "comp1_rank": 3,
+      "comp1_traffic": 4,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish words generator",
+      "volume": 70,
+      "kd": 16,
+      "comp1_rank": 4,
+      "comp1_traffic": 4,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "nereth",
+      "volume": 70,
+      "kd": 17,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 1,
+      "comp2_traffic": 17
+    },
+    {
+      "keyword": "glaneth",
+      "volume": 70,
+      "kd": 23,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 1,
+      "comp2_traffic": 17
+    },
+    {
+      "keyword": "elvish script generator",
+      "volume": 50,
+      "kd": 35,
+      "comp1_rank": 3,
+      "comp1_traffic": 4,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lord of the rings elf language translator",
+      "volume": 50,
+      "kd": 16,
+      "comp1_rank": 3,
+      "comp1_traffic": 4,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "lord of the rings english to elvish translator",
+      "volume": 50,
+      "kd": 16,
+      "comp1_rank": 3,
+      "comp1_traffic": 4,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish language translator lord of the rings",
+      "volume": 50,
+      "kd": 12,
+      "comp1_rank": 3,
+      "comp1_traffic": 4,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "tengwar tattoo",
+      "volume": 50,
+      "kd": 23,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 2,
+      "comp2_traffic": 6
+    },
+    {
+      "keyword": "elvish names tolkien",
+      "volume": 50,
+      "kd": 13,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 5,
+      "comp2_traffic": 2
+    },
+    {
+      "keyword": "sindarin names",
+      "volume": 26,
+      "kd": 7,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 3,
+      "comp2_traffic": 21
+    },
+    {
+      "keyword": "elven name generator tolkien",
+      "volume": 14,
+      "kd": 2,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 10,
+      "comp2_traffic": 3
+    },
+    {
+      "keyword": "love quotes tolkien",
+      "volume": 9,
+      "kd": 3,
+      "comp1_rank": 2,
+      "comp1_traffic": 7,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "elvish name translator",
+      "volume": 9,
+      "kd": 9,
+      "comp1_rank": 4,
+      "comp1_traffic": 5,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "jrr tolkien quotes on love",
+      "volume": 7,
+      "kd": 2,
+      "comp1_rank": 2,
+      "comp1_traffic": 5,
+      "comp2_rank": 999,
+      "comp2_traffic": 0
+    },
+    {
+      "keyword": "gondorian names",
+      "volume": 7,
+      "kd": 9,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 3,
+      "comp2_traffic": 5
+    },
+    {
+      "keyword": "quenya name generator",
+      "volume": 7,
+      "kd": 8,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 5,
+      "comp2_traffic": 3
+    },
+    {
+      "keyword": "sindarin phrasebook",
+      "volume": 5,
+      "kd": 7,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 1,
+      "comp2_traffic": 12
+    },
+    {
+      "keyword": "gondorian name generator",
+      "volume": 5,
+      "kd": 0,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 5,
+      "comp2_traffic": 2
+    },
+    {
+      "keyword": "rohirrim name generator",
+      "volume": 4,
+      "kd": 1,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 3,
+      "comp2_traffic": 3
+    },
+    {
+      "keyword": "rohan name generator",
+      "volume": 4,
+      "kd": 0,
+      "comp1_rank": 999,
+      "comp1_traffic": 0,
+      "comp2_rank": 3,
+      "comp2_traffic": 3
+    }
+  ]
+}
