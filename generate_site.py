@@ -4,7 +4,7 @@ import shutil
 from datetime import datetime
 
 # Setup paths
-workspace = "E:/kaifa/loretranslator"
+workspace = os.path.dirname(os.path.abspath(__file__))
 dist_dir = os.path.join(workspace, "dist")
 templates_dir = os.path.join(workspace, "templates")
 
