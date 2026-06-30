@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^loretranslator\.com [NC]
+RewriteRule ^(.*)$ https://www.loretranslator.com/$1 [L,R=301]

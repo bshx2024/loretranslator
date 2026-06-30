@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "http://loretranslator.com/*"
+  to = "https://www.loretranslator.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://loretranslator.com/*"
+  to = "https://www.loretranslator.com/:splat"
+  status = 301
+  force = true

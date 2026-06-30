@@ -62,9 +62,9 @@ def verify_site():
         else:
             expected_slug = rel_path.replace("\\", "/")
             if expected_slug == "index.html":
-                expected_canonical = "https://loretranslator.com/"
+                expected_canonical = "https://www.loretranslator.com/"
             else:
-                expected_canonical = f"https://loretranslator.com/{expected_slug}"
+                expected_canonical = f"https://www.loretranslator.com/{expected_slug}"
             if canonical != expected_canonical:
                 issues.append(f"[{rel_path}] Canonical URL mismatch. Found: {canonical}, Expected: {expected_canonical}")
 
@@ -126,7 +126,7 @@ def verify_site():
             urls = [loc.text for loc in root.findall('.//ns:loc', namespaces)]
             print(f"\nSitemap validation: Found {len(urls)} URLs mapped.")
             for url in urls:
-                path_part = url.replace("https://loretranslator.com/", "")
+                path_part = url.replace("https://www.loretranslator.com/", "")
                 if path_part == "":
                     file_name = "index.html"
                 else:
@@ -144,7 +144,7 @@ def verify_site():
     else:
         with open(robots_path, "r", encoding="utf-8") as f:
             robots_txt = f.read()
-        if "Sitemap: https://loretranslator.com/sitemap.xml" not in robots_txt:
+        if "Sitemap: https://www.loretranslator.com/sitemap.xml" not in robots_txt:
             issues.append("robots.txt doesn't declare the correct Sitemap location.")
 
     print("\n==================================================")

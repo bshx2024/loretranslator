@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://loretranslator.com/sitemap.xml
+Sitemap: https://www.loretranslator.com/sitemap.xml

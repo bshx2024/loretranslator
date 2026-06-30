@@ -107,6 +107,32 @@ translators_metadata = [
         ]
     },
     {
+        "slug": "quenya-translator",
+        "name": "Quenya Elvish Translator",
+        "desc": "Translate modern English into the high ceremonial Quenya Elvish language of Valinor.",
+        "h1": "Quenya Elvish Translator",
+        "meta_title": "Quenya Translator | English to High Elvish Online",
+        "meta_description": "Convert English into Tolkien's High Elvish Quenya dialect. Access verified vocabulary, Tengwar script converter, and calligraphy stencil generator.",
+        "font_mode": "Tengwar",
+        "font_class": "font-tengwar",
+        "style_description": """
+        <h2>Introduction to Quenya Elvish</h2>
+        <p>Quenya (High Elvish) is the ancient language of the Amanyar Elves who crossed the Sea into Valinor. In Middle-earth during the Third Age, Quenya functioned similarly to Latin in Europe—a tongue of high ceremony, ritual, and ancient lore rather than daily speech.</p>
+        <p>Our translator utilizes a verified academic dictionary matching real High Elvish vocabulary terms like <em>melme</em> (love), <em>nilme</em> (friendship), and <em>alda</em> (tree). Custom phrases can be transliterated into Tengwar calligraphic runes instantly for rings or tattoos.</p>
+        """,
+        "dictionary": dict_db["elvish"]["quenya"],
+        "faq": [
+            {
+                "q": "What is the difference between Quenya and Sindarin?",
+                "a": "Quenya is High Elvish, used for high ceremonial writing, poetry, and lore (similar to Latin). Sindarin is the common daily language spoken by the Elves in Middle-earth during the Lord of the Rings era."
+            },
+            {
+                "q": "How do you write Quenya in Elvish script?",
+                "a": "Quenya is written using Tengwar script. Unlike Sindarin, which places vowel markers (tehtar) above the following consonant, Quenya places vowel markers above the preceding consonant, a distinction handled automatically by our exporter."
+            }
+        ]
+    },
+    {
         "slug": "navi-translator",
         "name": "Na'vi Language Translator",
         "desc": "Translate English into the official Na'vi language from James Cameron's Avatar.",
@@ -726,7 +752,7 @@ for item in articles_metadata:
 robots_content = """User-agent: *
 Allow: /
 
-Sitemap: https://loretranslator.com/sitemap.xml
+Sitemap: https://www.loretranslator.com/sitemap.xml
 """
 with open(os.path.join(dist_dir, "robots.txt"), "w", encoding="utf-8") as f:
     f.write(robots_content)
@@ -735,14 +761,14 @@ with open(os.path.join(dist_dir, "robots.txt"), "w", encoding="utf-8") as f:
 # ----------------- SITEMAP.XML GENERATION -----------------
 current_date = datetime.now().strftime("%Y-%m-%d")
 sitemap_urls = [
-    "https://loretranslator.com/",
-    "https://loretranslator.com/tools/sindarin-name-generator.html",
-    "https://loretranslator.com/articles/elvish-ring-engraving-guide.html",
-    "https://loretranslator.com/articles/tolkien-love-quotes.html"
+    "https://www.loretranslator.com/",
+    "https://www.loretranslator.com/tools/sindarin-name-generator.html",
+    "https://www.loretranslator.com/articles/elvish-ring-engraving-guide.html",
+    "https://www.loretranslator.com/articles/tolkien-love-quotes.html"
 ]
 
 for item in translators_metadata:
-    sitemap_urls.append(f"https://loretranslator.com/translators/{item['slug']}.html")
+    sitemap_urls.append(f"https://www.loretranslator.com/translators/{item['slug']}.html")
 
 sitemap_xml_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
 sitemap_xml_content += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
