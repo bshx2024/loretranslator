@@ -25,6 +25,17 @@ shutil.copy(
     os.path.join(dist_dir, "templates", "base.css")
 )
 
+# Google Analytics Tracking Code
+google_analytics_html = """<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CPDKHVNK1S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CPDKHVNK1S');
+</script>"""
+
 # Shared Giscus Widget Code (deferred load)
 giscus_widget_html = """
 <script src="https://giscus.app/client.js"
@@ -432,6 +443,8 @@ homepage_rendered = homepage_template.replace(
 ).replace(
     "{{meta_description}}", "Free English to Elvish (Quenya & Sindarin) translator. Custom calligraphy exporter, real Tolkien dictionaries, and D&D name generators."
 ).replace(
+    "{{google_analytics}}", google_analytics_html
+).replace(
     "{{translator_cards}}", translator_cards_html
 ).replace(
     "{{activity_feed}}", activity_feed_html
@@ -493,6 +506,8 @@ for item in translators_metadata:
     ).replace(
         "{{meta_description}}", item["meta_description"]
     ).replace(
+        "{{google_analytics}}", google_analytics_html
+    ).replace(
         "{{slug_url}}", item["slug"]
     ).replace(
         "{{slug}}", item["slug"].replace("-translator", "")
@@ -532,6 +547,8 @@ generator_rendered = generator_template.replace(
     "{{meta_title}}", "Sindarin Elvish Name Generator | Lore-Accurate Elf Names"
 ).replace(
     "{{meta_description}}", "Generate authentic Tolkien Sindarin Elvish names with etymological prefixes and suffixes. Ideal for D&D, gaming, or ring engravings."
+).replace(
+    "{{google_analytics}}", google_analytics_html
 ).replace(
     "{{giscus_widget}}", giscus_widget_html
 ).replace(
@@ -732,6 +749,8 @@ for item in articles_metadata:
         "{{meta_title}}", item["meta_title"]
     ).replace(
         "{{meta_description}}", item["meta_description"]
+    ).replace(
+        "{{google_analytics}}", google_analytics_html
     ).replace(
         "{{slug}}", item["slug"]
     ).replace(
