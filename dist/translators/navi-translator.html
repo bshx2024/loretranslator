@@ -113,6 +113,30 @@
                     <button class="btn" style="padding:0.4rem 1rem; font-size:0.8rem;" onclick="downloadImage()">Export PNG</button>
                 </div>
             </div>
+
+            <!-- Mockup Simulator -->
+            <div class="mockup-panel" style="margin-top: 2rem; border-top: 1px solid var(--border-light); padding-top: 1.5rem; width: 100%;">
+                <h3 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem; text-align:center;">Live Mockup Simulator</h3>
+                <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1rem; text-align:center;">Preview how your calligraphy script will look as an engraving on a wedding band or a wrist tattoo.</p>
+                
+                <!-- Mockup Tabs -->
+                <div class="mockup-tabs" style="display:flex; justify-content:center; gap:1rem; margin-bottom:1.5rem;">
+                    <button class="btn btn-secondary active" id="btn-mockup-none" onclick="selectMockup('none')" style="padding:0.4rem 1rem; font-size:0.8rem;">None</button>
+                    <button class="btn btn-secondary" id="btn-mockup-ring" onclick="selectMockup('ring')" style="padding:0.4rem 1rem; font-size:0.8rem;">Wedding Ring Engraving</button>
+                    <button class="btn btn-secondary" id="btn-mockup-tattoo" onclick="selectMockup('tattoo')" style="padding:0.4rem 1rem; font-size:0.8rem;">Wrist Tattoo</button>
+                </div>
+                
+                <!-- Mockup Preview Display -->
+                <div class="mockup-preview-container" style="display:none; justify-content:center; align-items:center; width:100%; max-width:600px; margin:0 auto; overflow:hidden; border-radius:8px; border:1px solid var(--border-light); position:relative; aspect-ratio:16/9; background:#000;">
+                    <!-- Ring Mockup Background -->
+                    <img id="mockup-bg-ring" src="../templates/ring_mockup.png" style="display:none; width:100%; height:100%; object-fit:cover; opacity:0.95;" alt="Wedding Ring Mockup">
+                    <!-- Tattoo Mockup Background -->
+                    <img id="mockup-bg-tattoo" src="../templates/wrist_tattoo_mockup.png" style="display:none; width:100%; height:100%; object-fit:cover; opacity:0.95;" alt="Wrist Tattoo Mockup">
+                    
+                    <!-- Calligraphy overlay div -->
+                    <div id="mockup-overlay-text" class="" style="position:absolute; text-align:center; word-break:break-all; transition: all 0.3s ease; pointer-events:none; user-select:none;">...</div>
+                </div>
+            </div>
         </section>
 
         <!-- Rich Academic Content Section (Exceeds Thin Content) -->
@@ -312,6 +336,18 @@
         const canvas = document.getElementById('calligraphy-canvas');
         const ctx = canvas.getContext('2d');
 
+        let translateTimeout = null;
+        function logTranslateEvent() {
+            const raw = inputArea.value.trim();
+            if (raw.length > 0 && typeof gtag === 'function') {
+                gtag('event', 'translate_action', {
+                    'event_category': 'engagement',
+                    'event_label': slug,
+                    'input_length': raw.length
+                });
+            }
+        }
+
         // Navajo accents keyboard click handler
         function insertAccent(char) {
             const pos = inputArea.selectionStart;
@@ -327,6 +363,22 @@
             if(!raw) {
                 outputBox.innerText = "...";
                 drawCanvas();
+                
+                const overlay = document.getElementById('mockup-overlay-text');
+                if (overlay) {
+                    let placeholder = "calligraphy";
+                    if (slug === 'sindarin') placeholder = 'mellon';
+                    else if (slug === 'quenya') placeholder = 'melme';
+                    else if (slug === 'old-norse' || slug === 'runic') placeholder = 'runes';
+                    else if (slug === 'sumerian') placeholder = 'cuneiform';
+                    
+                    overlay.innerText = placeholder;
+                    const activeTab = document.querySelector('.mockup-tabs .active');
+                    if (activeTab && activeTab.id !== 'btn-mockup-none') {
+                        const type = activeTab.id.replace('btn-mockup-', '');
+                        selectMockup(type);
+                    }
+                }
                 return;
             }
 
@@ -414,6 +466,21 @@
 
             outputBox.innerText = result;
             drawCanvas();
+
+            // Update mockup overlay if active
+            const overlay = document.getElementById('mockup-overlay-text');
+            if (overlay) {
+                overlay.innerText = result === "..." ? "" : result;
+                const activeTab = document.querySelector('.mockup-tabs .active');
+                if (activeTab && activeTab.id !== 'btn-mockup-none') {
+                    const type = activeTab.id.replace('btn-mockup-', '');
+                    selectMockup(type);
+                }
+            }
+
+            // Debounce GA4 event logging
+            if (translateTimeout) clearTimeout(translateTimeout);
+            translateTimeout = setTimeout(logTranslateEvent, 1000);
         }
 
         inputArea.addEventListener('input', translate);
@@ -421,6 +488,12 @@
         function copyTranslation() {
             navigator.clipboard.writeText(outputBox.innerText);
             alert("Translation copied to clipboard!");
+            if (typeof gtag === 'function') {
+                gtag('event', 'copy_translation', {
+                    'event_category': 'engagement',
+                    'event_label': slug
+                });
+            }
         }
 
         function clearText() {
@@ -461,6 +534,112 @@
             link.download = `${slug}_translation_stencil.png`;
             link.href = canvas.toDataURL();
             link.click();
+            if (typeof gtag === 'function') {
+                const size = document.getElementById('font-size').value;
+                const textColor = document.getElementById('text-color').value;
+                gtag('event', 'export_png', {
+                    'event_category': 'engagement',
+                    'event_label': slug,
+                    'font_size': size,
+                    'text_color': textColor
+                });
+            }
+        }
+
+        // Live Mockup Simulator Logic
+        function selectMockup(type) {
+            const btnNone = document.getElementById('btn-mockup-none');
+            const btnRing = document.getElementById('btn-mockup-ring');
+            const btnTattoo = document.getElementById('btn-mockup-tattoo');
+            
+            btnNone.classList.remove('active');
+            btnRing.classList.remove('active');
+            btnTattoo.classList.remove('active');
+            
+            const container = document.querySelector('.mockup-preview-container');
+            const imgRing = document.getElementById('mockup-bg-ring');
+            const imgTattoo = document.getElementById('mockup-bg-tattoo');
+            const overlay = document.getElementById('mockup-overlay-text');
+            
+            let text = outputBox.innerText;
+            if (text === "..." || !text.trim()) {
+                if (slug === 'sindarin') text = 'mellon';
+                else if (slug === 'quenya') text = 'melme';
+                else if (slug === 'old-norse' || slug === 'runic') text = 'runes';
+                else if (slug === 'sumerian') text = 'cuneiform';
+                else text = 'calligraphy';
+            }
+            overlay.innerText = text;
+            
+            if (type === 'none') {
+                btnNone.classList.add('active');
+                container.style.display = 'none';
+                imgRing.style.display = 'none';
+                imgTattoo.style.display = 'none';
+            } else if (type === 'ring') {
+                btnRing.classList.add('active');
+                container.style.display = 'flex';
+                imgRing.style.display = 'block';
+                imgTattoo.style.display = 'none';
+                
+                // Style for Ring Engraving
+                overlay.style.color = '#1b1206';
+                overlay.style.mixBlendMode = 'multiply';
+                overlay.style.opacity = '0.9';
+                overlay.style.filter = 'blur(0.5px)';
+                overlay.style.textShadow = '0px 1px 1px rgba(255, 255, 255, 0.25), 0px -1px 1px rgba(0, 0, 0, 0.8)';
+                
+                // Adjust font size dynamically based on length
+                const len = overlay.innerText.length;
+                let fontSize = '1.7rem';
+                if (len > 30) fontSize = '0.9rem';
+                else if (len > 15) fontSize = '1.2rem';
+                overlay.style.fontSize = fontSize;
+                
+                // Positioning on the ring
+                overlay.style.width = '70%';
+                overlay.style.top = '48.5%';
+                overlay.style.left = '50%';
+                overlay.style.transform = 'translate(-50%, -50%) rotate(0deg) skewX(-8deg)';
+                
+                if (typeof gtag === 'function') {
+                    gtag('event', 'select_mockup', {
+                        'event_category': 'engagement',
+                        'event_label': slug + '_ring'
+                    });
+                }
+            } else if (type === 'tattoo') {
+                btnTattoo.classList.add('active');
+                container.style.display = 'flex';
+                imgRing.style.display = 'none';
+                imgTattoo.style.display = 'block';
+                
+                // Style for Tattoo
+                overlay.style.color = '#121f24';
+                overlay.style.mixBlendMode = 'multiply';
+                overlay.style.opacity = '0.8';
+                overlay.style.filter = 'blur(0.8px)';
+                overlay.style.textShadow = 'none';
+                
+                const len = overlay.innerText.length;
+                let fontSize = '2.4rem';
+                if (len > 30) fontSize = '1.4rem';
+                else if (len > 15) fontSize = '1.8rem';
+                overlay.style.fontSize = fontSize;
+                
+                // Positioning on the wrist/arm
+                overlay.style.width = '80%';
+                overlay.style.top = '48%';
+                overlay.style.left = '50%';
+                overlay.style.transform = 'translate(-50%, -50%) rotate(-12deg)';
+                
+                if (typeof gtag === 'function') {
+                    gtag('event', 'select_mockup', {
+                        'event_category': 'engagement',
+                        'event_label': slug + '_tattoo'
+                    });
+                }
+            }
         }
 
         // Run runes selector change

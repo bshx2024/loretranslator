@@ -19,10 +19,18 @@ os.makedirs(os.path.join(dist_dir, "tools"), exist_ok=True)
 os.makedirs(os.path.join(dist_dir, "articles"), exist_ok=True)
 os.makedirs(os.path.join(dist_dir, "templates"), exist_ok=True)
 
-# Copy base CSS
+# Copy base CSS and mockup images
 shutil.copy(
     os.path.join(templates_dir, "base.css"),
     os.path.join(dist_dir, "templates", "base.css")
+)
+shutil.copy(
+    os.path.join(templates_dir, "ring_mockup.png"),
+    os.path.join(dist_dir, "templates", "ring_mockup.png")
+)
+shutil.copy(
+    os.path.join(templates_dir, "wrist_tattoo_mockup.png"),
+    os.path.join(dist_dir, "templates", "wrist_tattoo_mockup.png")
 )
 
 # Google Analytics Tracking Code
@@ -96,8 +104,8 @@ translators_metadata = [
         "name": "Sindarin Elvish Translator",
         "desc": "Translate modern English into the common Sindarin Elvish dialect of Middle-earth.",
         "h1": "Sindarin Elvish Translator",
-        "meta_title": "Sindarin Translator | English to Sindarin Elvish Online",
-        "meta_description": "Convert English into Tolkien's Sindarin Elvish dialect. Real vocabulary dictionary, calligraphy exporter, and academic guides for LOTR rings.",
+        "meta_title": "English to Sindarin Elvish Translator | Elvish Tattoo Script",
+        "meta_description": "Free online English to Sindarin Elvish translator. Convert modern text into Tengwar runes for custom Elvish tattoos, ring engravings, and lore translations.",
         "font_mode": "Tengwar",
         "font_class": "font-tengwar",
         "style_description": """
@@ -114,6 +122,14 @@ translators_metadata = [
             {
                 "q": "Can I use Sindarin for a custom wedding ring engraving?",
                 "a": "Yes! Sindarin is the most popular language for Lord of the Rings themed ring engravings. Phrases like 'meleth' (love) or 'estel' (hope) are highly authentic and elegant."
+            },
+            {
+                "q": "How do I translate my name to Elvish Tengwar for a tattoo?",
+                "a": "To translate your name to Elvish Tengwar, type your name into the input panel above. The translator will automatically map it to the Tengwar runic alphabet phonetically. You can then use the Interactive Calligraphy Exporter below to adjust font size and colors to download a custom stencil for your tattoo artist."
+            },
+            {
+                "q": "What are some popular Elvish wedding ring engraving ideas?",
+                "a": "Popular engraving ideas include Sindarin words like 'Meleth' (Love), 'Mellon' (Friend), or 'Estel Uireb' (Eternal Hope). For ring bands, using our calligraphy exporter ensures the delicate ascenders and descenders of Tengwar script are rendered cleanly for laser engraving."
             }
         ]
     },
@@ -122,8 +138,8 @@ translators_metadata = [
         "name": "Quenya Elvish Translator",
         "desc": "Translate modern English into the high ceremonial Quenya Elvish language of Valinor.",
         "h1": "Quenya Elvish Translator",
-        "meta_title": "Quenya Translator | English to High Elvish Online",
-        "meta_description": "Convert English into Tolkien's High Elvish Quenya dialect. Access verified vocabulary, Tengwar script converter, and calligraphy stencil generator.",
+        "meta_title": "Quenya Elvish Translator | English to High Elvish & Calligraphy",
+        "meta_description": "Translate English to High Elvish Quenya. Generate Tengwar runes for custom Elvish tattoos, calligraphy stencils, and Tolkien lore-accurate text.",
         "font_mode": "Tengwar",
         "font_class": "font-tengwar",
         "style_description": """
@@ -140,6 +156,10 @@ translators_metadata = [
             {
                 "q": "How do you write Quenya in Elvish script?",
                 "a": "Quenya is written using Tengwar script. Unlike Sindarin, which places vowel markers (tehtar) above the following consonant, Quenya places vowel markers above the preceding consonant, a distinction handled automatically by our exporter."
+            },
+            {
+                "q": "How do I use this Quenya Elvish translator to design a custom Elvish tattoo?",
+                "a": "Simply type your English phrase into the input box above, which translates it to Quenya and displays it in Tengwar script. In the Calligraphy Exporter below, choose your size and colors, then click 'Export PNG' to download a clean, high-resolution transparent stencil suitable for your tattoo appointment."
             }
         ]
     },
@@ -544,9 +564,9 @@ with open(os.path.join(templates_dir, "name_generator.html"), "r", encoding="utf
     generator_template = f.read()
 
 generator_rendered = generator_template.replace(
-    "{{meta_title}}", "Sindarin Elvish Name Generator | Lore-Accurate Elf Names"
+    "{{meta_title}}", "Sindarin Elvish Name Generator | Lore-Accurate Elf Name Generator"
 ).replace(
-    "{{meta_description}}", "Generate authentic Tolkien Sindarin Elvish names with etymological prefixes and suffixes. Ideal for D&D, gaming, or ring engravings."
+    "{{meta_description}}", "Free Sindarin Elvish name generator. Generate authentic male & female Elf names with meanings for D&D, LOTR roleplay, and custom ring engravings."
 ).replace(
     "{{google_analytics}}", google_analytics_html
 ).replace(

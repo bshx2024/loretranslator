@@ -96,6 +96,30 @@
                         <button class="btn" style="padding:0.4rem 1rem; font-size:0.8rem;" onclick="downloadImage()">Export PNG</button>
                     </div>
                 </div>
+
+                <!-- Mockup Simulator -->
+                <div class="mockup-panel" style="margin-top: 2rem; border-top: 1px solid var(--border-light); padding-top: 1.5rem; width: 100%;">
+                    <h3 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem; text-align:center;">Live Mockup Simulator</h3>
+                    <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1rem; text-align:center;">Preview how your generated Elven name calligraphy will look as an engraving on a wedding band or a wrist tattoo.</p>
+                    
+                    <!-- Mockup Tabs -->
+                    <div class="mockup-tabs" style="display:flex; justify-content:center; gap:1rem; margin-bottom:1.5rem;">
+                        <button class="btn btn-secondary active" id="btn-mockup-none" onclick="selectMockup('none')" style="padding:0.4rem 1rem; font-size:0.8rem;">None</button>
+                        <button class="btn btn-secondary" id="btn-mockup-ring" onclick="selectMockup('ring')" style="padding:0.4rem 1rem; font-size:0.8rem;">Wedding Ring Engraving</button>
+                        <button class="btn btn-secondary" id="btn-mockup-tattoo" onclick="selectMockup('tattoo')" style="padding:0.4rem 1rem; font-size:0.8rem;">Wrist Tattoo</button>
+                    </div>
+                    
+                    <!-- Mockup Preview Display -->
+                    <div class="mockup-preview-container" style="display:none; justify-content:center; align-items:center; width:100%; max-width:600px; margin:0 auto; overflow:hidden; border-radius:8px; border:1px solid var(--border-light); position:relative; aspect-ratio:16/9; background:#000;">
+                        <!-- Ring Mockup Background -->
+                        <img id="mockup-bg-ring" src="../templates/ring_mockup.png" style="display:none; width:100%; height:100%; object-fit:cover; opacity:0.95;" alt="Wedding Ring Mockup">
+                        <!-- Tattoo Mockup Background -->
+                        <img id="mockup-bg-tattoo" src="../templates/wrist_tattoo_mockup.png" style="display:none; width:100%; height:100%; object-fit:cover; opacity:0.95;" alt="Wrist Tattoo Mockup">
+                        
+                        <!-- Calligraphy overlay div -->
+                        <div id="mockup-overlay-text" class="font-tengwar" style="position:absolute; text-align:center; word-break:break-all; transition: all 0.3s ease; pointer-events:none; user-select:none;">...</div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -150,6 +174,12 @@
 
                 <h3>Fictional Backstories and Lore</h3>
                 <p>Every generated name is matched with a unique backstory generated from regional Middle-earth lore, including Rivendell, Lothlórien, Mirkwood, and Gondolin. This gives your characters, gaming profiles, or ring engravings a deep, verified resonance within Tolkien's legendary universe.</p>
+                
+                <h3>Frequently Asked Questions</h3>
+                <div style="margin-top: 1rem;">
+                    <h4 style="color: var(--accent); margin-bottom: 0.25rem;">Can I use this Elvish name generator for wedding ring engravings?</h4>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem;">Yes! Many Tolkien fans generate custom Elvish names representing concepts like 'eternal love' or 'star-kindled hope' for their wedding bands. Our integrated Calligraphy Exporter below renders these names in high-resolution Tengwar script, providing the perfect vector stencil for jewelry laser engraving.</p>
+                </div>
             </div>
         </section>
 
@@ -178,6 +208,7 @@
         const nameData = {{dict_json}};
         const canvas = document.getElementById('calligraphy-canvas');
         const ctx = canvas.getContext('2d');
+        let isInitialLoad = true;
 
         const backstories = [
             "A noble soul born under the starlight of the First Age, renowned for wandering the hidden paths of Rivendell.",
@@ -222,6 +253,24 @@
             document.getElementById('name-backstory').innerText = backstory;
 
             drawCanvas();
+
+            // Update mockup overlay if active
+            const overlay = document.getElementById('mockup-overlay-text');
+            if (overlay) {
+                overlay.innerText = finalName;
+                const activeTab = document.querySelector('.mockup-tabs .active');
+                if (activeTab && activeTab.id !== 'btn-mockup-none') {
+                    const type = activeTab.id.replace('btn-mockup-', '');
+                    selectMockup(type);
+                }
+            }
+
+            if (!isInitialLoad && typeof gtag === 'function') {
+                gtag('event', 'generate_name', {
+                    'event_category': 'engagement',
+                    'gender': gender
+                });
+            }
         }
 
         // Canvas Draw
@@ -246,11 +295,109 @@
             link.download = 'elvish_name_stencil.png';
             link.href = canvas.toDataURL();
             link.click();
+            if (typeof gtag === 'function') {
+                gtag('event', 'export_name_png', {
+                    'event_category': 'engagement'
+                });
+            }
+        }
+
+        // Live Mockup Simulator Logic
+        function selectMockup(type) {
+            const btnNone = document.getElementById('btn-mockup-none');
+            const btnRing = document.getElementById('btn-mockup-ring');
+            const btnTattoo = document.getElementById('btn-mockup-tattoo');
+            
+            btnNone.classList.remove('active');
+            btnRing.classList.remove('active');
+            btnTattoo.classList.remove('active');
+            
+            const container = document.querySelector('.mockup-preview-container');
+            const imgRing = document.getElementById('mockup-bg-ring');
+            const imgTattoo = document.getElementById('mockup-bg-tattoo');
+            const overlay = document.getElementById('mockup-overlay-text');
+            
+            let text = document.getElementById('generated-name').innerText;
+            if (!text || text === "...") {
+                text = "Elenari";
+            }
+            overlay.innerText = text;
+            
+            if (type === 'none') {
+                btnNone.classList.add('active');
+                container.style.display = 'none';
+                imgRing.style.display = 'none';
+                imgTattoo.style.display = 'none';
+            } else if (type === 'ring') {
+                btnRing.classList.add('active');
+                container.style.display = 'flex';
+                imgRing.style.display = 'block';
+                imgTattoo.style.display = 'none';
+                
+                // Style for Ring Engraving
+                overlay.style.color = '#1b1206';
+                overlay.style.mixBlendMode = 'multiply';
+                overlay.style.opacity = '0.9';
+                overlay.style.filter = 'blur(0.5px)';
+                overlay.style.textShadow = '0px 1px 1px rgba(255, 255, 255, 0.25), 0px -1px 1px rgba(0, 0, 0, 0.8)';
+                
+                // Adjust font size dynamically based on length
+                const len = overlay.innerText.length;
+                let fontSize = '1.7rem';
+                if (len > 30) fontSize = '0.9rem';
+                else if (len > 15) fontSize = '1.2rem';
+                overlay.style.fontSize = fontSize;
+                
+                // Positioning on the ring
+                overlay.style.width = '70%';
+                overlay.style.top = '48.5%';
+                overlay.style.left = '50%';
+                overlay.style.transform = 'translate(-50%, -50%) rotate(0deg) skewX(-8deg)';
+                
+                if (typeof gtag === 'function') {
+                    gtag('event', 'select_mockup', {
+                        'event_category': 'engagement',
+                        'event_label': 'name_generator_ring'
+                    });
+                }
+            } else if (type === 'tattoo') {
+                btnTattoo.classList.add('active');
+                container.style.display = 'flex';
+                imgRing.style.display = 'none';
+                imgTattoo.style.display = 'block';
+                
+                // Style for Tattoo
+                overlay.style.color = '#121f24';
+                overlay.style.mixBlendMode = 'multiply';
+                overlay.style.opacity = '0.8';
+                overlay.style.filter = 'blur(0.8px)';
+                overlay.style.textShadow = 'none';
+                
+                const len = overlay.innerText.length;
+                let fontSize = '2.4rem';
+                if (len > 30) fontSize = '1.4rem';
+                else if (len > 15) fontSize = '1.8rem';
+                overlay.style.fontSize = fontSize;
+                
+                // Positioning on the wrist/arm
+                overlay.style.width = '80%';
+                overlay.style.top = '48%';
+                overlay.style.left = '50%';
+                overlay.style.transform = 'translate(-50%, -50%) rotate(-12deg)';
+                
+                if (typeof gtag === 'function') {
+                    gtag('event', 'select_mockup', {
+                        'event_category': 'engagement',
+                        'event_label': 'name_generator_tattoo'
+                    });
+                }
+            }
         }
 
         // Init
         window.addEventListener('load', () => {
             generateName();
+            isInitialLoad = false;
         });
     </script>
 </body>
