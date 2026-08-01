@@ -103,33 +103,83 @@ translators_metadata = [
         "slug": "sindarin-translator",
         "name": "Sindarin Elvish Translator",
         "desc": "Translate modern English into the common Sindarin Elvish dialect of Middle-earth.",
-        "h1": "Sindarin Elvish Translator",
-        "meta_title": "English to Sindarin Elvish Translator | Elvish Tattoo Script",
-        "meta_description": "Free online English to Sindarin Elvish translator. Convert modern text into Tengwar runes for custom Elvish tattoos, ring engravings, and lore translations.",
+        "h1": "Sindarin Elvish Translator & Dictionary",
+        "meta_title": "English to Sindarin Elvish Translator & Dictionary | Lore",
+        "meta_description": "Free English to Sindarin Elvish translator and dictionary. Convert text, names, and phrases into Tengwar runes for custom Elvish tattoos and ring engravings.",
         "font_mode": "Tengwar",
         "font_class": "font-tengwar",
         "style_description": """
-        <h2>Introduction to Sindarin Elvish</h2>
-        <p>Sindarin is the primary Elvish tongue spoken in Middle-earth during the Third Age. Unlike Quenya, which became a language of lore and high ceremony, Sindarin was the daily language of the Grey-elves (Sindar). Tolkien based the phonology and grammar of Sindarin on Welsh, giving it a soft, Celtic quality with complex vowel mutations.</p>
-        <p>Our translator utilizes a verified academic dictionary matching real vocabulary words like <em>meleth</em> (love), <em>mellon</em> (friend), and <em>estel</em> (hope). For words not in the lexicon, it falls back to a precise Tengwar character transliteration mapping, allowing you to design rings and tattoos seamlessly.</p>
+        <h2>Introduction to Sindarin Elvish Translation</h2>
+        <p>Sindarin is the primary Elvish tongue spoken in Middle-earth during the Third Age of <em>The Lord of the Rings</em>. Unlike Quenya, which functioned as a high ceremonial language, Sindarin was the living, daily tongue of the Grey-elves (Sindar). Tolkien derived Sindarin phonology and grammar from Welsh, creating a soft, fluid language with rich vowel mutations.</p>
+
+        <h3>Popular English to Sindarin Phrases & Translations</h3>
+        <p>Looking for quick translations for everyday phrases, greetings, or romantic declarations? Here are the most frequently requested Sindarin expressions matched from verified academic dictionaries:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>English Expression</th>
+                    <th>Sindarin Elvish Translation</th>
+                    <th>Phonetic & Usage Context</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>I love you</strong></td>
+                    <td>Gi melin (or <em>Meleth</em> for love)</td>
+                    <td>Romantic declaration / Wedding ring inscriptions</td>
+                </tr>
+                <tr>
+                    <td><strong>Hello / Greetings</strong></td>
+                    <td>Suilad (or <em>Mae govannen</em>)</td>
+                    <td>Traditional Elven greeting ("Well met")</td>
+                </tr>
+                <tr>
+                    <td><strong>Thank you</strong></td>
+                    <td>Hantanyel</td>
+                    <td>Expression of gratitude</td>
+                </tr>
+                <tr>
+                    <td><strong>Goodbye / Farewell</strong></td>
+                    <td>Novaer</td>
+                    <td>Parting blessing ("Be well")</td>
+                </tr>
+                <tr>
+                    <td><strong>Friend</strong></td>
+                    <td>Mellon</td>
+                    <td>Famous Moria gate password</td>
+                </tr>
+                <tr>
+                    <td><strong>Hope</strong></td>
+                    <td>Estel</td>
+                    <td>Aragorn's Elvish given name</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Sindarin Name Translator & Custom Elvish Tattoo Script</h3>
+        <p>Whether you want to translate modern English names (such as <em>sindarin girl names</em> or male Elf names) into calligraphic script, our online engine provides two distinct pathways: direct dictionary lookup for verified roots, and character-by-character Tengwar transliteration. You can also use our <a href="../tools/sindarin-name-generator.html">Sindarin Name Generator</a> to discover lore-accurate names or design custom stencils for Elvish tattoos and ring engravings.</p>
         """,
         "dictionary": dict_db["elvish"]["sindarin"],
         "faq": [
             {
-                "q": "What is the difference between Quenya and Sindarin?",
-                "a": "Quenya is high Elvish, comparable to Latin in our world, used for formal writing and ceremony. Sindarin is the common spoken tongue of the Elves of Middle-earth during the Third Age (LOTR era)."
+                "q": "Can I use Google Translate or ChatGPT for English to Sindarin Elvish translation?",
+                "a": "Google Translate does not support Sindarin Elvish. While generic AI tools like ChatGPT can generate approximate text, they frequently mix up High Elvish Quenya with Sindarin or output invalid Tengwar runes. Our online engine uses a verified academic dictionary and exact Tengwar font mappings."
             },
             {
-                "q": "Can I use Sindarin for a custom wedding ring engraving?",
-                "a": "Yes! Sindarin is the most popular language for Lord of the Rings themed ring engravings. Phrases like 'meleth' (love) or 'estel' (hope) are highly authentic and elegant."
+                "q": "What is the difference between Sindarin and Quenya translators?",
+                "a": "Sindarin is the common spoken language of Middle-earth Elves during the Third Age (LOTR era), based phonetically on Welsh. Quenya is High Elvish, comparable to Latin, used for sacred ceremonies and cosmology."
             },
             {
-                "q": "How do I translate my name to Elvish Tengwar for a tattoo?",
-                "a": "To translate your name to Elvish Tengwar, type your name into the input panel above. The translator will automatically map it to the Tengwar runic alphabet phonetically. You can then use the Interactive Calligraphy Exporter below to adjust font size and colors to download a custom stencil for your tattoo artist."
+                "q": "Does this Sindarin translator support voice or audio pronunciation?",
+                "a": "While there is no automated voice synthesizer for constructed Elvish tongues, our dictionary includes IPA phonetic guides and romanized spellings (e.g. Mellon = /ˈmɛl.lɔn/) to help you pronounce Sindarin words accurately."
             },
             {
-                "q": "What are some popular Elvish wedding ring engraving ideas?",
-                "a": "Popular engraving ideas include Sindarin words like 'Meleth' (Love), 'Mellon' (Friend), or 'Estel Uireb' (Eternal Hope). For ring bands, using our calligraphy exporter ensures the delicate ascenders and descenders of Tengwar script are rendered cleanly for laser engraving."
+                "q": "How do I translate my name to Elvish Tengwar for a custom tattoo?",
+                "a": "Simply enter your name into the input panel above. The translator will map your name into the Tengwar runic alphabet phonetically. You can then use the Interactive Calligraphy Exporter below to customize font size, colors, and download a transparent stencil PNG for your tattoo artist."
+            },
+            {
+                "q": "Is there a downloadable Sindarin translator app for mobile?",
+                "a": "Our web application is 100% free, responsive, and mobile-optimized. You can use it directly in any browser on iOS or Android, or tap 'Add to Home Screen' to use it as a lightweight web app without installing APKs."
             }
         ]
     },
@@ -754,8 +804,8 @@ articles_metadata = [
     {
         "slug": "tolkien-love-quotes",
         "h1": "Top 10 Tolkien Love Quotes for Custom Wedding Ring Engravings",
-        "meta_title": "Top 10 Tolkien Love Quotes for Ring Engraving",
-        "meta_description": "Explore the top 10 J.R.R. Tolkien love quotes for custom jewelry. Learn the difference between Elvish translation and transliteration for stencils.",
+        "meta_title": "25+ Romantic Tolkien Love Quotes for Weddings & Ring Engravings",
+        "meta_description": "Discover romantic J.R.R. Tolkien love quotes for wedding vows & ring engravings. Includes Lord of the Rings quotes, Beren & Lúthien lines & Elvish scripts.",
         "publish_date": "2026-06-26",
         "body": article_2_body
     }
