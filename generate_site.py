@@ -271,15 +271,68 @@ translators_metadata = [
         "slug": "quenya-translator",
         "name": "Quenya Elvish Translator",
         "desc": "Translate modern English into the high ceremonial Quenya Elvish language of Valinor.",
-        "h1": "Quenya Elvish Translator",
-        "meta_title": "Quenya Elvish Translator | English to High Elvish & Calligraphy",
-        "meta_description": "Translate English to High Elvish Quenya. Generate Tengwar runes for custom Elvish tattoos, calligraphy stencils, and Tolkien lore-accurate text.",
+        "h1": "Quenya Elvish Translator & High Elvish Dictionary",
+        "meta_title": "Quenya Elvish Translator: English to High Elvish | Lore",
+        "meta_description": "Free online Quenya Elvish translator & dictionary. Translate English text & names into High Elvish Tengwar runes for tattoos & engravings. Instant PNG exporter!",
         "font_mode": "Tengwar",
         "font_class": "font-tengwar",
         "style_description": """
-        <h2>Introduction to Quenya Elvish</h2>
-        <p>Quenya (High Elvish) is the ancient language of the Amanyar Elves who crossed the Sea into Valinor. In Middle-earth during the Third Age, Quenya functioned similarly to Latin in Europe—a tongue of high ceremony, ritual, and ancient lore rather than daily speech.</p>
-        <p>Our translator utilizes a verified academic dictionary matching real High Elvish vocabulary terms like <em>melme</em> (love), <em>nilme</em> (friendship), and <em>alda</em> (tree). Custom phrases can be transliterated into Tengwar calligraphic runes instantly for rings or tattoos.</p>
+        <h2>Introduction to Quenya High Elvish Translation</h2>
+        <p>Quenya (High Elvish) is the ancient language of the Amanyar Elves who crossed the Great Sea into Valinor. In Middle-earth during the Third Age of <em>The Lord of the Rings</em>, Quenya functioned similarly to Latin in medieval Europe—a ceremonial language of high poetry, sacred vows, and cosmic lore.</p>
+
+        <h3>Popular English to Quenya High Elvish Expressions</h3>
+        <p>Looking for quick Quenya High Elvish translations for wedding vows, formal declarations, or custom tattoos? Here are verified high-elven phrases from Tolkien's academic lexicons:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>English Expression</th>
+                    <th>Quenya High Elvish Translation</th>
+                    <th>Grammatical Context & Usage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>I love you</strong></td>
+                    <td>Melinyel (or <em>Melme</em> for love)</td>
+                    <td>Sacred devotion / Wedding ring vows</td>
+                </tr>
+                <tr>
+                    <td><strong>Greetings / Star shines</strong></td>
+                    <td>Elen síla lúmenn' omentielvo</td>
+                    <td>Iconic greeting ("A star shines on our meeting")</td>
+                </tr>
+                <tr>
+                    <td><strong>Farewell / Goodbye</strong></td>
+                    <td>Namárië</td>
+                    <td>Galadriel's classic poem title ("Farewell")</td>
+                </tr>
+                <tr>
+                    <td><strong>Friend</strong></td>
+                    <td>Nildo (male) / Nilde (female)</td>
+                    <td>Formal high elven companionship</td>
+                </tr>
+                <tr>
+                    <td><strong>Hope</strong></td>
+                    <td>Estel</td>
+                    <td>Spiritual trust and divine hope</td>
+                </tr>
+                <tr>
+                    <td><strong>Light</strong></td>
+                    <td>Cala / Cále</td>
+                    <td>Illumination of Valinor</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Quenya Pronunciation & High Elvish Grammar Rules</h3>
+        <p>Understanding Quenya pronunciation is essential for authentic ring engravings and elvish tattoo designs. Tolkien modeled Quenya phonetics after Finnish and Classical Greek:</p>
+        <ul>
+            <li><strong>Vowels:</strong> Quenya vowels are pronounced purely: <em>a</em> (father), <em>e</em> (there), <em>i</em> (machine), <em>o</em> (more), and <em>u</em> (brute). Long vowels marked with acute accents (such as <em>á</em>, <em>é</em>, <em>í</em>, <em>ó</em>, <em>ú</em>) are held twice as long.</li>
+            <li><strong>Consonants:</strong> The letter <em>c</em> is always pronounced as 'k' (e.g. <em>Cala</em> = Kahl-ah), and <em>qu</em> is pronounced as 'kw' (as in <em>Quenya</em> = Kwen-yah).</li>
+            <li><strong>Tehtar Vowel Placement:</strong> Unlike Sindarin (which places vowel marks above the following consonant), Quenya mode places vowel markers (tehtar) above the preceding consonant symbol.</li>
+        </ul>
+
+        <p>Want to compare Quenya with Third Age spoken Elvish? Check out our <a href="sindarin-translator.html">Sindarin Translator</a>, try the specialized <a href="sindarin-name-translator.html">Sindarin Name Translator</a>, or explore <a href="../articles/tolkien-love-quotes.html">Tolkien Love Quotes for Rings</a>.</p>
         """,
         "dictionary": dict_db["elvish"]["quenya"],
         "faq": [
