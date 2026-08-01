@@ -273,7 +273,7 @@ translators_metadata = [
         "desc": "Translate modern English into the high ceremonial Quenya Elvish language of Valinor.",
         "h1": "Quenya Translator & English to High Elvish Dictionary",
         "meta_title": "Quenya Translator: English to High Elvish Tattoo | Lore",
-        "meta_description": "Free online English to Quenya High Elvish translator & dictionary. Translate text & names into Tengwar runes for tattoos & ring engravings. Instant PNG exporter!",
+        "meta_description": "Free English to Quenya High Elvish translator & dictionary. Translate text & names into Tengwar runes for tattoos & ring engravings. Instant PNG exporter!",
         "font_mode": "Tengwar",
         "font_class": "font-tengwar",
         "style_description": """
