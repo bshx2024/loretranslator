@@ -137,6 +137,9 @@
                         <label for="bg-color">Background:</label>
                         <input type="color" id="bg-color" value="#090d16" onchange="drawCanvas()">
                     </div>
+                    <div class="control-group">
+                        <label><input type="checkbox" id="bg-transparent" onchange="drawCanvas()"> Transparent PNG</label>
+                    </div>
                     <button class="btn" style="padding:0.4rem 1rem; font-size:0.8rem;" onclick="downloadImage()">Export PNG</button>
                 </div>
             </div>
@@ -536,10 +539,14 @@
             const size = parseInt(document.getElementById('font-size').value);
             const textColor = document.getElementById('text-color').value;
             const bgColor = document.getElementById('bg-color').value;
+            const isTransparent = document.getElementById('bg-transparent')?.checked;
             const text = outputBox.innerText;
 
-            ctx.fillStyle = bgColor;
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            if (!isTransparent) {
+                ctx.fillStyle = bgColor;
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+            }
 
             ctx.fillStyle = textColor;
             ctx.textAlign = "center";
