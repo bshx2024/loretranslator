@@ -273,7 +273,7 @@ translators_metadata = [
         "desc": "Translate modern English into the high ceremonial Quenya Elvish language of Valinor.",
         "h1": "Quenya Translator & English to High Elvish Dictionary",
         "meta_title": "Quenya Translator: English to High Elvish Tattoo | Lore",
-        "meta_description": "Free online Quenya translator & dictionary. Translate English text & names into High Elvish Tengwar runes for custom tattoos & ring engravings. Instant PNG exporter!",
+        "meta_description": "Free online Quenya translator & dictionary. Translate English text & names into Tengwar Elvish runes for tattoos & ring engravings. Instant PNG exporter!",
         "font_mode": "Tengwar",
         "font_class": "font-tengwar",
         "style_description": """
@@ -339,6 +339,10 @@ translators_metadata = [
             {
                 "q": "What is the difference between Quenya and Sindarin Elvish translators?",
                 "a": "Quenya is High Elvish, used for high ceremonial writing, poetry, and lore (similar to Latin). Sindarin is the common daily language spoken by the Elves in Middle-earth during the Lord of the Rings era."
+            },
+            {
+                "q": "Can I translate English names into Quenya High Elvish?",
+                "a": "Yes! Personal names can be transliterated phonetically into Quenya Tengwar script using our live online converter. For semantic translations based on historical name roots (e.g. Victor -> Túro), refer to our High Elvish dictionary table below."
             },
             {
                 "q": "Can I use Google Translate or ChatGPT as a Quenya translator?",
