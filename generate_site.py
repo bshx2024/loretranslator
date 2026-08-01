@@ -271,16 +271,16 @@ translators_metadata = [
         "slug": "quenya-translator",
         "name": "Quenya Elvish Translator",
         "desc": "Translate modern English into the high ceremonial Quenya Elvish language of Valinor.",
-        "h1": "Quenya Elvish Translator & High Elvish Dictionary",
-        "meta_title": "Quenya Elvish Translator: English to High Elvish | Lore",
-        "meta_description": "Free online Quenya Elvish translator & dictionary. Translate English text & names into High Elvish Tengwar runes for tattoos & engravings. Instant PNG exporter!",
+        "h1": "Quenya Translator & English to High Elvish Dictionary",
+        "meta_title": "Quenya Translator: English to High Elvish Runes | Lore",
+        "meta_description": "Free online Quenya translator & dictionary. Translate English text & names into High Elvish Tengwar runes for custom tattoos & ring engravings. Instant PNG exporter!",
         "font_mode": "Tengwar",
         "font_class": "font-tengwar",
         "style_description": """
-        <h2>Introduction to Quenya High Elvish Translation</h2>
+        <h2>Online Quenya Translator: English to High Elvish Dictionary</h2>
         <p>Quenya (High Elvish) is the ancient language of the Amanyar Elves who crossed the Great Sea into Valinor. In Middle-earth during the Third Age of <em>The Lord of the Rings</em>, Quenya functioned similarly to Latin in medieval Europe—a ceremonial language of high poetry, sacred vows, and cosmic lore.</p>
 
-        <h3>Popular English to Quenya High Elvish Expressions</h3>
+        <h3>Popular English to Quenya High Elvish Expressions (LOTR & Tolkien)</h3>
         <p>Looking for quick Quenya High Elvish translations for wedding vows, formal declarations, or custom tattoos? Here are verified high-elven phrases from Tolkien's academic lexicons:</p>
         <table>
             <thead>
@@ -324,7 +324,7 @@ translators_metadata = [
             </tbody>
         </table>
 
-        <h3>Quenya Pronunciation & High Elvish Grammar Rules</h3>
+        <h2>Quenya Alphabet, Tengwar Script & Pronunciation Rules</h2>
         <p>Understanding Quenya pronunciation is essential for authentic ring engravings and elvish tattoo designs. Tolkien modeled Quenya phonetics after Finnish and Classical Greek:</p>
         <ul>
             <li><strong>Vowels:</strong> Quenya vowels are pronounced purely: <em>a</em> (father), <em>e</em> (there), <em>i</em> (machine), <em>o</em> (more), and <em>u</em> (brute). Long vowels marked with acute accents (such as <em>á</em>, <em>é</em>, <em>í</em>, <em>ó</em>, <em>ú</em>) are held twice as long.</li>
@@ -337,16 +337,16 @@ translators_metadata = [
         "dictionary": dict_db["elvish"]["quenya"],
         "faq": [
             {
-                "q": "What is the difference between Quenya and Sindarin?",
+                "q": "What is the difference between Quenya and Sindarin Elvish translators?",
                 "a": "Quenya is High Elvish, used for high ceremonial writing, poetry, and lore (similar to Latin). Sindarin is the common daily language spoken by the Elves in Middle-earth during the Lord of the Rings era."
             },
             {
-                "q": "How do you write Quenya in Elvish script?",
-                "a": "Quenya is written using Tengwar script. Unlike Sindarin, which places vowel markers (tehtar) above the following consonant, Quenya places vowel markers above the preceding consonant, a distinction handled automatically by our exporter."
+                "q": "Can I use Google Translate or ChatGPT as a Quenya translator?",
+                "a": "Google Translate does not support Quenya Elvish. Generic AI tools like ChatGPT often mix up Quenya and Sindarin or generate broken Tengwar glyphs. Our specialized Quenya translator uses verified academic lexicons and precise Tengwar font mappings."
             },
             {
-                "q": "How do I use this Quenya Elvish translator to design a custom Elvish tattoo?",
-                "a": "Simply type your English phrase into the input box above, which translates it to Quenya and displays it in Tengwar script. In the Calligraphy Exporter below, choose your size and colors, then click 'Export PNG' to download a clean, high-resolution transparent stencil suitable for your tattoo appointment."
+                "q": "Is there a downloadable Quenya translator app for mobile?",
+                "a": "Our web application is 100% free, responsive, and mobile-optimized. You can use it directly in any browser on iOS or Android, or tap 'Add to Home Screen' to use it as a lightweight web app with instant PNG stencil exports."
             }
         ]
     },
