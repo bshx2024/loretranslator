@@ -8,6 +8,23 @@
     <meta name="description" content="{{meta_description}}">
     <link rel="canonical" href="https://www.loretranslator.com/translators/{{slug_url}}.html">
     <link rel="stylesheet" href="../templates/base.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../templates/ring_mockup.png">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{meta_title}}">
+    <meta property="og:description" content="{{meta_description}}">
+    <meta property="og:url" content="https://www.loretranslator.com/translators/{{slug_url}}.html">
+    <meta property="og:image" content="https://www.loretranslator.com/templates/ring_mockup.png">
+    <meta property="og:site_name" content="LoreTranslator">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{meta_title}}">
+    <meta name="twitter:description" content="{{meta_description}}">
+    <meta name="twitter:image" content="https://www.loretranslator.com/templates/ring_mockup.png">
     <!-- Schema Markup -->
     <script type="application/ld+json">
     {
@@ -88,7 +105,7 @@
 
             <!-- Canvas Calligraphy Exporter -->
             <div class="canvas-panel">
-                <h3 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem;">Interactive Calligraphy Exporter</h3>
+                <h2 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem;">Interactive Calligraphy Exporter</h2>
                 <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1rem; text-align:center;">Generate a custom PNG layout of the calligraphy script above. Ideal for tattoos, stickers, or engraving layouts.</p>
                 
                 <div class="canvas-container">
@@ -118,7 +135,7 @@
 
             <!-- Mockup Simulator -->
             <div class="mockup-panel" style="margin-top: 2rem; border-top: 1px solid var(--border-light); padding-top: 1.5rem; width: 100%;">
-                <h3 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem; text-align:center;">Live Mockup Simulator</h3>
+                <h2 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem; text-align:center;">Live Mockup Simulator</h2>
                 <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1rem; text-align:center;">Preview how your calligraphy script will look as an engraving on a wedding band or a wrist tattoo.</p>
                 
                 <!-- Mockup Tabs -->
@@ -131,9 +148,9 @@
                 <!-- Mockup Preview Display -->
                 <div class="mockup-preview-container" style="display:none; justify-content:center; align-items:center; width:100%; max-width:600px; margin:0 auto; overflow:hidden; border-radius:8px; border:1px solid var(--border-light); position:relative; aspect-ratio:16/9; background:#000;">
                     <!-- Ring Mockup Background -->
-                    <img id="mockup-bg-ring" src="../templates/ring_mockup.png" style="display:none; width:100%; height:100%; object-fit:cover; opacity:0.95;" alt="Wedding Ring Mockup">
+                    <img id="mockup-bg-ring" src="../templates/ring_mockup.png" width="600" height="337" style="display:none; width:100%; height:100%; object-fit:cover; opacity:0.95;" alt="Wedding Ring Mockup">
                     <!-- Tattoo Mockup Background -->
-                    <img id="mockup-bg-tattoo" src="../templates/wrist_tattoo_mockup.png" style="display:none; width:100%; height:100%; object-fit:cover; opacity:0.95;" alt="Wrist Tattoo Mockup">
+                    <img id="mockup-bg-tattoo" src="../templates/wrist_tattoo_mockup.png" width="600" height="337" style="display:none; width:100%; height:100%; object-fit:cover; opacity:0.95;" alt="Wrist Tattoo Mockup">
                     
                     <!-- Calligraphy overlay div -->
                     <div id="mockup-overlay-text" class="{{font_class}}" style="position:absolute; text-align:center; word-break:break-all; transition: all 0.3s ease; pointer-events:none; user-select:none;">...</div>
@@ -142,7 +159,7 @@
 
             <!-- Featured Calligraphy Showcase Gallery (Results/Showcase Component) -->
             <div style="margin-top: 2rem; border-top: 1px solid var(--border-light); padding-top: 1.5rem; width: 100%;">
-                <h3 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem; text-align:center;">Featured Translation Showcases</h3>
+                <h2 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem; text-align:center;">Featured Translation Showcases</h2>
                 <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1.5rem; text-align:center;">Explore curated Elvish calligraphy designs. Click any showcase card to load it directly into the translator tool above.</p>
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
