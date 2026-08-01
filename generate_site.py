@@ -551,11 +551,11 @@ for item in translators_metadata:
         </div>
         """
 
-    # Build Dictionary Mappings Table rows (capped at 120 items for optimal 1200-1800 word count range)
+    # Build Dictionary Mappings Table rows (capped at 170 items for optimal 1200-1800 word count range)
     table_rows_html = ""
     dict_items = list(item["dictionary"].items())
-    if len(dict_items) > 120:
-        dict_items = dict_items[:120]
+    if len(dict_items) > 170:
+        dict_items = dict_items[:170]
     for k, v in dict_items:
         table_rows_html += f"""
         <tr>
