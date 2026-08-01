@@ -61,7 +61,7 @@ AI 搜索引擎选源与过滤时，Meta Description 的权重仅次于 URL 和 
 | **主要受众** | 谷歌爬虫 / SERP / AI 搜索引擎 | 人类读者 (极客/爱好者/开发者) | SERP 摘要 / AI 选源第 3 权重 |
 | **字符限制** | **50 – 60 字符** (Max 600px) | 无严格字数限制 | **140 – 160 字符** |
 | **基本格式** | `[ABC 标题公式] \| Lore` | 完整技术/工具指南标题 | 主动语态 + 主词 + 核心卖点 |
-| **标杆范例 1 (工具页)** | `English to Sindarin Elvish Translator & Dictionary \| Lore`<br>*(恰好 56 字符)* | `Online English to Sindarin Elvish Translator & Dictionary` | `Free English to Sindarin Elvish translator and dictionary. Convert text, names, and phrases into Tengwar runes for custom Elvish tattoos and ring engravings.`<br>*(恰好 155 字符)* |
+| **标杆范例 1 (工具页)** | `Translate English to Sindarin Elvish & Tengwar Runes \| Lore`<br>*(恰好 57 字符)* | `Online English to Sindarin Elvish Translator & Dictionary` | `Free English to Sindarin Elvish translator & dictionary. Convert text & names into Tengwar runes for custom Elvish tattoos & ring engravings. Try free!`<br>*(恰好 154 字符)* |
 | **标杆范例 2 (文章页)** | `25+ Romantic Tolkien Love Quotes for Weddings & Ring Engravings`<br>*(恰好 63 字符)* | `25+ Romantic Tolkien Love Quotes for Custom Wedding Ring Engravings` | `Discover romantic J.R.R. Tolkien love quotes for wedding vows & ring engravings. Includes Lord of the Rings quotes, Beren & Lúthien lines & Elvish scripts.`<br>*(恰好 155 字符)* |
 
 ---

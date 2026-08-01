@@ -104,8 +104,8 @@ translators_metadata = [
         "name": "Sindarin Elvish Translator",
         "desc": "Translate modern English into the common Sindarin Elvish dialect of Middle-earth.",
         "h1": "Sindarin Elvish Translator & Dictionary",
-        "meta_title": "English to Sindarin Elvish Translator & Dictionary | Lore",
-        "meta_description": "Free English to Sindarin Elvish translator and dictionary. Convert text, names, and phrases into Tengwar runes for custom Elvish tattoos and ring engravings.",
+        "meta_title": "Translate English to Sindarin Elvish & Tengwar Runes | Lore",
+        "meta_description": "Free English to Sindarin Elvish translator & dictionary. Convert text & names into Tengwar runes for custom Elvish tattoos & ring engravings. Try free!",
         "font_mode": "Tengwar",
         "font_class": "font-tengwar",
         "style_description": """
