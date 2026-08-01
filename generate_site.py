@@ -105,7 +105,7 @@ translators_metadata = [
         "desc": "Translate modern English into the common Sindarin Elvish dialect of Middle-earth.",
         "h1": "Sindarin Translator & English to Elvish Dictionary",
         "meta_title": "Sindarin Translator: English to Elvish Runes | Lore",
-        "meta_description": "Free online Sindarin translator & dictionary. Convert English text & names into Tengwar Elvish runes for custom tattoos & ring engravings.",
+        "meta_description": "Free online Sindarin translator & dictionary. Translate English text & names into Tengwar Elvish runes for custom tattoos & ring engravings.",
         "font_mode": "Tengwar",
         "font_class": "font-tengwar",
         "style_description": """
@@ -551,9 +551,12 @@ for item in translators_metadata:
         </div>
         """
 
-    # Build Dictionary Mappings Table rows
+    # Build Dictionary Mappings Table rows (capped at 60 for optimal word count density)
     table_rows_html = ""
-    for k, v in item["dictionary"].items():
+    dict_items = list(item["dictionary"].items())
+    if len(dict_items) > 60:
+        dict_items = dict_items[:60]
+    for k, v in dict_items:
         table_rows_html += f"""
         <tr>
             <td><strong>{k}</strong></td>
