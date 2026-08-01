@@ -950,7 +950,7 @@ articles_metadata = [
         "slug": "tolkien-love-quotes",
         "h1": "25+ Romantic Tolkien Love Quotes for Custom Wedding Ring Engravings",
         "meta_title": "Tolkien Love Quotes: 25+ Romantic Ring Engravings | Lore",
-        "meta_description": "Discover romantic Tolkien love quotes for wedding vows & ring engravings. Includes Lord of the Rings lines, Beren & Lúthien quotes & Tengwar Elvish script.",
+        "meta_description": "Discover romantic Tolkien love quotes for wedding vows & ring engravings. Includes Lord of the Rings lines, Elvish scripts & free PNG stencil exporter!",
         "publish_date": "2026-06-26",
         "body": article_2_body
     }
