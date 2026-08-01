@@ -157,7 +157,15 @@ translators_metadata = [
         </table>
 
         <h3>Sindarin Name Translator & Custom Elvish Tattoo Script</h3>
-        <p>Whether you want to translate modern English names (such as <em>sindarin girl names</em> or male Elf names) into calligraphic script, our online engine provides two distinct pathways: direct dictionary lookup for verified roots, and character-by-character Tengwar transliteration. You can also use our <a href="../tools/sindarin-name-generator.html">Sindarin Name Generator</a> to discover lore-accurate names or design custom stencils for Elvish tattoos and ring engravings.</p>
+        <p>Whether you want to translate modern English names (such as <em>sindarin girl names</em> or male Elf names) into calligraphic script, our online engine provides two distinct pathways: direct dictionary lookup for verified roots, and character-by-character Tengwar transliteration. You can use our specialized <a href="sindarin-name-translator.html">Sindarin Name Translator</a> for individual name transliterations or use our <a href="../tools/sindarin-name-generator.html">Sindarin Name Generator</a> to discover lore-accurate names for Elvish tattoos and ring engravings.</p>
+
+        <h3>Sindarin Pronunciation & Elvish Phonetic Rules</h3>
+        <p>Understanding Sindarin pronunciation is essential for authentic ring engravings and elvish tattoo design. Tolkien modeled Sindarin phonetics after modern Welsh, featuring crisp vowels and soft consonants:</p>
+        <ul>
+            <li><strong>Vowels:</strong> <em>a</em> (father), <em>e</em> (get), <em>i</em> (machine), <em>o</em> (for), and <em>u</em> (brute). Accent marks like <em>â</em> or <em>î</em> denote elongated vowel duration.</li>
+            <li><strong>Consonants:</strong> The letter <em>c</em> is always pronounced hard as 'k' (e.g. <em>Círdan</em> = Keerdan), and <em>g</em> is always hard (as in 'give').</li>
+            <li><strong>Diphthongs:</strong> Combinations such as <em>ae</em>, <em>ai</em>, <em>ei</em>, and <em>oe</em> flow smoothly together, giving Tengwar calligraphy its poetic rhythm.</li>
+        </ul>
         """,
         "dictionary": dict_db["elvish"]["sindarin"],
         "faq": [
@@ -180,6 +188,76 @@ translators_metadata = [
             {
                 "q": "Is there a downloadable Sindarin translator app for mobile?",
                 "a": "Our web application is 100% free, responsive, and mobile-optimized. You can use it directly in any browser on iOS or Android, or tap 'Add to Home Screen' to use it as a lightweight web app without installing APKs."
+            }
+        ]
+    },
+    {
+        "slug": "sindarin-name-translator",
+        "name": "Sindarin Name Translator",
+        "desc": "Translate modern English male & female names into Sindarin Elvish Tengwar calligraphy script.",
+        "h1": "Sindarin Name Translator & Elvish Script Generator",
+        "meta_title": "Sindarin Name Translator: English Names to Elvish | Lore",
+        "meta_description": "Free Sindarin name translator. Convert English male & female names into calligraphic Tengwar Elvish runes for custom tattoos & ring engravings.",
+        "font_mode": "Tengwar",
+        "font_class": "font-tengwar",
+        "style_description": """
+        <h2>English to Sindarin Name Translation</h2>
+        <p>Translating modern personal names into Sindarin Elvish requires matching the etymological meaning or phonetic sound of your English name with Sindarin roots. Tolkien himself created Elvish equivalents for names based on their historical roots (e.g. <em>Alexander</em> = 'Defender of Men' -> <em>Garthangon</em>).</p>
+
+        <h3>Popular Male & Female Sindarin Names</h3>
+        <p>Here are popular English names translated into lore-accurate Sindarin Elvish forms and Tengwar scripts:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>English Name</th>
+                    <th>Etymological Meaning</th>
+                    <th>Sindarin Elvish Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Alexander</strong></td>
+                    <td>Defender of Men</td>
+                    <td>Maethoron / Garthangon</td>
+                </tr>
+                <tr>
+                    <td><strong>Victoria</strong></td>
+                    <td>Victory / Triumphant</td>
+                    <td>Túriel / Aglareth</td>
+                </tr>
+                <tr>
+                    <td><strong>Edward</strong></td>
+                    <td>Guardian of Wealth</td>
+                    <td>Tirn-Gael</td>
+                </tr>
+                <tr>
+                    <td><strong>Sophia</strong></td>
+                    <td>Wisdom</td>
+                    <td>Ithildae / Saeleth</td>
+                </tr>
+                <tr>
+                    <td><strong>Lily</strong></td>
+                    <td>White Flower</td>
+                    <td>Niphredil / Indil</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Want to generate more lore-accurate names? Try our interactive <a href="../tools/sindarin-name-generator.html">Sindarin Name Generator</a> or return to the main <a href="sindarin-translator.html">Sindarin Translator</a> to translate complete sentences.</p>
+        """,
+        "dictionary": dict_db["elvish"]["sindarin"],
+        "faq": [
+            {
+                "q": "How do I translate my English name to Sindarin Elvish?",
+                "a": "Type your name into the translator panel above. The tool maps English characters phonetically into Tengwar runes. If you prefer a semantic translation based on your name's historical meaning, refer to our vocabulary dictionary below."
+            },
+            {
+                "q": "What are popular Sindarin girl names?",
+                "a": "Popular Sindarin female names include Arwen (Noble Maiden), Lúthien (Daughter of Flowers), Tauriel (Daughter of the Forest), and Niphredil (Little White Star)."
+            },
+            {
+                "q": "Can I use this Sindarin name translator for tattoo stencils?",
+                "a": "Yes! Enter your name above, select your desired font size and colors in the Interactive Calligraphy Exporter, and click 'Export PNG' to download a clean stencil for your tattoo artist."
             }
         ]
     },
