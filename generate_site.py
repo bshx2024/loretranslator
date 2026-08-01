@@ -820,21 +820,21 @@ article_1_body = """
 
 # Article 2: tolkien-love-quotes.html (Word count: ~1020 words)
 article_2_body = """
-<p><strong>J.R.R. Tolkien's quotes on love</strong> are celebrated as some of the most profound and elegant expressions of devotion in English literature. From the tragic, epic romance of Beren and Lúthien to the letters Tolkien wrote to his wife Edith, his prose resonates with couples worldwide. For those planning a custom jewelry design or custom calligraphy project, engraving a Tolkien love quote in Tengwar script creates an everlasting connection. In this guide, we review the top 10 Tolkien love quotes and explain how to correctly render them into Elvish calligraphy scripts.</p>
+<p><strong>J.R.R. Tolkien's love quotes</strong> and <strong>Lord of the Rings love quotes</strong> are celebrated as some of the most profound and elegant expressions of devotion in English literature. From the romantic pledge of Arwen and Aragorn to the epic legend of Beren and Lúthien, his prose resonates with couples seeking <em>Lord of the Rings love quotes for wedding vows</em>, marriage ceremonies, and custom jewelry engravings. In this guide, we explore the best Tolkien love quotes, short Ring inscriptions, and how to render them into calligraphic Tengwar Elvish script.</p>
 
-<h2>Top 15 Romantic Tolkien Love Quotes for Ring Engravings</h2>
-<p>Here are the fifteen most requested romantic quotes from J.R.R. Tolkien's legendarium, ranked by their popularity for custom jewelry inscriptions, wedding vows, and Elvish calligraphy stencils:</p>
+<h2>Top 15 Romantic Lord of the Rings & Tolkien Love Quotes</h2>
+<p>Here are the fifteen most requested <strong>J.R.R. Tolkien love quotes</strong> and <strong>best Lord of the Rings love quotes</strong>, ranked by their popularity for custom ring inscriptions, wedding vows, and Elvish stencils:</p>
 
 <ol>
-    <li><em>"I would rather share one lifetime with you than face all the ages of this world alone."</em> — Arwen to Aragorn. (The ultimate romantic pledge of mortality).</li>
+    <li><em>"I would rather share one lifetime with you than face all the ages of this world alone."</em> — <strong>Lord of the Rings love quotes Arwen to Aragorn</strong>. (The ultimate romantic pledge of mortality).</li>
     <li><em>"My love, my love! I have sought you and I have found you."</em> — Beren to Lúthien. (Celebrating the long search for true companionship).</li>
-    <li><em>"In the starlight, we shall walk together."</em> — Derived from Sindarin elven vows.</li>
-    <li><em>"Grow gold, not grey, my beloved."</em> — Celebrating growing old together.</li>
+    <li><em>"In the starlight, we shall walk together."</em> — Derived from Sindarin elven vows for wedding bands.</li>
+    <li><em>"Grow gold, not grey, my beloved."</em> — Tolkien quotes on love and marriage.</li>
     <li><em>"One heart, one mind, one path."</em> — Standard Elven marriage vow format.</li>
     <li><em>"He looked at her, and in her eyes he saw a light of stars."</em> — Aragorn describing Lúthien Tinúviel.</li>
     <li><em>"True love is the starlight of the soul."</em> — Philosophical reflection on immortal romance.</li>
     <li><em>"Not all those who wander are lost."</em> — For adventurous couples traveling the world together.</li>
-    <li><em>"You and I must find a way together."</em> — The Fellowship pledge for mutual support.</li>
+    <li><em>"You and I must find a way together."</em> — <strong>Tolkien quotes about love and friendship</strong>.</li>
     <li><em>"Praise of the Elves will never fail."</em> — Dedicated to those who build bridges between worlds.</li>
     <li><em>"Untamed by doom, they walked into the starlight."</em> — Reflecting eternal love beyond mortality.</li>
     <li><em>"Forever bound under star and moon."</em> — Celestial wedding band inscription.</li>
@@ -880,7 +880,7 @@ article_2_body = """
     </tbody>
 </table>
 
-<h2>Romantic Beren and Lúthien Tolkien Love Quotes</h2>
+<h2>Lord of the Rings Love Quotes for Wedding & Marriage Vows</h2>
 <p>J.R.R. Tolkien's personal views on love and Christian matrimony profoundly shaped the relationships in Middle-earth. In his famous letters to his son Michael (Letter 43), Tolkien described true love as an active, unselfish choice rather than a fleeting emotion. This philosophy elevates quotes like Arwen's <em>"I would rather share one lifetime with you than face all the ages of this world alone"</em> into timeless wedding vows.</p>
 
 <p>The tale of Beren, a mortal man, and Lúthien Tinúviel, an immortal Elven maiden, is the cornerstone of Tolkien's mythos. Based directly on Tolkien's romance with his wife Edith Bratt (whose gravestones are inscribed with the names <em>Beren</em> and <em>Lúthien</em>), their story offers iconic quotes for couple jewelry:</p>
@@ -892,8 +892,8 @@ article_2_body = """
 <h2>Tolkien's Real-Life Love Letters to His Wife Edith</h2>
 <p>Beyond his fictional legendarium, Tolkien wrote heart-wrenching passages about his wife Edith. Upon her passing in 1971, he wrote: <em>"She was my Lúthien and I was her Beren... But now she has gone before me."</em> For couples seeking subtle, deeply emotional quotes without explicit fantasy names, these real-life letters provide authentic literary elegance.</p>
 
-<h2>Short Lord of the Rings Tolkien Love Quotes for Ring Bands</h2>
-<p>When engraving the inner or outer circumference of a wedding ring, character count is limited by band size (typically 25-45 characters). Here are top short Tolkien quotes ideal for laser ring engraving:</p>
+<h2>Short Lord of the Rings Love Quotes for Ring Bands</h2>
+<p>When engraving the inner or outer circumference of a wedding ring, character count is limited by band size (typically 25-45 characters). Here are top <strong>short Lord of the Rings love quotes</strong> ideal for laser ring engraving:</p>
 <table>
     <thead>
         <tr>
