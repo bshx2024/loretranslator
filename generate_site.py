@@ -195,64 +195,70 @@ translators_metadata = [
         "slug": "sindarin-name-translator",
         "name": "Sindarin Name Translator",
         "desc": "Translate modern English male & female names into Sindarin Elvish Tengwar calligraphy script.",
-        "h1": "Sindarin Name Translator & Elvish Script Generator",
-        "meta_title": "Sindarin Name Translator: English Names to Elvish | Lore",
+        "h1": "Sindarin Name Translator & Write My Name in Elvish Generator",
+        "meta_title": "Sindarin Name Translator: Write My Name in Elvish Runes | Lore",
         "meta_description": "Free Sindarin name translator. Convert English male & female names into calligraphic Tengwar Elvish runes for custom tattoos & ring engravings.",
         "font_mode": "Tengwar",
         "font_class": "font-tengwar",
         "style_description": """
-        <h2>English to Sindarin Name Translation</h2>
+        <h2>English to Sindarin Name Translation Guide</h2>
         <p>Translating modern personal names into Sindarin Elvish requires matching the etymological meaning or phonetic sound of your English name with Sindarin roots. Tolkien himself created Elvish equivalents for names based on their historical roots (e.g. <em>Alexander</em> = 'Defender of Men' -> <em>Garthangon</em>).</p>
 
-        <h3>Popular Male & Female Sindarin Names</h3>
-        <p>Here are popular English names translated into lore-accurate Sindarin Elvish forms and Tengwar scripts:</p>
+        <h3>Popular Male & Female Sindarin Name Translations</h3>
+        <p>Here are twenty popular English names translated into lore-accurate Sindarin Elvish forms and Tengwar calligraphic scripts:</p>
         <table>
             <thead>
                 <tr>
                     <th>English Name</th>
                     <th>Etymological Meaning</th>
-                    <th>Sindarin Elvish Name</th>
+                    <th>Sindarin Elvish Name Translation</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td><strong>Alexander</strong></td>
-                    <td>Defender of Men</td>
-                    <td>Maethoron / Garthangon</td>
-                </tr>
-                <tr>
-                    <td><strong>Victoria</strong></td>
-                    <td>Victory / Triumphant</td>
-                    <td>Túriel / Aglareth</td>
-                </tr>
-                <tr>
-                    <td><strong>Edward</strong></td>
-                    <td>Guardian of Wealth</td>
-                    <td>Tirn-Gael</td>
-                </tr>
-                <tr>
-                    <td><strong>Sophia</strong></td>
-                    <td>Wisdom</td>
-                    <td>Ithildae / Saeleth</td>
-                </tr>
-                <tr>
-                    <td><strong>Lily</strong></td>
-                    <td>White Flower</td>
-                    <td>Niphredil / Indil</td>
-                </tr>
+                <tr><td><strong>Alexander</strong></td><td>Defender of Men</td><td>Maethoron / Garthangon</td></tr>
+                <tr><td><strong>Victoria</strong></td><td>Victory / Triumphant</td><td>Túriel / Aglareth</td></tr>
+                <tr><td><strong>Edward</strong></td><td>Guardian of Wealth</td><td>Tirn-Gael</td></tr>
+                <tr><td><strong>Sophia</strong></td><td>Wisdom</td><td>Ithildae / Saeleth</td></tr>
+                <tr><td><strong>Lily</strong></td><td>White Flower</td><td>Niphredil / Indil</td></tr>
+                <tr><td><strong>Michael</strong></td><td>Who is like God?</td><td>Valandil / Eruion</td></tr>
+                <tr><td><strong>Emma</strong></td><td>Whole / Universal</td><td>Amariel / Páneth</td></tr>
+                <tr><td><strong>James</strong></td><td>Supplanter / Traveler</td><td>Randir / Padhron</td></tr>
+                <tr><td><strong>Olivia</strong></td><td>Olive / Peace</td><td>Sídhel / Oliva</td></tr>
+                <tr><td><strong>Daniel</strong></td><td>God is my Judge</td><td>Badhron / Erudi</td></tr>
+                <tr><td><strong>Charlotte</strong></td><td>Free Man / Noble</td><td>Laineth / Arwen</td></tr>
+                <tr><td><strong>William</strong></td><td>Resolute Protector</td><td>Berthor / Thaneth</td></tr>
+                <tr><td><strong>Ava</strong></td><td>Bird / Voice</td><td>Aewen / Lammeth</td></tr>
+                <tr><td><strong>Benjamin</strong></td><td>Son of the Right Hand</td><td>Ion-Fort</td></tr>
+                <tr><td><strong>Mia</strong></td><td>Beloved / Mine</td><td>Meleth / Melen</td></tr>
+                <tr><td><strong>Ethan</strong></td><td>Strong / Firm</td><td>Bellon / Taugon</td></tr>
+                <tr><td><strong>Harper</strong></td><td>Harp Player</td><td>Lirron / Glinneth</td></tr>
+                <tr><td><strong>Lucas</strong></td><td>Light-giver / Bright</td><td>Calaron / Calen</td></tr>
+                <tr><td><strong>Amelia</strong></td><td>Industrious / Striving</td><td>Carwen / Maereth</td></tr>
+                <tr><td><strong>Mason</strong></td><td>Stone Worker</td><td>Sarnon / Tarag</td></tr>
             </tbody>
         </table>
+
+        <h3>How to Write My Name in Elvish Tengwar Runes</h3>
+        <p>Wondering <em>"how to write my name in Elvish"</em> for a custom tattoo stencil or wedding ring band? Translating modern English names into Sindarin Elvish can be accomplished through two distinct linguistic approaches:</p>
+        <ul>
+            <li><strong>Phonetic Transliteration (Most Popular for Tattoos):</strong> This method preserves the exact pronunciation of your name (e.g. <em>Emma</em>, <em>Michael</em>, <em>Liam</em>) and replaces each English letter with its exact phonetic Tengwar rune equivalent. This matches the method J.R.R. Tolkien used on the title pages of <em>The Lord of the Rings</em>.</li>
+            <li><strong>Etymological Translation (Semantic Name Roots):</strong> This method translates the historical meaning of your name into Sindarin roots (e.g. <em>Michael</em> means 'Who is like God' -> <em>Valandil</em>). Refer to our male and female elvish name dictionary above to discover your true Elven name.</li>
+        </ul>
 
         <p>Want to generate more lore-accurate names? Try our interactive <a href="../tools/sindarin-name-generator.html">Sindarin Name Generator</a> or return to the main <a href="sindarin-translator.html">Sindarin Translator</a> to translate complete sentences.</p>
         """,
         "dictionary": dict_db["elvish"]["sindarin"],
         "faq": [
             {
+                "q": "Can I write my name in Elvish using Google Translate?",
+                "a": "Google Translate does not offer Elvish translation or Tengwar font rendering. Generic AI tools like ChatGPT often output broken Tengwar glyphs. Our specialized Sindarin name translator provides lore-accurate phonetic mappings and downloadable PNG stencils."
+            },
+            {
                 "q": "How do I translate my English name to Sindarin Elvish?",
                 "a": "Type your name into the translator panel above. The tool maps English characters phonetically into Tengwar runes. If you prefer a semantic translation based on your name's historical meaning, refer to our vocabulary dictionary below."
             },
             {
-                "q": "What are popular Sindarin girl names?",
+                "q": "What are popular Sindarin girl names for tattoos?",
                 "a": "Popular Sindarin female names include Arwen (Noble Maiden), Lúthien (Daughter of Flowers), Tauriel (Daughter of the Forest), and Niphredil (Little White Star)."
             },
             {
