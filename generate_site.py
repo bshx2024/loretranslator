@@ -196,8 +196,8 @@ translators_metadata = [
         "name": "Sindarin Name Translator",
         "desc": "Translate modern English male & female names into Sindarin Elvish Tengwar calligraphy script.",
         "h1": "Sindarin Name Translator & Write My Name in Elvish Generator",
-        "meta_title": "Sindarin Name Translator: Write Name in Elvish Runes | Lore",
-        "meta_description": "Free Sindarin name translator. Write English male & female names into calligraphic Tengwar Elvish runes for custom tattoos & ring engravings.",
+        "meta_title": "Sindarin Name Translator: Write My Name in Elvish | Lore",
+        "meta_description": "Free Sindarin name translator. Translate English male & female names into Tengwar Elvish runes for tattoos & ring engravings. Instant PNG exporter!",
         "font_mode": "Tengwar",
         "font_class": "font-tengwar",
         "style_description": """
