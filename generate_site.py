@@ -875,6 +875,37 @@ article_2_body = """
     </tbody>
 </table>
 
+<h2>Tolkien Quotes on Love and Marriage</h2>
+<p>J.R.R. Tolkien's personal views on love and Christian matrimony profoundly shaped the relationships in Middle-earth. In his famous letters to his son Michael (Letter 43), Tolkien described true love as an active, unselfish choice rather than a fleeting emotion. This philosophy elevates quotes like Arwen's <em>"I would rather share one lifetime with you than face all the ages of this world alone"</em> into timeless wedding vows.</p>
+
+<h2>Beren and Lúthien: The Ultimate Romantic Pledge</h2>
+<p>The tale of Beren, a mortal man, and Lúthien Tinúviel, an immortal Elven maiden, is the cornerstone of Tolkien's mythos. Based directly on Tolkien's romance with his wife Edith Bratt (whose gravestones are inscribed with the names <em>Beren</em> and <em>Lúthien</em>), their story offers iconic quotes for couple jewelry:</p>
+<ul>
+    <li><em>"My love, my love! I have sought you and I have found you."</em> — Spoken by Beren upon finding Lúthien in the woods of Neldoreth.</li>
+    <li><em>"For untamed by doom, they walked into the starlight together."</em> — Reflecting their eternal partnership beyond mortality.</li>
+</ul>
+
+<h2>Tolkien's Real-Life Love Letters to His Wife Edith</h2>
+<p>Beyond his fictional legendarium, Tolkien wrote heart-wrenching passages about his wife Edith. Upon her passing in 1971, he wrote: <em>"She was my Lúthien and I was her Beren... But now she has gone before me."</em> For couples seeking subtle, deeply emotional quotes without explicit fantasy names, these real-life letters provide authentic literary elegance.</p>
+
+<h2>Short Lord of the Rings Love Quotes for Ring Bands</h2>
+<p>When engraving the inner or outer circumference of a wedding ring, character count is limited by band size (typically 25-45 characters). Here are top short Tolkien quotes ideal for laser ring engraving:</p>
+<table>
+    <thead>
+        <tr>
+            <th>English Short Quote</th>
+            <th>Character Length</th>
+            <th>Tengwar Elvish Equivalent</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>One heart, one path</strong></td><td>18 chars</td><td>Er gûr, er men</td></tr>
+        <tr><td><strong>In starlight we walk</strong></td><td>21 chars</td><td>Mí elenath padabam</td></tr>
+        <tr><td><strong>My love, my friend</strong></td><td>18 chars</td><td>Gi melin, mellon nîn</td></tr>
+        <tr><td><strong>Eternal hope</strong></td><td>12 chars</td><td>Estel uireb</td></tr>
+    </tbody>
+</table>
+
 <h3>Should I choose Quenya or Sindarin for a tattoo?</h3>
 <p><strong>Sindarin is preferred for Third Age (LOTR) context, while Quenya is ideal for cosmological and poetic vows.</strong> Since Sindarin is the language Arwen and Aragorn spoke to each other, it has a romantic, historical intimacy. Quenya, being the language of the High Elves of Valinor, has a more mythic, epic tone. Ensure that whichever you choose, the characters are generated using a reliable tool that references Tolkien's actual linguistic rules rather than fake substitution tables.</p>
 """
@@ -890,9 +921,9 @@ articles_metadata = [
     },
     {
         "slug": "tolkien-love-quotes",
-        "h1": "Top 10 Tolkien Love Quotes for Custom Wedding Ring Engravings",
-        "meta_title": "25+ Romantic Tolkien Love Quotes for Weddings & Ring Engravings",
-        "meta_description": "Discover romantic J.R.R. Tolkien love quotes for wedding vows & ring engravings. Includes Lord of the Rings quotes, Beren & Lúthien lines & Elvish scripts.",
+        "h1": "25+ Romantic Tolkien Love Quotes for Custom Wedding Ring Engravings",
+        "meta_title": "Tolkien Love Quotes: 25+ Romantic Ring Engravings | Lore",
+        "meta_description": "Discover romantic Tolkien love quotes for wedding vows & ring engravings. Includes Lord of the Rings lines, Beren & Lúthien quotes & Tengwar Elvish script.",
         "publish_date": "2026-06-26",
         "body": article_2_body
     }
