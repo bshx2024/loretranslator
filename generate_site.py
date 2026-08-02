@@ -826,10 +826,6 @@ article_1_body = """
     </tbody>
 </table>
 
-        </tr>
-    </tbody>
-</table>
-
 <p>Want to preview how these phrases look in real-time calligraphy? Simply enter any phrase into our <a href="../index.html">Free Elvish Calligraphy Board</a> to adjust font sizes, margins, and export a high-resolution PNG/SVG layout for your jeweler.</p>
 
 <h2>Elvish Ring Engraving Costs Breakdown (2026 Price Guide)</h2>
@@ -883,6 +879,16 @@ article_1_body = """
 
 <h3>Inner Band vs. Outer Circumference Engravings</h3>
 <p>Outer band engravings allow larger font heights (1.5mm to 2.5mm) and look stunning as full 360-degree calligraphic patterns. Inner band engravings are limited by band width (typically 3mm to 6mm rings), requiring font heights between 1.0mm and 1.4mm. Ensure your SVG or PNG stencil has crisp vector edges so the laser does not burn overlapping Tengwar vowel dots (tehtar).</p>
+
+<h2>Step-by-Step Guide to Ordering Custom Elvish Laser Ring Engravings</h2>
+<p>Commissioning a custom Elvish ring engraving requires careful coordination between your font layout, vector stencil design, and laser jeweler. Follow this 5-step checklist to guarantee flawless results:</p>
+<ol>
+    <li><strong>Select Your Elvish Translation:</strong> Choose an authentic romantic phrase in Quenya or Sindarin Elvish (such as <em>"Melmenya"</em> for My Love or <em>"Oira Estel"</em> for Eternal Hope). Avoid Black Speech or Sauron's One Ring curse text.</li>
+    <li><strong>Generate Vector Calligraphy Stencil:</strong> Input your phrase into our <a href="../index.html">Free Elvish Calligraphy Converter</a>. Choose Tengwar font style and letter spacing, then click 'Export PNG' to save a clean, high-resolution stencil.</li>
+    <li><strong>Measure Ring Band Width:</strong> Check your wedding ring width. For 3mm to 4mm bands, request a laser font height of 1.2mm. For 5mm to 8mm bands, request 1.8mm to 2.2mm font height.</li>
+    <li><strong>Confirm Metal Compatibility:</strong> Ensure your ring material is compatible with laser engraving. Gold, platinum, silver, titanium, and tungsten all produce razor-sharp laser results.</li>
+    <li><strong>Verify Alignment & Spelling:</strong> Provide your jeweler with both the English translation reference and the Tengwar PNG stencil. Ask for a digital mock-up before the laser burns the final pattern.</li>
+</ol>
 
 <h2>Frequently Asked Questions About Elvish Ring Engravings</h2>
 <p>Here are answers to common questions couples ask about resizing, laser font sizes, and ordering custom Elvish ring engravings:</p>
