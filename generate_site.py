@@ -1066,9 +1066,9 @@ with open(os.path.join(templates_dir, "name_generator.html"), "r", encoding="utf
     generator_template = f.read()
 
 generator_rendered = generator_template.replace(
-    "{{meta_title}}", "Sindarin Elvish Name Generator | Lore-Accurate Elf Name Generator"
+    "{{meta_title}}", "Sindarin Elvish Name Generator: Male & Female | Lore"
 ).replace(
-    "{{meta_description}}", "Free Sindarin Elvish name generator. Generate authentic male & female Elf names with meanings for D&D, LOTR roleplay, and custom ring engravings."
+    "{{meta_description}}", "Free Sindarin Elvish name generator for male & female Elf names with meanings. Authentic D&D 5e & LOTR names with instant calligraphic Tengwar exporter!"
 ).replace(
     "{{google_analytics}}", google_analytics_html
 ).replace(

@@ -12,10 +12,26 @@
 </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sindarin Elvish Name Generator | Lore-Accurate Elf Name Generator</title>
-    <meta name="description" content="Free Sindarin Elvish name generator. Generate authentic male & female Elf names with meanings for D&D, LOTR roleplay, and custom ring engravings.">
+    <title>Sindarin Elvish Name Generator: Male & Female | Lore</title>
+    <meta name="description" content="Free Sindarin Elvish name generator for male & female Elf names with meanings. Authentic D&D 5e & LOTR names with instant calligraphic Tengwar exporter!">
     <link rel="canonical" href="https://www.loretranslator.com/tools/sindarin-name-generator.html">
     <link rel="stylesheet" href="../templates/base.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sindarin Elvish Name Generator: Male & Female | Lore">
+    <meta property="og:description" content="Free Sindarin Elvish name generator for male & female Elf names with meanings. Authentic D&D 5e & LOTR names with instant calligraphic Tengwar exporter!">
+    <meta property="og:url" content="https://www.loretranslator.com/tools/sindarin-name-generator.html">
+    <meta property="og:image" content="https://www.loretranslator.com/templates/ring_mockup.png">
+    <meta property="og:site_name" content="LoreTranslator">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sindarin Elvish Name Generator: Male & Female | Lore">
+    <meta name="twitter:description" content="Free Sindarin Elvish name generator for male & female Elf names with meanings. Authentic D&D 5e & LOTR names with instant calligraphic Tengwar exporter!">
+    <meta name="twitter:image" content="https://www.loretranslator.com/templates/ring_mockup.png">
+    
     <!-- Schema Markup -->
     <script type="application/ld+json">
     {
@@ -63,7 +79,7 @@
                     <div class="control-group">
                         <label for="gender-select">Gender Style:</label>
                         <select id="gender-select" style="background:#0d121f; border:1px solid var(--border-light); color:var(--text-primary); border-radius:4px; padding:0.4rem 1rem;">
-                            <option value="all">All Styles</option>
+                            <option value="all">All Styles (Male & Female)</option>
                             <option value="male">Male (ion, dir, dur, born)</option>
                             <option value="female">Female (wen, iel, dhel)</option>
                         </select>
@@ -80,7 +96,7 @@
 
                 <!-- Calligraphy Exporter -->
                 <div class="canvas-panel" style="width:100%;">
-                    <h3 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem;">Export Calligraphy Stencil</h3>
+                    <h2 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem;">Export Calligraphy Stencil</h2>
                     <div class="canvas-container">
                         <canvas id="calligraphy-canvas" width="600" height="150"></canvas>
                     </div>
@@ -107,7 +123,7 @@
 
                 <!-- Mockup Simulator -->
                 <div class="mockup-panel" style="margin-top: 2rem; border-top: 1px solid var(--border-light); padding-top: 1.5rem; width: 100%;">
-                    <h3 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem; text-align:center;">Live Mockup Simulator</h3>
+                    <h2 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem; text-align:center;">Live Mockup Simulator</h2>
                     <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1rem; text-align:center;">Preview how your generated Elven name calligraphy will look as an engraving on a wedding band or a wrist tattoo.</p>
                     
                     <!-- Mockup Tabs -->
@@ -120,9 +136,9 @@
                     <!-- Mockup Preview Display -->
                     <div class="mockup-preview-container" style="display:none; justify-content:center; align-items:center; width:100%; max-width:600px; margin:0 auto; overflow:hidden; border-radius:8px; border:1px solid var(--border-light); position:relative; aspect-ratio:16/9; background:#000;">
                         <!-- Ring Mockup Background -->
-                        <img id="mockup-bg-ring" src="../templates/ring_mockup.png" style="display:none; width:100%; height:100%; object-fit:cover; opacity:0.95;" alt="Wedding Ring Mockup">
+                        <img id="mockup-bg-ring" src="../templates/ring_mockup.png" width="600" height="337" style="display:none; width:100%; height:100%; object-fit:cover; opacity:0.95;" alt="Wedding Ring Mockup">
                         <!-- Tattoo Mockup Background -->
-                        <img id="mockup-bg-tattoo" src="../templates/wrist_tattoo_mockup.png" style="display:none; width:100%; height:100%; object-fit:cover; opacity:0.95;" alt="Wrist Tattoo Mockup">
+                        <img id="mockup-bg-tattoo" src="../templates/wrist_tattoo_mockup.png" width="600" height="337" style="display:none; width:100%; height:100%; object-fit:cover; opacity:0.95;" alt="Wrist Tattoo Mockup">
                         
                         <!-- Calligraphy overlay div -->
                         <div id="mockup-overlay-text" class="font-tengwar" style="position:absolute; text-align:center; word-break:break-all; transition: all 0.3s ease; pointer-events:none; user-select:none;">...</div>
@@ -132,68 +148,139 @@
         </section>
 
         <!-- Educational Guide -->
-        <section class="glass-card article-container">
-            <h2 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.5rem; margin-bottom:1.5rem; border-bottom:1px solid var(--border-light); padding-bottom:0.5rem;">How Sindarin Elvish Naming Works</h2>
+        <section class="glass-card article-container" style="line-height:1.7; color:var(--text-secondary); font-size:0.95rem;">
+            <h2 style="font-family:'Cinzel', serif; color:var(--text-primary); font-size:1.5rem; margin-bottom:1rem; border-bottom:1px solid var(--border-light); padding-bottom:0.5rem;">How Sindarin Elvish Naming Works: Male & Female Etymology Guide</h2>
             <div class="article-content">
-                <p>Tolkien's Elvish naming conventions are highly systemic and follow strict grammatical rules. Sindarin names are typically compounds formed by joining a prefix (representing a noun, adjective, or verb) with a suffix (indicating gender or specific attributes).</p>
+                <p>Welcome to <strong>LoreTranslator</strong>, the leading online <strong>Sindarin Elvish name generator</strong> and Tolkien naming engine. J.R.R. Tolkien's Elvish naming conventions follow strict etymological rules derived from ancient Celtic and Welsh linguistic roots. Whether you are generating authentic male or female Elf names for D&D 5e campaigns, Lord of the Rings roleplay, or custom ring engravings, understanding how Elven prefixes and suffixes combine reveals the deeper lore behind every name.</p>
                 
-                <h3>Prefixes & Suffixes Chart</h3>
-                <table>
+                <h3 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-top:1.5rem; margin-bottom:0.5rem;">Male & Female Sindarin Name Etymology Dictionary Chart</h3>
+                <p>Below is a comprehensive chart detailing authentic Sindarin prefixes and gendered suffixes used by noble Elven houses across Middle-earth:</p>
+                
+                <table style="width:100%; border-collapse:collapse; margin-top:1rem; margin-bottom:1.5rem; font-size:0.88rem;">
                     <thead>
-                        <tr>
-                            <th>Sindarin Segment</th>
-                            <th>Type</th>
-                            <th>Meaning</th>
+                        <tr style="border-bottom:1px solid var(--border-light); text-align:left;">
+                            <th style="padding:0.5rem; color:var(--text-primary);">Sindarin Segment</th>
+                            <th style="padding:0.5rem; color:var(--text-primary);">Segment Type</th>
+                            <th style="padding:0.5rem; color:var(--text-primary);">Etymological Meaning</th>
+                            <th style="padding:0.5rem; color:var(--text-primary);">Canonical Example</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td><strong>El-</strong></td>
-                            <td>Prefix</td>
-                            <td>Star (e.g. Elrond, Elwing)</td>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:0.5rem;"><strong>El- / Elen-</strong></td>
+                            <td style="padding:0.5rem;">Prefix (Universal)</td>
+                            <td style="padding:0.5rem;">Star / Celestial Starlight</td>
+                            <td style="padding:0.5rem;">Elrond, Elwing, Elendil</td>
                         </tr>
-                        <tr>
-                            <td><strong>Glor- / Glori-</strong></td>
-                            <td>Prefix</td>
-                            <td>Golden Light (e.g. Glorfindel)</td>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:0.5rem;"><strong>Glor- / Glori-</strong></td>
+                            <td style="padding:0.5rem;">Prefix (Universal)</td>
+                            <td style="padding:0.5rem;">Golden Light / Radiance</td>
+                            <td style="padding:0.5rem;">Glorfindel, Glorien</td>
                         </tr>
-                        <tr>
-                            <td><strong>Mith-</strong></td>
-                            <td>Prefix</td>
-                            <td>Grey / Silver (e.g. Mithrandir)</td>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:0.5rem;"><strong>Mith- / Mithr-</strong></td>
+                            <td style="padding:0.5rem;">Prefix (Universal)</td>
+                            <td style="padding:0.5rem;">Grey / Silver Mist</td>
+                            <td style="padding:0.5rem;">Mithrandir, Mithrellas</td>
                         </tr>
-                        <tr>
-                            <td><strong>-wen</strong></td>
-                            <td>Suffix (Fem)</td>
-                            <td>Maiden / Lady (e.g. Arwen)</td>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:0.5rem;"><strong>Ar- / Aran-</strong></td>
+                            <td style="padding:0.5rem;">Prefix (Noble)</td>
+                            <td style="padding:0.5rem;">Royal / Kingly / High</td>
+                            <td style="padding:0.5rem;">Arwen, Aragorn, Arweniel</td>
                         </tr>
-                        <tr>
-                            <td><strong>-ion</strong></td>
-                            <td>Suffix (Masc)</td>
-                            <td>Son of (e.g. Gildorion)</td>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:0.5rem;"><strong>Fin- / Find-</strong></td>
+                            <td style="padding:0.5rem;">Prefix (Masc)</td>
+                            <td style="padding:0.5rem;">Skillful / Hair Tress</td>
+                            <td style="padding:0.5rem;">Fingolfin, Finrod, Finduilas</td>
                         </tr>
-                        <tr>
-                            <td><strong>-las</strong></td>
-                            <td>Suffix (Neut)</td>
-                            <td>Leaf (e.g. Legolas)</td>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:0.5rem;"><strong>Galad- / Galan-</strong></td>
+                            <td style="padding:0.5rem;">Prefix (Universal)</td>
+                            <td style="padding:0.5rem;">Tree / Bright Radiance</td>
+                            <td style="padding:0.5rem;">Galadriel, Galathil</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:0.5rem;"><strong>Leg- / Laeg-</strong></td>
+                            <td style="padding:0.5rem;">Prefix (Universal)</td>
+                            <td style="padding:0.5rem;">Keen / Green Leaf</td>
+                            <td style="padding:0.5rem;">Legolas, Laegolas</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:0.5rem;"><strong>Thrandu-</strong></td>
+                            <td style="padding:0.5rem;">Prefix (Noble)</td>
+                            <td style="padding:0.5rem;">Vigorous / Torrent</td>
+                            <td style="padding:0.5rem;">Thranduil</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:0.5rem;"><strong>-wen</strong></td>
+                            <td style="padding:0.5rem;">Suffix (Female)</td>
+                            <td style="padding:0.5rem;">Maiden / Lady / Virgin</td>
+                            <td style="padding:0.5rem;">Arwen, Morwen, Eowyn</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:0.5rem;"><strong>-iel / -ien</strong></td>
+                            <td style="padding:0.5rem;">Suffix (Female)</td>
+                            <td style="padding:0.5rem;">Daughter of / Maiden</td>
+                            <td style="padding:0.5rem;">Tinúviel, Lúthien, Galadriel</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:0.5rem;"><strong>-dhel / -rel</strong></td>
+                            <td style="padding:0.5rem;">Suffix (Female)</td>
+                            <td style="padding:0.5rem;">Elven Maiden of Starlight</td>
+                            <td style="padding:0.5rem;">Mithrellas, Nimrodel</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:0.5rem;"><strong>-ion</strong></td>
+                            <td style="padding:0.5rem;">Suffix (Male)</td>
+                            <td style="padding:0.5rem;">Son of / Male Descendant</td>
+                            <td style="padding:0.5rem;">Gildorion, Eethelion</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:0.5rem;"><strong>-dir / -dur</strong></td>
+                            <td style="padding:0.5rem;">Suffix (Male)</td>
+                            <td style="padding:0.5rem;">Man / Guardian / Devotee</td>
+                            <td style="padding:0.5rem;">Haldir, Amandil, Isildur</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:0.5rem;"><strong>-mir / -bor</strong></td>
+                            <td style="padding:0.5rem;">Suffix (Male)</td>
+                            <td style="padding:0.5rem;">Jewel / Steadfast Warrior</td>
+                            <td style="padding:0.5rem;">Boromir, Faramir, Celebrimbor</td>
                         </tr>
                     </tbody>
                 </table>
 
-                <h3>Fictional Backstories and Lore</h3>
-                <p>Every generated name is matched with a unique backstory generated from regional Middle-earth lore, including Rivendell, Lothlórien, Mirkwood, and Gondolin. This gives your characters, gaming profiles, or ring engravings a deep, verified resonance within Tolkien's legendary universe.</p>
+                <h3 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-top:1.5rem; margin-bottom:0.5rem;">Fictional Backstories and Regional Middle-earth Lore</h3>
+                <p>Every generated name is matched with a unique backstory generated from regional Middle-earth lore, including Rivendell, Lothlórien, Mirkwood, and Gondolin. This gives your D&D 5e characters, gaming profiles, or ring engravings a deep, verified resonance within Tolkien's legendary universe.</p>
                 
-                <h3>Frequently Asked Questions</h3>
-                <div style="margin-top: 1rem;">
-                    <h4 style="color: var(--accent); margin-bottom: 0.25rem;">Can I use this Elvish name generator for wedding ring engravings?</h4>
-                    <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem;">Yes! Many Tolkien fans generate custom Elvish names representing concepts like 'eternal love' or 'star-kindled hope' for their wedding bands. Our integrated Calligraphy Exporter below renders these names in high-resolution Tengwar script, providing the perfect vector stencil for jewelry laser engraving.</p>
+                <h2 style="font-family:'Cinzel', serif; color:var(--text-primary); font-size:1.3rem; margin-top:2rem; margin-bottom:1rem;">Frequently Asked Questions About Elven Name Generators</h2>
+                <div style="display:flex; flex-direction:column; gap:1.2rem;">
+                    <div>
+                        <strong style="color:var(--text-primary);">Can I use this Elvish name generator for D&D 5e roleplay characters?</strong>
+                        <p style="margin-top:0.25rem;">Yes! Tabletop roleplayers for Dungeons & Dragons (D&D 5e), Pathfinder, and LOTR tabletop RPGs frequently use our generator to create lore-accurate High Elf, Wood Elf, and Drow character names complete with English meanings and clan origins.</p>
+                    </div>
+                    <div>
+                        <strong style="color:var(--text-primary);">How are female and male Elven names distinguished in Sindarin?</strong>
+                        <p style="margin-top:0.25rem;">In Sindarin, female names typically end with suffixes indicating maidenhood or beauty (such as <em>-wen</em>, <em>-iel</em>, or <em>-dhel</em>, like Arwen or Lúthien). Male names use masculine suffixes representing kinship or guardianship (such as <em>-ion</em>, <em>-dir</em>, or <em>-bor</em>, like Haldir or Boromir).</p>
+                    </div>
+                    <div>
+                        <strong style="color:var(--text-primary);">Can I use this Elvish name generator for wedding ring engravings?</strong>
+                        <p style="margin-top:0.25rem;">Yes! Many Tolkien fans generate custom Elvish names representing concepts like 'eternal love' or 'star-kindled hope' for their wedding bands. Our integrated Calligraphy Exporter below renders these names in high-resolution Tengwar script, providing the perfect vector stencil for jewelry laser engraving.</p>
+                    </div>
+                    <div>
+                        <strong style="color:var(--text-primary);">Is this generator based on J.R.R. Tolkien's official linguistic papers?</strong>
+                        <p style="margin-top:0.25rem;">Yes. Unlike generic random name generators that output gibberish strings, LoreTranslator maps prefixes and suffixes strictly according to J.R.R. Tolkien's published Sindarin etymologies in the <em>Etymologies</em> (published in <em>The Lost Road</em>) and <em>Parma Eldalamberon</em>.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Interactive Comments -->
         <section class="giscus-section">
-            <h3 style="font-family:'Cinzel', serif; margin-bottom:1rem; color:var(--accent);">Request custom name translations</h3>
+            <h2 style="font-family:'Cinzel', serif; margin-bottom:1rem; color:var(--accent);">Request Custom Name Translations & Discussions</h2>
             <p style="font-size:0.88rem; color:var(--text-secondary); margin-bottom:1.5rem;">Looking for a name translation that conforms to a specific lineage? Submit your request below, and we will translate and reply with the calligraphy.</p>
             
 <script src="https://giscus.app/client.js"
