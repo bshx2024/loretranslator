@@ -90,7 +90,7 @@ activity_feed_html = ""
 for feed in activity_feed_data:
     activity_feed_html += f"""
     <div style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-light);">
-        <h4 style="color: var(--accent); font-family: 'Cinzel', serif; margin-bottom: 0.25rem;">{feed['title']}</h4>
+        <div class="feed-title" style="color: var(--accent); font-family: 'Cinzel', serif; font-weight: 600; margin-bottom: 0.25rem;">{feed['title']}</div>
         <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.25rem;"><strong>English:</strong> {feed['english']}</p>
         <p style="font-size: 1rem; color: var(--text-primary); font-family: monospace; word-break: break-all; margin-bottom: 0.25rem;"><strong>Translation:</strong> {feed['translation']}</p>
         <span style="font-size: 0.8rem; color: var(--text-muted); font-style: italic;">{feed['note']}</span>
