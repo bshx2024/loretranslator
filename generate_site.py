@@ -640,7 +640,7 @@ translator_cards_html = ""
 for item in translators_metadata:
     translator_cards_html += f"""
     <a href="translators/{item['slug']}.html" class="selector-card">
-        <h3>{item['name']}</h3>
+        <div class="card-title">{item['name']}</div>
         <p>{item['desc']}</p>
     </a>
     """
