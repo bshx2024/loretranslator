@@ -561,15 +561,15 @@ translators_metadata = [
         "desc": "Translate English words into historical Sumerian cuneiform symbols.",
         "h1": "Sumerian Cuneiform Translator",
         "meta_title": "Sumerian Cuneiform Translator: English to Clay Runes | Lore",
-        "meta_description": "Free Sumerian cuneiform translator for English to ancient clay tablet symbols. Convert text into authentic Mesopotamian glyphs with pronunciation guide!",
+        "meta_description": "Free online Sumerian cuneiform translator for English to ancient clay tablet symbols. Convert text into authentic Mesopotamian glyphs with pronunciation guide!",
         "font_mode": "Cuneiform",
         "font_class": "font-runic",
         "style_description": """
-        <h2>Sumerian Cuneiform: The Dawn of Mesopotamian Writing</h2>
-        <p>Welcome to <strong>LoreTranslator</strong>, the leading online <strong>Sumerian cuneiform translator</strong> and ancient Mesopotamian calligraphy generator. Originating in Uruk and Nippur during the 4th millennium BC, cuneiform (from Latin <em>cuneus</em>, meaning 'wedge') is the oldest known writing system in human history. Scribes pressed reed styluses into wet clay tablets to record epic poems like the <em>Epic of Gilgamesh</em> and administrative decrees of kings.</p>
+        <h2>Online English to Sumerian Cuneiform Translator & Syllabary Converter</h2>
+        <p>Welcome to <strong>LoreTranslator</strong>, the premier online <strong>Sumerian cuneiform translator</strong> and ancient Mesopotamian alphabet generator. Originating in Uruk and Nippur during the 4th millennium BC, cuneiform (from Latin <em>cuneus</em>, meaning 'wedge') is the oldest known writing system in human history. Scribes pressed reed styluses into wet clay tablets to record epic poems like the <em>Epic of Gilgamesh</em> and administrative decrees of kings.</p>
         
         <h3 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-top:1.5rem; margin-bottom:0.5rem;">Sumerian Cuneiform Vocabulary & Glyph Dictionary Table</h3>
-        <p>Our translator utilizes academic lexicons verified against the <em>Electronic Text Corpus of Sumerian Literature (ETCSL)</em> at the University of Oxford. Below are common English words translated into Sumerian transliteration, authentic Unicode cuneiform glyphs, and International Phonetic Alphabet (IPA) pronunciation:</p>
+        <p>Our translator utilizes academic lexicons verified against the <em>Electronic Text Corpus of Sumerian Literature (ETCSL)</em> at the University of Oxford. Below is a <strong>Sumerian cuneiform dictionary chart</strong> translating common English words into Sumerian transliteration, authentic Unicode cuneiform glyphs, and International Phonetic Alphabet (IPA) audio pronunciation:</p>
         
         <table style="width:100%; border-collapse:collapse; margin-top:1rem; margin-bottom:1.5rem; font-size:0.88rem;">
             <thead>
