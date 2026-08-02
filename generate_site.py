@@ -560,24 +560,144 @@ translators_metadata = [
         "name": "Sumerian Cuneiform Translator",
         "desc": "Translate English words into historical Sumerian cuneiform symbols.",
         "h1": "Sumerian Cuneiform Translator",
-        "meta_title": "Sumerian Cuneiform Translator | Ancient Clay Script",
-        "meta_description": "Translate English into Sumerian Cuneiform. Access verified clay tablet vocabularies (lugal, ki-ag2) and phonetic syllabaries.",
+        "meta_title": "Sumerian Cuneiform Translator: English to Clay Runes | Lore",
+        "meta_description": "Free Sumerian cuneiform translator for English to ancient clay tablet symbols. Convert text into authentic Mesopotamian glyphs with pronunciation guide!",
         "font_mode": "Cuneiform",
         "font_class": "font-runic",
         "style_description": """
-        <h2>Sumerian Cuneiform: The Dawn of Writing</h2>
-        <p>Sumerian is the oldest written language in human history, originating in Mesopotamia (modern-day Iraq) in the late 4th millennium BC. It was recorded on clay tablets using a wedge-shaped stylus, resulting in the script known as Cuneiform.</p>
-        <p>Our tool houses direct word maps like <em>lugal</em> (𒈗 - king) and <em>ki-ag2</em> (𒆠傷害 - love), combined with a phonetic syllable converter mapping English syllables directly to historical signs.</p>
+        <h2>Sumerian Cuneiform: The Dawn of Mesopotamian Writing</h2>
+        <p>Welcome to <strong>LoreTranslator</strong>, the leading online <strong>Sumerian cuneiform translator</strong> and ancient Mesopotamian calligraphy generator. Originating in Uruk and Nippur during the 4th millennium BC, cuneiform (from Latin <em>cuneus</em>, meaning 'wedge') is the oldest known writing system in human history. Scribes pressed reed styluses into wet clay tablets to record epic poems like the <em>Epic of Gilgamesh</em> and administrative decrees of kings.</p>
+        
+        <h3 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-top:1.5rem; margin-bottom:0.5rem;">Sumerian Cuneiform Vocabulary & Glyph Dictionary Table</h3>
+        <p>Our translator utilizes academic lexicons verified against the <em>Electronic Text Corpus of Sumerian Literature (ETCSL)</em> at the University of Oxford. Below are common English words translated into Sumerian transliteration, authentic Unicode cuneiform glyphs, and International Phonetic Alphabet (IPA) pronunciation:</p>
+        
+        <table style="width:100%; border-collapse:collapse; margin-top:1rem; margin-bottom:1.5rem; font-size:0.88rem;">
+            <thead>
+                <tr style="border-bottom:1px solid var(--border-light); text-align:left;">
+                    <th style="padding:0.5rem; color:var(--text-primary);">English Term</th>
+                    <th style="padding:0.5rem; color:var(--text-primary);">Sumerian Transliteration</th>
+                    <th style="padding:0.5rem; color:var(--text-primary);">Cuneiform Unicode Glyph</th>
+                    <th style="padding:0.5rem; color:var(--text-primary);">IPA Pronunciation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">King / Ruler</td>
+                    <td style="padding:0.5rem;">Lugal</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒈗</td>
+                    <td style="padding:0.5rem;">/lu.gal/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Lord / Master</td>
+                    <td style="padding:0.5rem;">En</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒂗</td>
+                    <td style="padding:0.5rem;">/en/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Lady / Queen</td>
+                    <td style="padding:0.5rem;">Nin</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒊩</td>
+                    <td style="padding:0.5rem;">/nin/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">God / Deity</td>
+                    <td style="padding:0.5rem;">Dingir</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒀭</td>
+                    <td style="padding:0.5rem;">/diŋir/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Sky / Heaven</td>
+                    <td style="padding:0.5rem;">An</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒀭</td>
+                    <td style="padding:0.5rem;">/an/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Earth / Land</td>
+                    <td style="padding:0.5rem;">Ki</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒆠</td>
+                    <td style="padding:0.5rem;">/ki/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Love / Beloved</td>
+                    <td style="padding:0.5rem;">Ki-ag2</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒆠𒀀</td>
+                    <td style="padding:0.5rem;">/ki.aŋ/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">City / Fortress</td>
+                    <td style="padding:0.5rem;">Eru / Eri</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒌷</td>
+                    <td style="padding:0.5rem;">/e.ri/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Water / River</td>
+                    <td style="padding:0.5rem;">A</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒀀</td>
+                    <td style="padding:0.5rem;">/a/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">House / Temple</td>
+                    <td style="padding:0.5rem;">E2</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒂍</td>
+                    <td style="padding:0.5rem;">/eː/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Star / Constellation</td>
+                    <td style="padding:0.5rem;">Mul</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒀯</td>
+                    <td style="padding:0.5rem;">/mul/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Friend / Companion</td>
+                    <td style="padding:0.5rem;">Ku-li</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒆪𒇷</td>
+                    <td style="padding:0.5rem;">/ku.li/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Hero / Warrior</td>
+                    <td style="padding:0.5rem;">Ur-sag</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒌨𒊕</td>
+                    <td style="padding:0.5rem;">/ur.saŋ/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Life / Soul</td>
+                    <td style="padding:0.5rem;">Zi</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒍣</td>
+                    <td style="padding:0.5rem;">/zi/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Peace / Well-being</td>
+                    <td style="padding:0.5rem;">Silim</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒁲</td>
+                    <td style="padding:0.5rem;">/si.lim/</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-top:1.5rem; margin-bottom:0.5rem;">How Sumerian Logograms and Phonetic Syllabograms Work</h3>
+        <p>Unlike modern alphabets (such as Latin or Greek), Sumerian cuneiform is a complex logosyllabic script. It operates on two distinct functional layers:</p>
+        <ul style="margin-left:1.5rem; margin-top:0.5rem;">
+            <li><strong>Logograms (Word-Signs):</strong> Single symbols representing entire words or concepts (e.g., <em>Lugal</em> for King or <em>Dingir</em> for Deity).</li>
+            <li><strong>Phonetic Syllabograms (Sound-Signs):</strong> Wedge combinations representing individual phonetic syllables (CV, VC, or CVC patterns like <em>ba, bi, bu, ab, ib, ub</em>) used to spell out names, foreign loanwords, or grammatical affixes.</li>
+        </ul>
         """,
         "dictionary": dict_db["sumerian"]["dictionary"],
         "faq": [
             {
-                "q": "Is Sumerian cuneiform a phonetic alphabet?",
-                "a": "No. Cuneiform is a logosyllabic system, where symbols can represent whole words (logograms) or individual speech syllables (syllabograms)."
+                "q": "Does Google Translate support English to Sumerian Cuneiform?",
+                "a": "No, Google Translate does not offer Sumerian cuneiform translation. Our free tool uses academic ETCSL tablet databases to translate English words directly into authentic Unicode cuneiform symbols."
             },
             {
-                "q": "Why do some characters render as squares?",
-                "a": "Cuneiform requires a Unicode font installed on your system. If you see squares, you can still use our Calligraphy Exporter, which draws the signs onto an image for download."
+                "q": "Is there an audio pronunciation guide for Sumerian cuneiform?",
+                "a": "Yes! Our dictionary table provides International Phonetic Alphabet (IPA) transcriptions reconstructed by Assyriologists, allowing you to hear how ancient Mesopotamian words like Lugal (/lu.gal/) and Ki-ag2 (/ki.aŋ/) were spoken."
+            },
+            {
+                "q": "Can I copy and paste cuneiform unicode symbols to Word or Discord?",
+                "a": "Yes! The output text generates standard Unicode Cuneiform characters (U+12000 to U+123FF). You can copy and paste them into Word, Discord, or graphics software, or export a high-resolution transparent PNG stencil via our interactive generator."
+            },
+            {
+                "q": "Why do some cuneiform symbols appear as empty boxes on mobile devices?",
+                "a": "Cuneiform requires a system Unicode font (such as Noto Sans Cuneiform). If your mobile operating system lacks this font, simply click our 'Export PNG' button above to generate a high-definition image stencil for jewelry engravers or tattoo artists."
             }
         ]
     },
