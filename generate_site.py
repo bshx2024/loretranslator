@@ -1068,7 +1068,7 @@ with open(os.path.join(templates_dir, "name_generator.html"), "r", encoding="utf
 generator_rendered = generator_template.replace(
     "{{meta_title}}", "Sindarin Name Generator with Meaning: Male & Female | Lore"
 ).replace(
-    "{{meta_description}}", "Free Sindarin name generator with meanings for male & female Elves. Generate authentic D&D 5e & LOTR fantasy Elf names with instant Tengwar calligraphy exporter!"
+    "{{meta_description}}", "Free Sindarin name generator with meanings for male & female Elves. Generate authentic D&D 5e & LOTR Elf names with instant Tengwar calligraphy exporter!"
 ).replace(
     "{{google_analytics}}", google_analytics_html
 ).replace(
