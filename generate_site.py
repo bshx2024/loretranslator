@@ -671,6 +671,90 @@ translators_metadata = [
                     <td style="padding:0.5rem; font-size:1.2rem;">𒁲</td>
                     <td style="padding:0.5rem;">/si.lim/</td>
                 </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Sun / Day</td>
+                    <td style="padding:0.5rem;">Utu / Ud</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒌓</td>
+                    <td style="padding:0.5rem;">/u.tu/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Moon / Month</td>
+                    <td style="padding:0.5rem;">Iti / Nanna</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;"><ctrl42></td>
+                    <td style="padding:0.5rem;">/i.ti/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Mountain / Netherworld</td>
+                    <td style="padding:0.5rem;">Kur</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒆳</td>
+                    <td style="padding:0.5rem;">/kur/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Fire / Flame</td>
+                    <td style="padding:0.5rem;">Izum / Iz</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒉈</td>
+                    <td style="padding:0.5rem;">/i.zum/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Grain / Agriculture</td>
+                    <td style="padding:0.5rem;">She</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒊺</td>
+                    <td style="padding:0.5rem;">/ʃe/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Bread / Food</td>
+                    <td style="padding:0.5rem;">Ninda</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒃻</td>
+                    <td style="padding:0.5rem;">/nin.da/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Silver / Currency</td>
+                    <td style="padding:0.5rem;">Kug-babbar</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒆬𒌓</td>
+                    <td style="padding:0.5rem;">/kug.bab.bar/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Gold / Treasure</td>
+                    <td style="padding:0.5rem;">Kug-sig17</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒆬𒄀</td>
+                    <td style="padding:0.5rem;">/kug.sig/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Bull / Steer</td>
+                    <td style="padding:0.5rem;">Gud</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒄞</td>
+                    <td style="padding:0.5rem;">/gud/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Lion / Beast</td>
+                    <td style="padding:0.5rem;">Ur-mah</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒌨<ctrl42></td>
+                    <td style="padding:0.5rem;">/ur.mah/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Bird / Fowl</td>
+                    <td style="padding:0.5rem;">Mushen</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒄷</td>
+                    <td style="padding:0.5rem;">/mu.ʃen/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Fish / Riverlife</td>
+                    <td style="padding:0.5rem;">Kua</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;"><ctrl42></td>
+                    <td style="padding:0.5rem;">/ku.a/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Tree / Wood</td>
+                    <td style="padding:0.5rem;">Gish</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;">𒄑</td>
+                    <td style="padding:0.5rem;">/giʃ/</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <td style="padding:0.5rem;">Stone / Gemstone</td>
+                    <td style="padding:0.5rem;">Za / Na4</td>
+                    <td style="padding:0.5rem; font-size:1.2rem;"><ctrl42></td>
+                    <td style="padding:0.5rem;">/za/</td>
+                </tr>
             </tbody>
         </table>
 
@@ -680,6 +764,9 @@ translators_metadata = [
             <li><strong>Logograms (Word-Signs):</strong> Single symbols representing entire words or concepts (e.g., <em>Lugal</em> for King or <em>Dingir</em> for Deity).</li>
             <li><strong>Phonetic Syllabograms (Sound-Signs):</strong> Wedge combinations representing individual phonetic syllables (CV, VC, or CVC patterns like <em>ba, bi, bu, ab, ib, ub</em>) used to spell out names, foreign loanwords, or grammatical affixes.</li>
         </ul>
+
+        <h3 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-top:1.5rem; margin-bottom:0.5rem;">History of Sumerian Cuneiform Scribes and Clay Tablet Decipherment</h3>
+        <p>For over 3,000 years, cuneiform served as the international medium of diplomacy, science, and literature across the Fertile Crescent. Royal scribes in ancient Sumerian academies (the <em>e-dub-ba</em> or 'tablet house') underwent rigorous training to master hundreds of wedge combinations using bronze and reed tools. The script was deciphered in the 19th century through Sir Henry Rawlinson's work on the trilingual Behistun Inscription, opening modern access to lost Mesopotamian civilizations.</p>
         """,
         "dictionary": dict_db["sumerian"]["dictionary"],
         "faq": [
@@ -690,6 +777,10 @@ translators_metadata = [
             {
                 "q": "Is there an audio pronunciation guide for Sumerian cuneiform?",
                 "a": "Yes! Our dictionary table provides International Phonetic Alphabet (IPA) transcriptions reconstructed by Assyriologists, allowing you to hear how ancient Mesopotamian words like Lugal (/lu.gal/) and Ki-ag2 (/ki.aŋ/) were spoken."
+            },
+            {
+                "q": "What is the difference between Sumerian Cuneiform and Akkadian or Babylonian Cuneiform?",
+                "a": "Sumerian is an isolate language (unrelated to any known language family), whereas Akkadian and Babylonian are Semitic languages that adopted the Sumerian cuneiform script to write their own speech, similar to how Japanese adapted Chinese characters."
             },
             {
                 "q": "Can I copy and paste cuneiform unicode symbols to Word or Discord?",
