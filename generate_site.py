@@ -826,15 +826,19 @@ article_1_body = """
     </tbody>
 </table>
 
+        </tr>
+    </tbody>
+</table>
+
 <p>Want to preview how these phrases look in real-time calligraphy? Simply enter any phrase into our <a href="../index.html">Free Elvish Calligraphy Board</a> to adjust font sizes, margins, and export a high-resolution PNG/SVG layout for your jeweler.</p>
 
-<h2>Ring Resizing and Engraving Costs Breakdown</h2>
-<p>Before commissioning your custom engraving, you must consider the technical and financial aspects of ring customization. Resizing and engraving are separate skills requiring specialized tools. Here is an overview of standard industry costs in the United States and Europe:</p>
+<h2>Elvish Ring Engraving Costs Breakdown (2026 Price Guide)</h2>
+<p>Before commissioning your custom engraving, you must consider the technical and financial aspects of ring customization. Resizing and engraving are separate skills requiring specialized tools. Here is an overview of standard industry costs in the United States and Europe for Elvish ring engravings:</p>
 
 <table>
     <thead>
         <tr>
-            <th>Service Type</th>
+            <th>Engraving Method & Service Type</th>
             <th>Material Category</th>
             <th>Estimated Cost (USD)</th>
             <th>Turnaround Time</th>
@@ -842,25 +846,25 @@ article_1_body = """
     </thead>
     <tbody>
         <tr>
-            <td>Basic Laser Engraving</td>
-            <td>Yellow/White Gold, Silver</td>
-            <td>$30 - $75</td>
+            <td><strong>Laser Engraving (Recommended)</strong></td>
+            <td>Yellow/White Gold, Silver, Platinum</td>
+            <td>$35 - $75</td>
             <td>2 - 5 Days</td>
         </tr>
         <tr>
-            <td>Complex Calligraphy Engraving</td>
+            <td><strong>Complex Calligraphy Engraving</strong></td>
             <td>Platinum, Tungsten, Titanium</td>
             <td>$80 - $150</td>
             <td>5 - 10 Days</td>
         </tr>
         <tr>
-            <td>Ring Resizing (Sizing Down)</td>
+            <td><strong>Ring Resizing (Sizing Down)</strong></td>
             <td>All Precious Metals</td>
             <td>$20 - $60</td>
             <td>1 - 3 Days</td>
         </tr>
         <tr>
-            <td>Ring Resizing (Sizing Up)</td>
+            <td><strong>Ring Resizing (Sizing Up)</strong></td>
             <td>Gold (Adding material)</td>
             <td>$100 - $250</td>
             <td>3 - 7 Days</td>
@@ -871,8 +875,23 @@ article_1_body = """
 <h3>How much does it cost to get a ring resized?</h3>
 <p><strong>The average cost to resize a ring ranges from $20 to $250.</strong> Sizing down a simple gold band is relatively cheap, costing around $20 to $60, because it only requires cutting a small segment out and soldering the ends back together. Sizing up is significantly more expensive ($100 - $250+) because the jeweler must add precious metal to fill the gap. Non-precious metals like titanium or tungsten cannot be resized by traditional means and must be completely remade.</p>
 
-<h3>Is laser engraving better than hand engraving for Elvish?</h3>
+<h3>Is laser engraving better than hand engraving for Elvish script?</h3>
 <p><strong>Laser engraving is highly recommended for Elvish script.</strong> Tengwar calligraphy features thin, fluid ascenders and loops that must be replicated perfectly to maintain legibility. Standard hand-engraving with mechanical chisels can warp the delicate lines. Laser engraving reads a digital SVG stencil (which you can generate for free on our homepage) and burns the pattern into the metal with microscopic precision, preventing spelling errors.</p>
+
+<h2>Laser Font Height & Sizing Rules for Elvish Ring Engravings</h2>
+<p>When preparing your Tengwar calligraphy stencil for a jeweler, follow these sizing guidelines to ensure your inscription remains legible on wedding bands:</p>
+
+<h3>Inner Band vs. Outer Circumference Engravings</h3>
+<p>Outer band engravings allow larger font heights (1.5mm to 2.5mm) and look stunning as full 360-degree calligraphic patterns. Inner band engravings are limited by band width (typically 3mm to 6mm rings), requiring font heights between 1.0mm and 1.4mm. Ensure your SVG or PNG stencil has crisp vector edges so the laser does not burn overlapping Tengwar vowel dots (tehtar).</p>
+
+<h2>Frequently Asked Questions About Elvish Ring Engravings</h2>
+<p>Here are answers to common questions couples ask about resizing, laser font sizes, and ordering custom Elvish ring engravings:</p>
+
+<h3>Can tungsten or titanium Elvish rings be resized?</h3>
+<p>No. Tungsten carbide and titanium are industrial metals that cannot be melted or stretched by traditional jeweler's torches. If your tungsten ring size changes, the ring must be replaced. Gold, silver, and platinum rings can easily be resized by 1-2 sizes for $20 to $60.</p>
+
+<h3>How do I generate a vector Tengwar stencil for my jeweler?</h3>
+<p>You can enter your custom text or select verified Quenya/Sindarin love quotes into our online <a href="../index.html">Elvish Calligraphy Board</a>. Select your font size and colors, then click 'Export PNG' to download a clean stencil ready for laser engraving.</p>
 """
 
 # Article 2: tolkien-love-quotes.html (Word count: ~1020 words)
@@ -997,9 +1016,9 @@ article_2_body = """
 articles_metadata = [
     {
         "slug": "elvish-ring-engraving-guide",
-        "h1": "Why You Should NOT Engrave the One Ring Inscription on Your Wedding Band",
-        "meta_title": "Elvish Ring Engraving Guide | Costs & Calligraphy",
-        "meta_description": "Learn the costs to resize and engrave Elvish rings. Discover why the One Ring inscription is a curse and explore verified Quenya and Sindarin love quotes.",
+        "h1": "Elvish Ring Engraving Guide: Why NOT to Engrave the One Ring Inscription",
+        "meta_title": "Elvish Ring Engraving Guide: One Ring Inscription | Lore",
+        "meta_description": "Elvish ring engraving guide & costs. Discover why the One Ring inscription is a curse, explore Quenya & Sindarin quotes & free PNG stencil exporter!",
         "publish_date": "2026-06-26",
         "body": article_1_body
     },
