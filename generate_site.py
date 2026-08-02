@@ -650,7 +650,7 @@ with open(os.path.join(templates_dir, "homepage.html"), "r", encoding="utf-8") a
     homepage_template = f.read()
 
 homepage_rendered = homepage_template.replace(
-    "{{meta_title}}", "Elvish Translator: English to LOTR & D&D Tengwar Runes | Lore"
+    "{{meta_title}}", "Elvish Translator: English to LOTR & D&D Tengwar | Lore"
 ).replace(
     "{{meta_description}}", "Free English to Elvish translator for LOTR & D&D. Convert text into Sindarin & Quenya Tengwar runes with pronunciation. Instant PNG stencil exporter!"
 ).replace(
