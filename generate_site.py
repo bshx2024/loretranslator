@@ -779,57 +779,57 @@ with open(os.path.join(dist_dir, "tools", "sindarin-name-generator.html"), "w", 
 article_1_body = """
 <p><strong>Engraving your wedding band with Elvish script</strong> is one of the most romantic and timeless design choices for couples seeking a unique, Tolkien-inspired symbol of commitment. However, choosing the right phrase requires careful attention to linguistic detail. A common mistake made by fans is engraving the iconic text from Sauron's One Ring, unaware that the inscription actually translates to a dark, malicious curse in the Black Speech of Mordor. In this academic guide, we break down the costs, calligraphy styles, and verified positive translation alternatives to ensure your wedding ring reflects true, positive commitment.</p>
 
-<h2>The Dangers of the One Ring Inscription on Wedding Bands</h2>
-<p>According to Tolkien's linguistic papers, the script on the One Ring is written in the Elvish Tengwar alphabet, but the language itself is the Black Speech of Mordor. The phrase reads: <em>"Ash nazg durbatulûk, ash nazg gimbatul, ash nazg thrakatulûk agh burzum-ishi krimpatul."</em> This translates directly to: <em>"One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them."</em></p>
+<h2>What Does the Elvish Writing on the Ring Mean? (Sauron vs Romantic Quotes)</h2>
+<p>According to Tolkien's linguistic papers, the script on Sauron's One Ring is written in the Elvish Tengwar alphabet, but the language itself is the Black Speech of Mordor. The phrase reads: <em>"Ash nazg durbatulûk, ash nazg gimbatul, ash nazg thrakatulûk agh burzum-ishi krimpatul."</em> This translates directly to: <em>"One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them."</em></p>
 <blockquote>
-    "The ring inscription is not a pledge of love, but an incantation of slavery and absolute dominance. Engraving this on a symbol of marriage is highly ironic and spiritually contradictory."
+    "The One Ring inscription is not a pledge of love, but an incantation of slavery and absolute dominance. Engraving this on a wedding band or engagement ring is highly ironic and spiritually contradictory."
 </blockquote>
-<p>If you desire the aesthetic elegance of Tengwar calligraphy, you should choose authentic Quenya or Sindarin Elvish translations that express hope, devotion, and eternity instead.</p>
+<p>If you desire the aesthetic elegance of Tengwar calligraphy for a wedding band set, you should choose authentic Quenya or Sindarin Elvish translations that express hope, devotion, and eternity instead.</p>
 
-<h2>Top Academic Elvish Love Phrase Alternatives</h2>
-<p>To assist you in selecting an authentic translation, the linguists at our translation engine have compiled the following verified academic dictionary matches. We map the English romantic concept to both its Quenya and Sindarin equivalents, along with their precise grammatical context:</p>
+<h2>Elvish Wedding Ring Engraving Ideas & Sayings for Men & Women</h2>
+<p>To assist couples in selecting authentic translations for men's and women's Elvish wedding ring sets, the linguists at our translation engine have compiled verified academic dictionary matches. We map English romantic sayings to both Quenya and Sindarin equivalents:</p>
 
 <table>
     <thead>
         <tr>
-            <th>English Concept</th>
+            <th>English Saying / Concept</th>
             <th>Quenya (High Elvish)</th>
             <th>Sindarin (Common Elvish)</th>
-            <th>Linguistic Context & Nuance</th>
+            <th>Best Suited For (Men / Women / Couples)</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>My Love / Beloved</td>
+            <td><strong>My Love / Beloved</strong></td>
             <td>Melmenya</td>
             <td>Melethron (Masc) / Melethril (Fem)</td>
-            <td>Derived from Tolkien's root <em>MEL-</em> (to love).</td>
+            <td>Women's & Men's inner band engraving</td>
         </tr>
         <tr>
-            <td>Eternal Hope</td>
+            <td><strong>Eternal Hope</strong></td>
             <td>Oira Estel</td>
             <td>Estel Uireb</td>
-            <td>Refers to spiritual hope and trust that transcends mortal boundaries.</td>
+            <td>Matching Elvish wedding ring set</td>
         </tr>
         <tr>
-            <td>Golden Friendship</td>
+            <td><strong>Golden Friendship</strong></td>
             <td>Laurëa Nildë</td>
             <td>Glor Mellon</td>
-            <td>Suitable for bands celebrating lifelong companionship.</td>
+            <td>Men's wedding band inscription</td>
         </tr>
         <tr>
-            <td>One Love (Monogamy)</td>
+            <td><strong>One Love (Monogamy)</strong></td>
             <td>Minë Melme</td>
             <td>Min meleth</td>
-            <td>A strong declaration of exclusive partnership.</td>
+            <td>Matching wedding band vows</td>
         </tr>
     </tbody>
 </table>
 
-<p>Want to preview how these phrases look in real-time calligraphy? Simply enter any phrase into our <a href="../index.html">Free Elvish Calligraphy Board</a> to adjust font sizes, margins, and export a high-resolution PNG/SVG layout for your jeweler.</p>
+<p>Want to preview how these sayings look in real-time calligraphy? Simply enter any text into our <a href="../index.html">Free Elvish Calligraphy Converter</a> to adjust font sizes, margins, and export a high-resolution PNG stencil for your jeweler.</p>
 
-<h2>Elvish Ring Engraving Costs Breakdown (2026 Price Guide)</h2>
-<p>Before commissioning your custom engraving, you must consider the technical and financial aspects of ring customization. Resizing and engraving are separate skills requiring specialized tools. Here is an overview of standard industry costs in the United States and Europe for Elvish ring engravings:</p>
+<h2>Elvish Ring Engraving Cost & Price Guide (Laser vs Hand Etching)</h2>
+<p>Before commissioning your custom engraving, you must consider the technical and financial aspects of ring customization. What is the actual price and cost of Elvish ring engraving? Resizing and engraving are separate skills requiring specialized jeweler tools. Here is an overview of standard industry prices in the United States and Europe for Elvish ring engravings:</p>
 
 <table>
     <thead>
@@ -1039,9 +1039,9 @@ article_2_body = """
 articles_metadata = [
     {
         "slug": "elvish-ring-engraving-guide",
-        "h1": "Elvish Ring Engraving Guide: Why NOT to Engrave the One Ring Inscription",
-        "meta_title": "Elvish Ring Engraving Guide: One Ring Inscription | Lore",
-        "meta_description": "Elvish ring engraving guide & costs. Discover why the One Ring inscription is a curse, explore Quenya & Sindarin quotes & free PNG stencil exporter!",
+        "h1": "Elvish Ring Engraving Guide: LOTR Wedding Band Ideas & Costs",
+        "meta_title": "Elvish Ring Engraving Guide: LOTR Wedding Band Ideas | Lore",
+        "meta_description": "Elvish ring engraving guide, ideas & costs. Discover what the One Ring writing means, explore Men & Women LOTR wedding band sayings & free PNG exporter!",
         "publish_date": "2026-06-26",
         "body": article_1_body
     },
