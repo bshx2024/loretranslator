@@ -890,6 +890,23 @@ article_1_body = """
     <li><strong>Verify Alignment & Spelling:</strong> Provide your jeweler with both the English translation reference and the Tengwar PNG stencil. Ask for a digital mock-up before the laser burns the final pattern.</li>
 </ol>
 
+<h2>Care and Maintenance of Laser Engraved Elvish Rings</h2>
+<p>Once your wedding band or custom Elvish ring has been engraved with Tengwar calligraphy, proper maintenance ensures the fine laser grooves remain crisp and visible for decades to come:</p>
+<ul>
+    <li><strong>Cleaning Micro-Grooves:</strong> Over time, soaps and skin oils can settle into delicate Tengwar letter ascenders and vowel dots (tehtar). Clean your engraved ring using warm water, mild dish soap, and an ultra-soft toothbrush to gently scrub out buildup without scratching precious metals.</li>
+    <li><strong>Avoiding Harsh Chemicals:</strong> Remove gold or platinum Elvish rings when swimming in chlorinated pools or handling bleach. Chlorine can oxidize silver alloys and break down the dark laser contrast inside engraved Tengwar glyphs.</li>
+    <li><strong>Black Laser Antique Finish:</strong> Many jewelers apply a black antiquing patina inside laser engravings to make Elvish script pop against polished white gold or platinum. Avoid ultrasonic cleaners, as aggressive acoustic vibrations can loosen this contrast patina over time.</li>
+</ul>
+
+<h2>Related Elvish & Tolkien Lore Resources</h2>
+<p>Looking for more inspiration before finalizing your wedding band or custom jewelry design? Explore our curated tools and academic translation resources:</p>
+<ul>
+    <li><a href="../translators/sindarin-translator.html">Sindarin Elvish Translator</a> — Translate modern phrases into the everyday spoken language of Middle-earth Elves.</li>
+    <li><a href="../translators/sindarin-name-translator.html">Sindarin Name Translator</a> — Convert modern English male and female names into Tengwar runes for tattoos.</li>
+    <li><a href="../translators/quenya-translator.html">Quenya High Elvish Translator</a> — Translate ceremonial vows into the ancient high-elven tongue of Valinor.</li>
+    <li><a href="tolkien-love-quotes.html">25+ Romantic Tolkien Love Quotes</a> — Discover top Lord of the Rings quotes ideal for wedding vows and ring bands.</li>
+</ul>
+
 <h2>Frequently Asked Questions About Elvish Ring Engravings</h2>
 <p>Here are answers to common questions couples ask about resizing, laser font sizes, and ordering custom Elvish ring engravings:</p>
 
