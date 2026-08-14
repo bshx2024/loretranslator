@@ -1140,9 +1140,9 @@ with open(os.path.join(templates_dir, "homepage.html"), "r", encoding="utf-8") a
     homepage_template = f.read()
 
 homepage_rendered = homepage_template.replace(
-    "{{meta_title}}", "Elvish Translator – Free English to Sindarin & Quenya Tengwar | LoreTranslator"
+    "{{meta_title}}", "Elvish Translator – Free Sindarin & Quenya | LoreTranslator"
 ).replace(
-    "{{meta_description}}", "Free English to Elvish translator & Tengwar calligraphy generator. Convert Sindarin & Quenya Elvish scripts for tattoos, ring engravings & D&D. Instant PNG export."
+    "{{meta_description}}", "Free English to Elvish translator & Tengwar calligraphy generator. Convert Sindarin & Quenya scripts for tattoos, ring engravings & D&D. Instant PNG export."
 ).replace(
     "{{google_analytics}}", google_analytics_html
 ).replace(
