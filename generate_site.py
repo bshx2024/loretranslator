@@ -103,11 +103,25 @@ translators_metadata = [
         "slug": "sindarin-translator",
         "name": "Sindarin Elvish Translator",
         "desc": "Translate modern English into the common Sindarin Elvish dialect of Middle-earth.",
-        "h1": "Sindarin Translator & English to Elvish Dictionary",
-        "meta_title": "Sindarin Translator: English to Elvish Tattoo Runes | Lore",
+        "h1": "Free Online English to Sindarin Translator & Elvish Dictionary",
+        "meta_title": "Sindarin Translator – Free English to Elvish Dictionary & Tengwar Runes | LoreTranslator",
         "meta_description": "Free English to Sindarin translator & dictionary. Translate text & names into Tengwar Elvish runes for tattoos & ring engravings. Instant PNG exporter!",
         "font_mode": "Tengwar",
         "font_class": "font-tengwar",
+        "presets": [
+            {"label": "Love (meleth)", "value": "love"},
+            {"label": "Friend (mellon)", "value": "friend"},
+            {"label": "Hope (estel)", "value": "hope"},
+            {"label": "Star (el)", "value": "star"},
+            {"label": "I love you (gi melin)", "value": "i love you"}
+        ],
+        "showcase_description": "Explore curated Sindarin Elvish calligraphy designs. Click any showcase card to load it directly into the translator tool above.",
+        "showcase_cards": [
+            {"tag": "RING ENGRAVING", "title": "Love (Meleth)", "word": "meleth", "value": "love"},
+            {"tag": "MORIA GATE TATTOO", "title": "Friend (Mellon)", "word": "mellon", "value": "friend"},
+            {"tag": "WRIST TATTOO STENCIL", "title": "Hope (Estel)", "word": "estel", "value": "hope"},
+            {"tag": "COUPLE JEWELRY", "title": "I love you (Gi melin)", "word": "gi melin", "value": "i love you"}
+        ],
         "style_description": """
         <h2>Introduction to Sindarin Elvish Translation</h2>
         <p>Sindarin is the primary Elvish tongue spoken in Middle-earth during the Third Age of <em>The Lord of the Rings</em>. Unlike Quenya, which functioned as a high ceremonial language, Sindarin was the living, daily tongue of the Grey-elves (Sindar). Tolkien derived Sindarin phonology and grammar from Welsh, creating a soft, fluid language with rich vowel mutations.</p>
@@ -195,11 +209,25 @@ translators_metadata = [
         "slug": "sindarin-name-translator",
         "name": "Sindarin Name Translator",
         "desc": "Translate modern English male & female names into Sindarin Elvish Tengwar calligraphy script.",
-        "h1": "Sindarin Name Translator & Write My Name in Elvish Generator",
-        "meta_title": "Sindarin Name Translator: Write My Name in Elvish | Lore",
+        "h1": "Free Online Sindarin Name Translator – Write My Name in Elvish Runes",
+        "meta_title": "Sindarin Name Translator – Write My Name in Elvish Tengwar Runes | LoreTranslator",
         "meta_description": "Free Sindarin name translator. Translate English male & female names into Tengwar Elvish runes for tattoos & ring engravings. Instant PNG exporter!",
         "font_mode": "Tengwar",
         "font_class": "font-tengwar",
+        "presets": [
+            {"label": "Alexander (Maethoron)", "value": "alexander"},
+            {"label": "Victoria (Túriel)", "value": "victoria"},
+            {"label": "Edward (Tirn-Gael)", "value": "edward"},
+            {"label": "Sophia (Ithildae)", "value": "sophia"},
+            {"label": "Lily (Niphredil)", "value": "lily"}
+        ],
+        "showcase_description": "Explore curated Sindarin Elvish name transliterations. Click any showcase card to load it directly into the translator tool above.",
+        "showcase_cards": [
+            {"tag": "NAME TATTOO", "title": "Alexander (Maethoron)", "word": "maethoron", "value": "alexander"},
+            {"tag": "NAME ENGRAVING", "title": "Victoria (Túriel)", "word": "túriel", "value": "victoria"},
+            {"tag": "ELVEN EMBLEM", "title": "Sophia (Ithildae)", "word": "ithildae", "value": "sophia"},
+            {"tag": "NAME STENCIL", "title": "Lily (Niphredil)", "word": "niphredil", "value": "lily"}
+        ],
         "style_description": """
         <h2>English to Sindarin Name Translation Guide</h2>
         <p>Translating modern personal names into Sindarin Elvish requires matching the etymological meaning or phonetic sound of your English name with Sindarin roots. Tolkien himself created Elvish equivalents for names based on their historical roots (e.g. <em>Alexander</em> = 'Defender of Men' -> <em>Garthangon</em>).</p>
@@ -272,10 +300,24 @@ translators_metadata = [
         "name": "Quenya Elvish Translator",
         "desc": "Translate modern English into the high ceremonial Quenya Elvish language of Valinor.",
         "h1": "Quenya Translator & English to High Elvish Dictionary",
-        "meta_title": "Quenya Translator: English to High Elvish Tattoo | Lore",
+        "meta_title": "Quenya Translator – Free English to High Elvish Tengwar | LoreTranslator",
         "meta_description": "Free English to Quenya High Elvish translator & dictionary. Translate text & names into Tengwar runes for tattoos & ring engravings. Instant PNG exporter!",
         "font_mode": "Tengwar",
         "font_class": "font-tengwar",
+        "presets": [
+            {"label": "Love (melme)", "value": "love"},
+            {"label": "Friend (nildo)", "value": "friend"},
+            {"label": "Hope (estel)", "value": "hope"},
+            {"label": "Light (cálë)", "value": "light"},
+            {"label": "Farewell (namárië)", "value": "farewell"}
+        ],
+        "showcase_description": "Explore curated High Elvish Quenya calligraphy designs. Click any showcase card to load it directly into the translator tool above.",
+        "showcase_cards": [
+            {"tag": "SACRED VOW", "title": "Love (Melme)", "word": "melme", "value": "love"},
+            {"tag": "HIGH ELVEN INSCRIPTION", "title": "Friend (Nildo)", "word": "nildo", "value": "friend"},
+            {"tag": "WRIST TATTOO STENCIL", "title": "Hope (Estel)", "word": "estel", "value": "hope"},
+            {"tag": "COSMIC EMBLEM", "title": "Light (Cálë)", "word": "cálë", "value": "light"}
+        ],
         "style_description": """
         <h2>Online Quenya Translator: English to High Elvish Dictionary</h2>
         <p>Quenya (High Elvish) is the ancient language of the Amanyar Elves who crossed the Great Sea into Valinor. In Middle-earth during the Third Age of <em>The Lord of the Rings</em>, Quenya functioned similarly to Latin in medieval Europe—a ceremonial language of high poetry, sacred vows, and cosmic lore.</p>
@@ -359,10 +401,24 @@ translators_metadata = [
         "name": "Na'vi Language Translator",
         "desc": "Translate English into the official Na'vi language from James Cameron's Avatar.",
         "h1": "Na'vi Language Translator",
-        "meta_title": "Na'vi Language Translator | English to Avatar Na'vi Online",
+        "meta_title": "Na'vi Translator – Free English to Avatar Language Translator | LoreTranslator",
         "meta_description": "Translate English words to Na'vi from Avatar. Access official IPA pronunciation guides, lexicon terms, and export calligraphy stencils.",
         "font_mode": "Latin",
         "font_class": "",
+        "presets": [
+            {"label": "Hello (kaltxì)", "value": "hello"},
+            {"label": "Love (yawne)", "value": "love"},
+            {"label": "Friend (tsmukan)", "value": "friend"},
+            {"label": "Spirit (tirea)", "value": "spirit"},
+            {"label": "Life (tìrey)", "value": "life"}
+        ],
+        "showcase_description": "Explore curated Avatar Na'vi language designs. Click any showcase card to load it directly into the translator tool above.",
+        "showcase_cards": [
+            {"tag": "PANDORA GREETING", "title": "Hello (Kaltxì)", "word": "kaltxì", "value": "hello"},
+            {"tag": "NA'VI CLAN EMBLEM", "title": "Love (Yawne)", "word": "yawne", "value": "love"},
+            {"tag": "WRIST TATTOO STENCIL", "title": "Spirit (Tirea)", "word": "tirea", "value": "spirit"},
+            {"tag": "LIFE INSCRIPTION", "title": "Life (Tìrey)", "word": "tìrey", "value": "life"}
+        ],
         "style_description": """
         <h2>Introduction to the Na'vi Language</h2>
         <p>The Na'vi language is a constructed language created by linguist Paul Frommer for James Cameron's film <em>Avatar</em>. It is spoken by the native inhabitants of Pandora, the Na'vi. The language features a complex system of ejectives, tripartite case markings, and infixes instead of prefixes or suffixes.</p>
@@ -384,11 +440,25 @@ translators_metadata = [
         "slug": "old-english-translator",
         "name": "Old English Translator",
         "desc": "Convert English into Anglo-Saxon Old English prose and runic scripts.",
-        "h1": "Old English Translator",
-        "meta_title": "Old English Translator | Translate Modern to Anglo-Saxon Online",
+        "h1": "Free Online Old English Translator – Modern English to Anglo-Saxon",
+        "meta_title": "Old English Translator – Free Modern to Anglo-Saxon & Runes | LoreTranslator",
         "meta_description": "Translate modern English into Anglo-Saxon Old English. Access historical medieval glossaries and runic translations for engraving.",
         "font_mode": "Futhorc Runic",
         "font_class": "font-runic",
+        "presets": [
+            {"label": "Love (lufu)", "value": "love"},
+            {"label": "Friend (frēond)", "value": "friend"},
+            {"label": "King (cyning)", "value": "king"},
+            {"label": "Strength (strengðu)", "value": "strength"},
+            {"label": "Hello (wes hāl)", "value": "hello"}
+        ],
+        "showcase_description": "Explore curated Anglo-Saxon calligraphy designs. Click any showcase card to load it directly into the translator tool above.",
+        "showcase_cards": [
+            {"tag": "RING ENGRAVING", "title": "Love (Lufu)", "word": "lufu", "value": "love"},
+            {"tag": "ANGLO-SAXON INSCRIPTION", "title": "King (Cyning)", "word": "cyning", "value": "king"},
+            {"tag": "WRIST TATTOO STENCIL", "title": "Strength (Strengðu)", "word": "strengðu", "value": "strength"},
+            {"tag": "COUPLE JEWELRY", "title": "Hello (Wes hāl)", "word": "wes hāl", "value": "hello"}
+        ],
         "style_description": """
         <h2>History of Old English</h2>
         <p>Old English (Englisc) is the earliest historical form of the English language, spoken in England and southern Scotland in the early Middle Ages. It was brought to Britain by Anglo-Saxon settlers in the 5th century and written in Anglo-Saxon Futhorc runes before transitioning to the Latin alphabet.</p>
@@ -411,10 +481,24 @@ translators_metadata = [
         "name": "Navajo Translator",
         "desc": "Translate English words into Diné Bizaad (Navajo) utilizing our virtual diacritics keyboard.",
         "h1": "Navajo Translator",
-        "meta_title": "Navajo Translator | English to Diné Bizaad Translation Online",
+        "meta_title": "Navajo Translator – Free English to Diné Bizaad Translation | LoreTranslator",
         "meta_description": "Translate English to Navajo (Diné Bizaad). Features virtual accent keys (ą́, ł) and accurate dictionary lookups.",
         "font_mode": "Latin with Diacritics",
         "font_class": "",
+        "presets": [
+            {"label": "Hello (yá'át'ééh)", "value": "hello"},
+            {"label": "Love (ayóó'ó'ní)", "value": "love"},
+            {"label": "Friend (shik'is)", "value": "friend"},
+            {"label": "Strength (bidziil)", "value": "strength"},
+            {"label": "Life (iiná)", "value": "life"}
+        ],
+        "showcase_description": "Explore curated Diné Bizaad Navajo translation designs. Click any showcase card to load it directly into the translator tool above.",
+        "showcase_cards": [
+            {"tag": "DINÉ GREETING", "title": "Hello (Yá'át'ééh)", "word": "yá'át'ééh", "value": "hello"},
+            {"tag": "NAVAJO INSCRIPTION", "title": "Love (Ayóó'ó'ní)", "word": "ayóó'ó'ní", "value": "love"},
+            {"tag": "WRIST TATTOO STENCIL", "title": "Strength (Bidziil)", "word": "bidziil", "value": "strength"},
+            {"tag": "SACRED EMBLEM", "title": "Life (Iiná)", "word": "iiná", "value": "life"}
+        ],
         "style_description": """
         <h2>Diné Bizaad: The Navajo Language</h2>
         <p>Navajo (Diné Bizaad) is a Southern Athabaskan language spoken by the Navajo people of the American Southwest. It is famous for its intricate tonal structure, complex verb morphology, and its historical role as a military code (the Code Talkers) during World War II.</p>
@@ -437,10 +521,24 @@ translators_metadata = [
         "name": "Old Norse Runes Translator",
         "desc": "Transliterate English and Old Norse into Younger and Elder Futhark runes.",
         "h1": "Old Norse Runes Translator",
-        "meta_title": "Old Norse Runes Translator | Younger & Elder Futhark Online",
+        "meta_title": "Old Norse Translator – Free English to Viking Runes & Futhark | LoreTranslator",
         "meta_description": "Convert English and Old Norse into younger/elder Futhark Viking runes. Get verified Norse runic concepts for tattoos.",
         "font_mode": "Viking Runes",
         "font_class": "font-runic",
+        "presets": [
+            {"label": "Love (ást)", "value": "love"},
+            {"label": "Warrior (drengr)", "value": "warrior"},
+            {"label": "Valhalla (valhöll)", "value": "valhalla"},
+            {"label": "Protection (alkis)", "value": "protection"},
+            {"label": "Strength (afl)", "value": "strength"}
+        ],
+        "showcase_description": "Explore curated Viking runic calligraphy designs. Click any showcase card to load it directly into the translator tool above.",
+        "showcase_cards": [
+            {"tag": "RUNIC ENGRAVING", "title": "Love (Ást)", "word": "ást", "value": "love"},
+            {"tag": "VIKING WARRIOR TATTOO", "title": "Warrior (Drengr)", "word": "drengr", "value": "warrior"},
+            {"tag": "WRIST TATTOO STENCIL", "title": "Valhalla (Valhöll)", "word": "valhöll", "value": "valhalla"},
+            {"tag": "NORSE EMBLEM", "title": "Protection (Alkis)", "word": "alkis", "value": "protection"}
+        ],
         "style_description": """
         <h2>The Runic Alphabets of Old Norse</h2>
         <p>Old Norse is the language of the Vikings, spoken in Scandinavia and their overseas settlements from the 9th to the 13th centuries. It was written in runic letters: Elder Futhark (used prior to the 8th century) and Younger Futhark (reduced to 16 runes during the Viking Age).</p>
@@ -463,10 +561,24 @@ translators_metadata = [
         "name": "Ancient Greek Translator",
         "desc": "Translate English into classical Ancient Greek letters and dialects.",
         "h1": "Ancient Greek Translator",
-        "meta_title": "Ancient Greek Translator | Classic Attic Greek Translation",
+        "meta_title": "Ancient Greek Translator – Free English to Classical Greek Script | LoreTranslator",
         "meta_description": "Convert English into classical Attic Ancient Greek alphabet. Ideal for historical carvings, academic lookup, and calligraphy.",
         "font_mode": "Greek Script",
         "font_class": "",
+        "presets": [
+            {"label": "Love (agape)", "value": "love"},
+            {"label": "Wisdom (sophia)", "value": "wisdom"},
+            {"label": "Soul (psyche)", "value": "soul"},
+            {"label": "Friend (philos)", "value": "friend"},
+            {"label": "Life (zoe)", "value": "life"}
+        ],
+        "showcase_description": "Explore curated Classical Greek script designs. Click any showcase card to load it directly into the translator tool above.",
+        "showcase_cards": [
+            {"tag": "CLASSICAL CARVING", "title": "Love (Agape)", "word": "ἀγάπη", "value": "love"},
+            {"tag": "PHILOSOPHICAL EMBLEM", "title": "Wisdom (Sophia)", "word": "σοφία", "value": "wisdom"},
+            {"tag": "WRIST TATTOO STENCIL", "title": "Soul (Psyche)", "word": "ψυχή", "value": "soul"},
+            {"tag": "GREEK ENGRAVING", "title": "Life (Zoe)", "word": "ζωή", "value": "life"}
+        ],
         "style_description": """
         <h2>The Legacy of Ancient Greek</h2>
         <p>Ancient Greek was the language of Homer, Plato, and Aristotle, spoken in the Mediterranean world from the 9th century BC to the 4th century AD. It encompasses several dialects, with Attic Greek being the prestigious literary standard of Athens.</p>
@@ -495,10 +607,24 @@ translators_metadata = [
         "name": "Shakespearean Translator",
         "desc": "Transform modern prose into Elizabethan Early Modern English.",
         "h1": "Shakespearean Translator",
-        "meta_title": "Shakespearean English Translator | Elizabethan Online",
+        "meta_title": "Shakespearean Translator – Free English to Elizabethan & Early Modern | LoreTranslator",
         "meta_description": "Convert modern English to Shakespearean Early Modern English. Learn thee, thou, and thy grammar styles instantly.",
         "font_mode": "Elizabethan Script",
         "font_class": "",
+        "presets": [
+            {"label": "Love (doth love)", "value": "love"},
+            {"label": "Greetings (hark!)", "value": "hello"},
+            {"label": "You (thou)", "value": "you"},
+            {"label": "Your (thy)", "value": "your"},
+            {"label": "Goodbye (fare thee well)", "value": "goodbye"}
+        ],
+        "showcase_description": "Explore curated Elizabethan Early Modern English designs. Click any showcase card to load it directly into the translator tool above.",
+        "showcase_cards": [
+            {"tag": "THEATRICAL PROSE", "title": "Love (Doth love)", "word": "doth love", "value": "love"},
+            {"tag": "ELIZABETHAN GREETING", "title": "Greetings (Hark!)", "word": "hark!", "value": "hello"},
+            {"tag": "SHAKESPEAREAN EMBLEM", "title": "You (Thou)", "word": "thou", "value": "you"},
+            {"tag": "DRAMATIC FAREWELL", "title": "Goodbye (Fare thee well)", "word": "fare thee well", "value": "goodbye"}
+        ],
         "style_description": """
         <h2>Early Modern English & Shakespeare</h2>
         <p>Shakespearean English (Elizabethan/Early Modern English) was the language spoken in England during the late 16th and early 17th centuries. It marks the transition from Middle English to Modern English, featuring distinct pronouns (thou, thee, thy) and verb conjugations (doth, art, hast).</p>
@@ -529,10 +655,24 @@ translators_metadata = [
         "name": "Alien Language Translator",
         "desc": "Translate text into cryptic sci-fi symbols and Roswell glyph structures.",
         "h1": "Alien Language Translator",
-        "meta_title": "Alien Language Translator | Sci-Fi Script Generator Online",
+        "meta_title": "Alien Language Translator – Free Sci-Fi Script & Glyph Generator | LoreTranslator",
         "meta_description": "Convert English into alien symbols, extraterrestrial fonts, and galactic ciphers. Perfect for gaming, D&D, and sci-fi lore.",
         "font_mode": "Galactic Glyph",
         "font_class": "font-runic",
+        "presets": [
+            {"label": "Love (⏋⏎⏕⏄)", "value": "love"},
+            {"label": "Star (⏒⏓⏃⏑)", "value": "star"},
+            {"label": "Alien (⏃⏋⏈⏄⏍)", "value": "alien"},
+            {"label": "Earth (⏄⏃⏑⏓⏇)", "value": "earth"},
+            {"label": "Peace", "value": "peace"}
+        ],
+        "showcase_description": "Explore curated extraterrestrial sci-fi glyph designs. Click any showcase card to load it directly into the translator tool above.",
+        "showcase_cards": [
+            {"tag": "GALACTIC CIPHER", "title": "Love", "word": "⏋⏎⏕⏄", "value": "love"},
+            {"tag": "ROSWELL GLYPH", "title": "Star", "word": "⏒⏓⏃⏑", "value": "star"},
+            {"tag": "WRIST TATTOO STENCIL", "title": "Alien", "word": "⏃⏋⏈⏄⏍", "value": "alien"},
+            {"tag": "SCI-FI EMBLEM", "title": "Earth", "word": "⏄⏃⏑⏓⏇", "value": "earth"}
+        ],
         "style_description": """
         <h2>Fictional Alien Scripts</h2>
         <p>Science fiction frequently utilizes custom runic ciphers to represent advanced extraterrestrial civilizations, from Roswell glyphs to standard galactic alphabets. These scripts add rich atmosphere to gaming campaigns, worldbuilding projects, and artistic designs.</p>
@@ -560,10 +700,24 @@ translators_metadata = [
         "name": "Sumerian Cuneiform Translator",
         "desc": "Translate English words into historical Sumerian cuneiform symbols.",
         "h1": "Sumerian Cuneiform Translator",
-        "meta_title": "Sumerian Cuneiform Translator: English to Clay Runes | Lore",
+        "meta_title": "Sumerian Cuneiform Translator – Free English to Ancient Symbols | LoreTranslator",
         "meta_description": "Free online Sumerian cuneiform translator for English to ancient clay tablet symbols. Convert text into authentic Mesopotamian glyphs with pronunciation guide!",
         "font_mode": "Cuneiform",
         "font_class": "font-runic",
+        "presets": [
+            {"label": "King (lugal)", "value": "king"},
+            {"label": "Lord (en)", "value": "lord"},
+            {"label": "Love (ki-ag2)", "value": "love"},
+            {"label": "Star (mul)", "value": "star"},
+            {"label": "Peace (silim)", "value": "peace"}
+        ],
+        "showcase_description": "Explore curated Mesopotamian cuneiform designs. Click any showcase card to load it directly into the translator tool above.",
+        "showcase_cards": [
+            {"tag": "CLAY TABLET CARVING", "title": "King (Lugal)", "word": "𒈗", "value": "king"},
+            {"tag": "MESOPOTAMIAN INSCRIPTION", "title": "Lord (En)", "word": "𒂗", "value": "lord"},
+            {"tag": "WRIST TATTOO STENCIL", "title": "Love (Ki-ag2)", "word": "𒆠𒀀", "value": "love"},
+            {"tag": "ANCIENT EMBLEM", "title": "Peace (Silim)", "word": "𒁲", "value": "peace"}
+        ],
         "style_description": """
         <h2>Online English to Sumerian Cuneiform Translator & Syllabary Converter</h2>
         <p>Welcome to <strong>LoreTranslator</strong>, the premier online <strong>Sumerian cuneiform translator</strong> and ancient Mesopotamian alphabet generator. Originating in Uruk and Nippur during the 4th millennium BC, cuneiform (from Latin <em>cuneus</em>, meaning 'wedge') is the oldest known writing system in human history. Scribes pressed reed styluses into wet clay tablets to record epic poems like the <em>Epic of Gilgamesh</em> and administrative decrees of kings.</p>
@@ -894,10 +1048,24 @@ translators_metadata = [
         "name": "Aramaic Translator",
         "desc": "Translate English vocabulary into historical Judeo-Aramaic scripts.",
         "h1": "Aramaic Translator",
-        "meta_title": "Aramaic Language Translator | Ancient Biblical Translation",
+        "meta_title": "Aramaic Translator – Free English to Judeo-Aramaic Script | LoreTranslator",
         "meta_description": "Convert English into ancient biblical Aramaic script. Get academic Hebrew-related vocabulary and export stencils.",
         "font_mode": "Aramaic Alphabet",
         "font_class": "font-runic",
+        "presets": [
+            {"label": "Love (chuba)", "value": "love"},
+            {"label": "Friend (chabra)", "value": "friend"},
+            {"label": "Peace (shlama)", "value": "peace"},
+            {"label": "Truth (shrara)", "value": "truth"},
+            {"label": "Eternal (alam)", "value": "eternal"}
+        ],
+        "showcase_description": "Explore curated Judeo-Aramaic biblical script designs. Click any showcase card to load it directly into the translator tool above.",
+        "showcase_cards": [
+            {"tag": "BIBLICAL INSCRIPTION", "title": "Love (Chuba)", "word": "ܚܘܒܐ", "value": "love"},
+            {"tag": "SPIRITUAL EMBLEM", "title": "Peace (Shlama)", "word": "ܫܠܡܐ", "value": "peace"},
+            {"tag": "WRIST TATTOO STENCIL", "title": "Truth (Shrara)", "word": "ܫܪܪܐ", "value": "truth"},
+            {"tag": "SACRED CALLIGRAPHY", "title": "Friend (Chabra)", "word": "ܚܒܪܐ", "value": "friend"}
+        ],
         "style_description": """
         <h2>Introduction to Aramaic</h2>
         <p>Aramaic is a Northwest Semitic language that served as the lingua franca of the Near East for centuries. It was the administrative language of the Persian Empire and is celebrated as the native tongue spoken by Jesus Christ. It is closely related to Hebrew and Syriac.</p>
@@ -920,10 +1088,24 @@ translators_metadata = [
         "name": "Coptic Translator",
         "desc": "Convert English words into Coptic script and Egyptian dialects.",
         "h1": "Coptic Translator",
-        "meta_title": "Coptic Language Translator | Egyptian Script Converter",
+        "meta_title": "Coptic Translator – Free English to Coptic Script & Egyptian Dialects | LoreTranslator",
         "meta_description": "Translate English into Coptic. Explore historical Egyptian Christian texts, alphabet mappings, and calligraphy templates.",
         "font_mode": "Coptic Alphabet",
         "font_class": "",
+        "presets": [
+            {"label": "Love (agape)", "value": "love"},
+            {"label": "Peace (hirene)", "value": "peace"},
+            {"label": "Life (onkh)", "value": "life"},
+            {"label": "Eternal (eneh)", "value": "eternal"},
+            {"label": "Spirit (pneuma)", "value": "spirit"}
+        ],
+        "showcase_description": "Explore curated Coptic Egyptian script designs. Click any showcase card to load it directly into the translator tool above.",
+        "showcase_cards": [
+            {"tag": "EGYPTIAN INSCRIPTION", "title": "Love (Agape)", "word": "ⲁⲅⲁⲲⲏ", "value": "love"},
+            {"tag": "LITURGICAL EMBLEM", "title": "Peace (Hirene)", "word": "ϩⲓⲣⲏⲛⲏ", "value": "peace"},
+            {"tag": "WRIST TATTOO STENCIL", "title": "Life (Onkh)", "word": "ⲱⲛϧ", "value": "life"},
+            {"tag": "SACRED CALLIGRAPHY", "title": "Eternal (Eneh)", "word": "ⲉⲛⲉϩ", "value": "eternal"}
+        ],
         "style_description": """
         <h2>The Coptic Language & Alphabet</h2>
         <p>Coptic is the final stage of the ancient Egyptian language, spoken in Egypt from the 1st century AD. It adapted the Greek alphabet along with seven signs borrowed from Demotic script to represent Egyptian sounds not found in Greek. It remains the liturgical tongue of the Coptic Orthodox Church.</p>
@@ -958,9 +1140,9 @@ with open(os.path.join(templates_dir, "homepage.html"), "r", encoding="utf-8") a
     homepage_template = f.read()
 
 homepage_rendered = homepage_template.replace(
-    "{{meta_title}}", "Elvish Translator: English to LOTR & D&D Tengwar | Lore"
+    "{{meta_title}}", "Elvish Translator – Free English to Sindarin & Quenya Tengwar | LoreTranslator"
 ).replace(
-    "{{meta_description}}", "Free English to Elvish translator for LOTR & D&D. Convert text into Sindarin & Quenya Tengwar runes with pronunciation. Instant PNG stencil exporter!"
+    "{{meta_description}}", "Free English to Elvish translator & Tengwar calligraphy generator. Convert Sindarin & Quenya Elvish scripts for tattoos, ring engravings & D&D. Instant PNG export."
 ).replace(
     "{{google_analytics}}", google_analytics_html
 ).replace(
@@ -1023,6 +1205,46 @@ for item in translators_metadata:
         </div>
         """
 
+    # Build Quick Presets HTML
+    presets_data = item.get("presets", [
+        {"label": "Love (meleth)", "value": "love"},
+        {"label": "Friend (mellon)", "value": "friend"},
+        {"label": "Hope (estel)", "value": "hope"},
+        {"label": "Star (el)", "value": "star"},
+        {"label": "I love you (gi melin)", "value": "i love you"}
+    ])
+    quick_presets_html = ""
+    for idx, p in enumerate(presets_data):
+        mr = 'style="padding: 0.2rem 0.6rem; font-size: 0.75rem; margin-right: 0.3rem;"' if idx < len(presets_data) - 1 else 'style="padding: 0.2rem 0.6rem; font-size: 0.75rem;"'
+        p_val = p["value"]
+        p_lbl = p["label"]
+        quick_presets_html += f'<button class="btn btn-secondary" {mr} onclick="loadPreset(\'{p_val}\')">{p_lbl}</button>\n'
+
+    # Build Showcase Description
+    showcase_desc = item.get(
+        "showcase_description",
+        "Explore curated Elvish calligraphy designs. Click any showcase card to load it directly into the translator tool above." if ("sindarin" in item["slug"] or "quenya" in item["slug"]) else f"Explore curated {item['name']} calligraphy designs. Click any showcase card to load it directly into the translator tool above."
+    )
+
+    # Build Showcase Cards HTML
+    cards_data = item.get("showcase_cards", [
+        {"tag": "RING ENGRAVING", "title": "Love (Meleth)", "word": "meleth", "value": "love"},
+        {"tag": "MORIA GATE TATTOO", "title": "Friend (Mellon)", "word": "mellon", "value": "friend"},
+        {"tag": "WRIST TATTOO STENCIL", "title": "Hope (Estel)", "word": "estel", "value": "hope"},
+        {"tag": "COUPLE JEWELRY", "title": "I love you (Gi melin)", "word": "gi melin", "value": "i love you"}
+    ])
+    font_cls = item["font_class"]
+    showcase_cards_html = ""
+    for card in cards_data:
+        showcase_cards_html += f"""
+        <div style="background: rgba(13, 18, 31, 0.7); border: 1px solid var(--border-light); border-radius: 8px; padding: 1rem; cursor: pointer; transition: transform 0.2s;" onclick="loadPreset('{card['value']}')" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border-light)'">
+            <div style="font-size: 0.75rem; color: var(--accent); font-family: 'Cinzel', serif; letter-spacing: 1px;">{card['tag']}</div>
+            <div style="font-size: 1.1rem; font-weight: bold; margin: 0.3rem 0;">{card['title']}</div>
+            <div class="{font_cls}" style="font-size: 1.5rem; color: var(--accent); margin-bottom: 0.4rem;">{card['word']}</div>
+            <span style="font-size: 0.75rem; color: var(--text-muted);">Load calligraphy stencil →</span>
+        </div>
+        """
+
     subpage_rendered = subpage_template.replace(
         "{{meta_title}}", item["meta_title"]
     ).replace(
@@ -1036,6 +1258,8 @@ for item in translators_metadata:
     ).replace(
         "{{h1}}", item["h1"]
     ).replace(
+        "{{name}}", item["name"]
+    ).replace(
         "{{keyboard_panel_header}}", kb_header_html
     ).replace(
         "{{virtual_keyboard_keys}}", vk_keys_html
@@ -1043,6 +1267,12 @@ for item in translators_metadata:
         "{{font_mode}}", item["font_mode"]
     ).replace(
         "{{font_class}}", item["font_class"]
+    ).replace(
+        "{{quick_presets}}", quick_presets_html
+    ).replace(
+        "{{showcase_description}}", showcase_desc
+    ).replace(
+        "{{showcase_cards}}", showcase_cards_html
     ).replace(
         "{{style_description}}", item["style_description"]
     ).replace(
@@ -1066,7 +1296,7 @@ with open(os.path.join(templates_dir, "name_generator.html"), "r", encoding="utf
     generator_template = f.read()
 
 generator_rendered = generator_template.replace(
-    "{{meta_title}}", "Sindarin Name Generator with Meaning: Male & Female | Lore"
+    "{{meta_title}}", "Sindarin Name Generator with Meaning: Male & Female | LoreTranslator"
 ).replace(
     "{{meta_description}}", "Free Sindarin name generator with meanings for male & female Elves. Generate authentic D&D 5e & LOTR Elf names with instant Tengwar calligraphy exporter!"
 ).replace(
@@ -1348,7 +1578,7 @@ articles_metadata = [
     {
         "slug": "elvish-ring-engraving-guide",
         "h1": "Elvish Ring Engraving Guide: LOTR Wedding Band Ideas & Costs",
-        "meta_title": "Elvish Ring Engraving Guide: LOTR Wedding Band Ideas | Lore",
+        "meta_title": "Elvish Ring Engraving Guide: LOTR Wedding Band Ideas | LoreTranslator",
         "meta_description": "Elvish ring engraving guide, ideas & costs. Discover what the One Ring writing means, explore Men & Women LOTR wedding band sayings & free PNG exporter!",
         "publish_date": "2026-06-26",
         "body": article_1_body
@@ -1356,7 +1586,7 @@ articles_metadata = [
     {
         "slug": "tolkien-love-quotes",
         "h1": "25+ Romantic Tolkien Love Quotes for Custom Wedding Ring Engravings",
-        "meta_title": "Tolkien Love Quotes: 25+ Romantic Ring Engravings | Lore",
+        "meta_title": "Tolkien Love Quotes: 25+ Romantic Ring Engravings | LoreTranslator",
         "meta_description": "Discover romantic Tolkien love quotes for wedding vows & ring engravings. Includes Lord of the Rings lines, Elvish scripts & free PNG stencil exporter!",
         "publish_date": "2026-06-26",
         "body": article_2_body
@@ -1427,4 +1657,30 @@ sitemap_xml_content += "</urlset>\n"
 with open(os.path.join(dist_dir, "sitemap.xml"), "w", encoding="utf-8") as f:
     f.write(sitemap_xml_content)
 
+# ----------------- ROOT TRANSLATOR REDIRECT HTML FALLBACKS -----------------
+for item in translators_metadata:
+    redirect_html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=/translators/{item['slug']}.html">
+  <link rel="canonical" href="https://www.loretranslator.com/translators/{item['slug']}.html">
+  <title>Redirecting...</title>
+</head>
+<body>
+  <p>Redirecting to <a href="/translators/{item['slug']}.html">https://www.loretranslator.com/translators/{item['slug']}.html</a>...</p>
+  <script>location.replace("/translators/{item['slug']}.html");</script>
+</body>
+</html>
+"""
+    with open(os.path.join(dist_dir, f"{item['slug']}.html"), "w", encoding="utf-8") as f:
+        f.write(redirect_html)
+
+# ----------------- COPY CONFIG FILES TO DIST -----------------
+for cfg_file in ["vercel.json", "netlify.toml", ".htaccess", "nginx.conf"]:
+    src_cfg = os.path.join(workspace, cfg_file)
+    if os.path.exists(src_cfg):
+        shutil.copy(src_cfg, os.path.join(dist_dir, cfg_file))
+
 print(f"Successfully generated static website inside {dist_dir}!")
+

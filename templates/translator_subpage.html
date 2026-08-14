@@ -60,8 +60,8 @@
     <main class="main-container">
         <!-- Hero Section -->
         <section class="hero">
-            <h1>Online English to <span>{{h1}}</span></h1>
-            <p>Convert and translate modern English prose into authentic historical or fictional {{h1}} scripts instantly. Adjust size and download transparent calligraphy stencils.</p>
+            <h1><span>{{h1}}</span></h1>
+            <p>Convert and translate modern English prose into authentic {{name}} scripts instantly. Adjust size and download transparent calligraphy stencils.</p>
         </section>
 
         <!-- Translator Workspace -->
@@ -96,16 +96,12 @@
             <!-- Quick Preset Chips -->
             <div style="margin-top: 1rem; text-align: center; font-size: 0.85rem; color: var(--text-secondary);">
                 <span style="margin-right: 0.5rem; font-weight: 500;">Quick Presets:</span>
-                <button class="btn btn-secondary" style="padding: 0.2rem 0.6rem; font-size: 0.75rem; margin-right: 0.3rem;" onclick="loadPreset('love')">Love (meleth)</button>
-                <button class="btn btn-secondary" style="padding: 0.2rem 0.6rem; font-size: 0.75rem; margin-right: 0.3rem;" onclick="loadPreset('friend')">Friend (mellon)</button>
-                <button class="btn btn-secondary" style="padding: 0.2rem 0.6rem; font-size: 0.75rem; margin-right: 0.3rem;" onclick="loadPreset('hope')">Hope (estel)</button>
-                <button class="btn btn-secondary" style="padding: 0.2rem 0.6rem; font-size: 0.75rem; margin-right: 0.3rem;" onclick="loadPreset('star')">Star (el)</button>
-                <button class="btn btn-secondary" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;" onclick="loadPreset('i love you')">I love you (gi melin)</button>
+                {{quick_presets}}
             </div>
 
             <!-- Canvas Calligraphy Exporter -->
             <div class="canvas-panel">
-                <h2 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem;">Interactive {{h1}} Calligraphy Exporter</h2>
+                <h2 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem;">Interactive {{name}} Calligraphy Exporter</h2>
                 <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1rem; text-align:center;">Generate a custom PNG layout of the calligraphy script above. Ideal for tattoos, stickers, or engraving layouts.</p>
                 
                 <div class="canvas-container">
@@ -138,7 +134,7 @@
 
             <!-- Mockup Simulator -->
             <div class="mockup-panel" style="margin-top: 2rem; border-top: 1px solid var(--border-light); padding-top: 1.5rem; width: 100%;">
-                <h2 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem; text-align:center;">Live {{h1}} Tattoo & Ring Mockup Simulator</h2>
+                <h2 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem; text-align:center;">Live {{name}} Tattoo & Ring Mockup Simulator</h2>
                 <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1rem; text-align:center;">Preview how your calligraphy script will look as an engraving on a wedding band or a wrist tattoo.</p>
                 
                 <!-- Mockup Tabs -->
@@ -162,37 +158,11 @@
 
             <!-- Featured Calligraphy Showcase Gallery (Results/Showcase Component) -->
             <div style="margin-top: 2rem; border-top: 1px solid var(--border-light); padding-top: 1.5rem; width: 100%;">
-                <h2 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem; text-align:center;">Featured {{h1}} Translation Showcases</h2>
-                <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1.5rem; text-align:center;">Explore curated Elvish calligraphy designs. Click any showcase card to load it directly into the translator tool above.</p>
+                <h2 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem; text-align:center;">Featured {{name}} Translation Showcases</h2>
+                <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1.5rem; text-align:center;">{{showcase_description}}</p>
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
-                    <div style="background: rgba(13, 18, 31, 0.7); border: 1px solid var(--border-light); border-radius: 8px; padding: 1rem; cursor: pointer; transition: transform 0.2s;" onclick="loadPreset('love')" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border-light)'">
-                        <div style="font-size: 0.75rem; color: var(--accent); font-family: 'Cinzel', serif; letter-spacing: 1px;">RING ENGRAVING</div>
-                        <div style="font-size: 1.1rem; font-weight: bold; margin: 0.3rem 0;">Love (Meleth)</div>
-                        <div class="{{font_class}}" style="font-size: 1.5rem; color: var(--accent); margin-bottom: 0.4rem;">meleth</div>
-                        <span style="font-size: 0.75rem; color: var(--text-muted);">Load calligraphy stencil →</span>
-                    </div>
-
-                    <div style="background: rgba(13, 18, 31, 0.7); border: 1px solid var(--border-light); border-radius: 8px; padding: 1rem; cursor: pointer; transition: transform 0.2s;" onclick="loadPreset('friend')" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border-light)'">
-                        <div style="font-size: 0.75rem; color: var(--accent); font-family: 'Cinzel', serif; letter-spacing: 1px;">MORIA GATE TATTOO</div>
-                        <div style="font-size: 1.1rem; font-weight: bold; margin: 0.3rem 0;">Friend (Mellon)</div>
-                        <div class="{{font_class}}" style="font-size: 1.5rem; color: var(--accent); margin-bottom: 0.4rem;">mellon</div>
-                        <span style="font-size: 0.75rem; color: var(--text-muted);">Load calligraphy stencil →</span>
-                    </div>
-
-                    <div style="background: rgba(13, 18, 31, 0.7); border: 1px solid var(--border-light); border-radius: 8px; padding: 1rem; cursor: pointer; transition: transform 0.2s;" onclick="loadPreset('hope')" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border-light)'">
-                        <div style="font-size: 0.75rem; color: var(--accent); font-family: 'Cinzel', serif; letter-spacing: 1px;">WRIST TATTOO STENCIL</div>
-                        <div style="font-size: 1.1rem; font-weight: bold; margin: 0.3rem 0;">Hope (Estel)</div>
-                        <div class="{{font_class}}" style="font-size: 1.5rem; color: var(--accent); margin-bottom: 0.4rem;">estel</div>
-                        <span style="font-size: 0.75rem; color: var(--text-muted);">Load calligraphy stencil →</span>
-                    </div>
-
-                    <div style="background: rgba(13, 18, 31, 0.7); border: 1px solid var(--border-light); border-radius: 8px; padding: 1rem; cursor: pointer; transition: transform 0.2s;" onclick="loadPreset('i love you')" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border-light)'">
-                        <div style="font-size: 0.75rem; color: var(--accent); font-family: 'Cinzel', serif; letter-spacing: 1px;">COUPLE JEWELRY</div>
-                        <div style="font-size: 1.1rem; font-weight: bold; margin: 0.3rem 0;">I love you (Gi melin)</div>
-                        <div class="{{font_class}}" style="font-size: 1.5rem; color: var(--accent); margin-bottom: 0.4rem;">gi melin</div>
-                        <span style="font-size: 0.75rem; color: var(--text-muted);">Load calligraphy stencil →</span>
-                    </div>
+                    {{showcase_cards}}
                 </div>
             </div>
         </section>
@@ -211,7 +181,7 @@
                     <thead>
                         <tr>
                             <th>English Concept</th>
-                            <th>{{h1}} Script / Notation</th>
+                            <th>{{name}} Script / Notation</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -231,7 +201,7 @@
 
         <!-- Related Lore Tools Section (Increases Session Duration & Internal Linking) -->
         <section class="glass-card article-container" style="margin-top: 2rem;">
-            <h2 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.3rem; margin-bottom:1rem; border-bottom:1px solid var(--border-light); padding-bottom:0.5rem;">Explore Related Elvish &amp; Lore Tools</h2>
+            <h2 style="font-family:'Cinzel', serif; color:var(--accent); font-size:1.3rem; margin-bottom:1rem; border-bottom:1px solid var(--border-light); padding-bottom:0.5rem;">Explore Related Language &amp; Lore Tools</h2>
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 1rem;">
                 <a href="../tools/sindarin-name-generator.html" style="background: rgba(13, 18, 31, 0.7); border: 1px solid var(--border-light); border-radius: 8px; padding: 1rem; text-decoration: none; display: block; transition: all 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border-light)'">
                     <h3 style="font-size: 1.05rem; color: var(--accent); margin-bottom: 0.4rem;">Sindarin Name Generator</h3>
@@ -254,7 +224,7 @@
 
         <!-- Link back to home -->
         <div style="text-align:center; margin-bottom:3rem;">
-            <a href="../index.html" class="btn btn-secondary">← Back to Elvish Calligraphy Board</a>
+            <a href="../index.html" class="btn btn-secondary">← Back to Lore Translator Home</a>
         </div>
 
         <!-- Interactive Comments -->
