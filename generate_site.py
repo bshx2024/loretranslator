@@ -170,6 +170,13 @@ translators_metadata = [
             </tbody>
         </table>
 
+        <div style="background: rgba(13, 18, 31, 0.6); border-left: 3px solid var(--accent); padding: 0.9rem 1.2rem; margin: 1.2rem 0 1.8rem; border-radius: 4px;">
+            <strong style="color: var(--text-primary); font-size: 0.95rem;">Looking for Romantic Tolkien Quotes & Wedding Ring Inscriptions?</strong>
+            <p style="margin: 0.35rem 0 0; font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">
+                If you are translating vows or wedding bands, check out our full archive of <a href="../articles/tolkien-love-quotes.html" style="color: var(--accent); text-decoration: underline; font-weight: 500;">Tolkien quotes about love</a>, featuring authentic Sindarin declarations and famous romantic lines from Beren and Lúthien.
+            </p>
+        </div>
+
         <h3>Sindarin Name Translator & Custom Elvish Tattoo Script</h3>
         <p>Whether you want to translate modern English names (such as <em>sindarin girl names</em> or male Elf names) into calligraphic script, our online engine provides two distinct pathways: direct dictionary lookup for verified roots, and character-by-character Tengwar transliteration. You can use our specialized <a href="sindarin-name-translator.html">Sindarin Name Translator</a> for individual name transliterations or use our <a href="../tools/sindarin-name-generator.html">Sindarin Name Generator</a> to discover lore-accurate names for Elvish tattoos and ring engravings.</p>
 
@@ -365,6 +372,13 @@ translators_metadata = [
                 </tr>
             </tbody>
         </table>
+
+        <div style="background: rgba(13, 18, 31, 0.6); border-left: 3px solid var(--accent); padding: 0.9rem 1.2rem; margin: 1.2rem 0 1.8rem; border-radius: 4px;">
+            <strong style="color: var(--text-primary); font-size: 0.95rem;">Translating Ceremonial Wedding Vows or Rings?</strong>
+            <p style="margin: 0.35rem 0 0; font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">
+                Because Quenya was reserved for solemn poetry and sacred oaths, couples often use it for ring engravings. Discover iconic <a href="../articles/tolkien-love-quotes.html" style="color: var(--accent); text-decoration: underline; font-weight: 500;">lotr love quotes</a> and High-Elven wedding vows in our complete guide.
+            </p>
+        </div>
 
         <h2>Quenya Alphabet, Tengwar Script & Pronunciation Rules</h2>
         <p>Understanding Quenya pronunciation is essential for authentic ring engravings and elvish tattoo designs. Tolkien modeled Quenya phonetics after Finnish and Classical Greek:</p>
@@ -1421,7 +1435,7 @@ article_1_body = """
 <h2>Step-by-Step Guide to Ordering Custom Elvish Laser Ring Engravings</h2>
 <p>Commissioning a custom Elvish ring engraving requires careful coordination between your font layout, vector stencil design, and laser jeweler. Follow this 5-step checklist to guarantee flawless results:</p>
 <ol>
-    <li><strong>Select Your Elvish Translation:</strong> Choose an authentic romantic phrase in Quenya or Sindarin Elvish (such as <em>"Melmenya"</em> for My Love or <em>"Oira Estel"</em> for Eternal Hope). Avoid Black Speech or Sauron's One Ring curse text.</li>
+    <li><strong>Select Your Elvish Translation:</strong> Choose an authentic romantic phrase in Quenya or Sindarin Elvish (such as <em>"Melmenya"</em> for My Love or <em>"Oira Estel"</em> for Eternal Hope). Browse our curated archive of <a href="tolkien-love-quotes.html">Tolkien love quotes</a> and Beren & Lúthien vows for ring-ready phrases. Avoid Black Speech or Sauron's One Ring curse text.</li>
     <li><strong>Generate Vector Calligraphy Stencil:</strong> Input your phrase into our <a href="../index.html">Free Elvish Calligraphy Converter</a>. Choose Tengwar font style and letter spacing, then click 'Export PNG' to save a clean, high-resolution stencil.</li>
     <li><strong>Measure Ring Band Width:</strong> Check your wedding ring width. For 3mm to 4mm bands, request a laser font height of 1.2mm. For 5mm to 8mm bands, request 1.8mm to 2.2mm font height.</li>
     <li><strong>Confirm Metal Compatibility:</strong> Ensure your ring material is compatible with laser engraving. Gold, platinum, silver, titanium, and tungsten all produce razor-sharp laser results.</li>
@@ -1442,7 +1456,7 @@ article_1_body = """
     <li><a href="../translators/sindarin-translator.html">Sindarin Elvish Translator</a> — Translate modern phrases into the everyday spoken language of Middle-earth Elves.</li>
     <li><a href="../translators/sindarin-name-translator.html">Sindarin Name Translator</a> — Convert modern English male and female names into Tengwar runes for tattoos.</li>
     <li><a href="../translators/quenya-translator.html">Quenya High Elvish Translator</a> — Translate ceremonial vows into the ancient high-elven tongue of Valinor.</li>
-    <li><a href="tolkien-love-quotes.html">25+ Romantic Tolkien Love Quotes</a> — Discover top Lord of the Rings quotes ideal for wedding vows and ring bands.</li>
+    <li><a href="tolkien-love-quotes.html">25+ Tolkien Love Quotes & Romantic Sayings</a> — Discover top J.R.R. Tolkien quotes about love and Lord of the Rings quotes ideal for wedding vows and ring bands.</li>
 </ul>
 
 <h2>Frequently Asked Questions About Elvish Ring Engravings</h2>
