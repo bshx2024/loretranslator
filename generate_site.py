@@ -1636,6 +1636,7 @@ article_1_body = """
     <li><a href="../translators/sindarin-name-translator.html">Sindarin Name Translator</a> — Convert modern English male and female names into Tengwar runes for tattoos.</li>
     <li><a href="../translators/quenya-translator.html">Quenya High Elvish Translator</a> — Translate ceremonial vows into the ancient high-elven tongue of Valinor.</li>
     <li><a href="tolkien-love-quotes.html">25+ Tolkien Love Quotes & Romantic Sayings</a> — Discover top J.R.R. Tolkien quotes about love and Lord of the Rings quotes ideal for wedding vows and ring bands.</li>
+    <li><a href="lotr-wedding-quotes.html">LOTR Wedding Quotes &amp; Elvish Vows</a> — Explore curated Lord of the Rings ceremony readings, Arwen &amp; Aragorn vows, and short Sindarin wedding band sayings.</li>
 </ul>
 
 <h2>Frequently Asked Questions About Elvish Ring Engravings</h2>
@@ -1741,6 +1742,7 @@ article_2_body = """
     <li><em>"My love, my love! I have sought you and I have found you."</em> — Spoken by Beren upon finding Lúthien in the woods of Neldoreth.</li>
     <li><em>"For untamed by doom, they walked into the starlight together."</em> — Reflecting their eternal partnership beyond mortality.</li>
 </ul>
+<p>Planning a Middle-earth themed ceremony or writing your vows? Browse our dedicated collection of <a href="lotr-wedding-quotes.html">lotr wedding quotes</a> and ceremony readings for couples.</p>
 
 <h2>Tolkien's Real-Life Love Letters to His Wife Edith</h2>
 <p>Beyond his fictional legendarium, Tolkien wrote heart-wrenching passages about his wife Edith. Upon her passing in 1971, he wrote: <em>"She was my Lúthien and I was her Beren... But now she has gone before me."</em> For couples seeking subtle, deeply emotional quotes without explicit fantasy names, these real-life letters provide authentic literary elegance.</p>
@@ -1775,10 +1777,10 @@ article_3_body = """
 <h2>Best LOTR Wedding Quotes for Vows &amp; Readings</h2>
 <ul>
     <li><strong>"I would rather share one lifetime with you than face all the ages of this world alone."</strong> — Arwen to Aragorn (<em>The Fellowship of the Ring</em> film adaptation). Ideal for personal wedding vows.</li>
-    <li><strong>"When the evening in the Shire was grey, his footsteps on the hill were like the starlight..."</strong> — A gentle, nostalgic reading for couples who value quiet companionship.</li>
-    <li><strong>"I am glad you are here with me. Here at the end of all things."</strong> — Frodo &amp; Sam. A moving vow about standing together through every season of life.</li>
-    <li><strong>"The world is indeed full of peril, and in it there are many dark places; but still there is much that is fair..."</strong> — Haldir (<em>The Fellowship of the Ring</em>). A hopeful ceremony reading.</li>
-    <li><strong>"In the midst of winter, I found there was, within me, an invincible summer..."</strong> — Pair Tolkien's <em>Beren and Lúthien</em> imagery ("Tinúviel, daughter of twilight") with your own vows for a poetic Middle-earth ceremony.</li>
+    <li><strong>"I am glad you are here with me. Here at the end of all things."</strong> — Frodo Baggins to Samwise Gamgee (<em>The Return of the King</em>). A moving vow about standing together through every season of life.</li>
+    <li><strong>"The world is indeed full of peril, and in it there are many dark places; but still there is much that is fair, and though in all lands love is now mingled with grief, it grows perhaps the greater."</strong> — Haldir of Lothlórien (<em>The Fellowship of the Ring</em>). A hopeful ceremony reading.</li>
+    <li><strong>"Tinúviel the elven-fair, Immortal maiden elven-wise, About him cast her shadowy hair and arms like silver glimmering."</strong> — Aragorn's <em>Lay of Lúthien</em> (<em>The Fellowship of the Ring</em>), celebrating the devotion of Beren and Lúthien.</li>
+    <li><strong>"May it be a light to you in dark places, when all other lights go out."</strong> — Lady Galadriel (<em>The Fellowship of the Ring</em>). A classic blessing for wedding readings and rings.</li>
 </ul>
 
 <h2>Short Elvish Wedding Quotes for Ring Engravings</h2>
@@ -1873,6 +1875,18 @@ with open(os.path.join(dist_dir, "robots.txt"), "w", encoding="utf-8") as f:
 
 # ----------------- SITEMAP.XML GENERATION -----------------
 current_date = datetime.now().strftime("%Y-%m-%d")
+updated_slugs = {
+    "https://www.loretranslator.com/",
+    "https://www.loretranslator.com/tools/sindarin-name-generator.html",
+    "https://www.loretranslator.com/articles/elvish-ring-engraving-guide.html",
+    "https://www.loretranslator.com/articles/tolkien-love-quotes.html",
+    "https://www.loretranslator.com/articles/lotr-wedding-quotes.html",
+    "https://www.loretranslator.com/translators/sindarin-translator.html",
+    "https://www.loretranslator.com/translators/sindarin-name-translator.html",
+    "https://www.loretranslator.com/translators/navi-translator.html",
+    "https://www.loretranslator.com/translators/alien-translator.html",
+    "https://www.loretranslator.com/translators/coptic-translator.html",
+}
 sitemap_urls = [
     "https://www.loretranslator.com/",
     "https://www.loretranslator.com/tools/sindarin-name-generator.html",
@@ -1888,9 +1902,10 @@ sitemap_xml_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
 sitemap_xml_content += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
 
 for url in sitemap_urls:
+    lastmod = current_date if url in updated_slugs else "2026-09-13"
     sitemap_xml_content += "  <url>\n"
     sitemap_xml_content += f"    <loc>{url}</loc>\n"
-    sitemap_xml_content += f"    <lastmod>{current_date}</lastmod>\n"
+    sitemap_xml_content += f"    <lastmod>{lastmod}</lastmod>\n"
     sitemap_xml_content += "    <changefreq>weekly</changefreq>\n"
     sitemap_xml_content += "    <priority>0.8</priority>\n"
     sitemap_xml_content += "  </url>\n"
