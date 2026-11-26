@@ -178,7 +178,7 @@ translators_metadata = [
         </div>
 
         <h3>Sindarin Name Translator & Custom Elvish Tattoo Script</h3>
-        <p>Whether you want to translate modern English names (such as <em>sindarin girl names</em> or male Elf names) into calligraphic script, our online engine provides two distinct pathways: direct dictionary lookup for verified roots, and character-by-character Tengwar transliteration. You can use our specialized <a href="sindarin-name-translator.html">Sindarin Name Translator</a> for individual name transliterations or use our <a href="../tools/sindarin-name-generator.html">Sindarin Name Generator</a> to discover lore-accurate names for Elvish tattoos and ring engravings.</p>
+        <p>Whether you want to translate modern English names (such as <em>sindarin girl names</em> or male Elf names) into calligraphic script, our online engine provides two distinct pathways: direct dictionary lookup for verified roots, and character-by-character Tengwar transliteration. You can use our specialized <a href="sindarin-name-translator.html">Sindarin Name Translator</a> for individual name transliterations, use our <a href="../tools/sindarin-name-generator.html">Sindarin Name Generator</a> to discover lore-accurate names, or switch to our main <a href="/">English to Elvish Translator</a> (supporting both Sindarin and Quenya dialects) for multi-dialect Elvish calligraphy.</p>
 
         <h3>Sindarin Pronunciation & Elvish Phonetic Rules</h3>
         <p>Understanding Sindarin pronunciation is essential for authentic ring engravings and elvish tattoo design. Tolkien modeled Sindarin phonetics after modern Welsh, featuring crisp vowels and soft consonants:</p>
@@ -280,7 +280,7 @@ translators_metadata = [
             <li><strong>Etymological Translation (Semantic Name Roots):</strong> This method translates the historical meaning of your name into Sindarin roots (e.g. <em>Michael</em> means 'Who is like God' -> <em>Valandil</em>). Refer to our male and female elvish name dictionary above to discover your true Elven name.</li>
         </ul>
 
-        <p>Want to generate more lore-accurate names? Try our interactive <a href="../tools/sindarin-name-generator.html">Sindarin Name Generator</a> or return to the main <a href="sindarin-translator.html">Sindarin Translator</a> to translate complete sentences.</p>
+        <p>Want to generate more lore-accurate names? Try our interactive <a href="../tools/sindarin-name-generator.html">Sindarin Name Generator</a>, return to the <a href="sindarin-translator.html">Sindarin Translator</a> for Middle-earth phrases, or use our flagship <a href="/">Elvish Translator</a> (our complete <a href="/">Tolkien Elvish Translator</a> for both Sindarin &amp; Quenya).</p>
         """,
         "dictionary": dict_db["elvish"]["sindarin"],
         "faq": [
@@ -434,19 +434,55 @@ translators_metadata = [
             {"tag": "LIFE INSCRIPTION", "title": "Life (Tìrey)", "word": "tìrey", "value": "life"}
         ],
         "style_description": """
-        <h2>Introduction to the Na'vi Language</h2>
-        <p>The Na'vi language is a constructed language created by linguist Paul Frommer for James Cameron's film <em>Avatar</em>. It is spoken by the native inhabitants of Pandora, the Na'vi. The language features a complex system of ejectives, tripartite case markings, and infixes instead of prefixes or suffixes.</p>
-        <p>Our database compiles verified vocabulary terms along with International Phonetic Alphabet (IPA) annotations to guide your pronunciation, including greetings like <em>kaltxì</em> (/kal.tʼɪ/) and expressions like <em>yawne</em> (beloved).</p>
+        <h2>Introduction to the Na'vi Language (Avatar)</h2>
+        <p>The Na'vi language is a complete constructed language (conlang) created by USC linguist Dr. Paul Frommer for James Cameron's <em>Avatar</em>, <em>The Way of Water</em>, and <em>Fire and Ash</em>. Spoken by the indigenous Omatikaya and Metkayina clans of Pandora, Na'vi features a distinctive tripartite case system, verb infixes rather than prefixes/suffixes, and sharp ejective consonants (<em>px</em>, <em>tx</em>, <em>kx</em>) along with pseudovowels (<em>ll</em>, <em>rr</em>).</p>
+        <p>Our English to Na'vi translator compiles verified Pandoran vocabulary with International Phonetic Alphabet (IPA) transcriptions so you can speak, write, or design authentic Na'vi tattoo stencils.</p>
+
+        <h3>Real English to Na'vi Translation Examples</h3>
+        <p>Use these canon Na'vi phrases and greetings for roleplay, fanfiction, or Pandoran calligraphy:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>English Phrase</th>
+                    <th>Na'vi Translation</th>
+                    <th>IPA Pronunciation</th>
+                    <th>Context / Meaning</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td><strong>I see you</strong></td><td>Oel ngati kameie</td><td>/o.ˈɛl ŋa.ˈti ka.ˈmɛ.i.ɛ/</td><td>Sacred Na'vi spiritual greeting (seeing into one's soul)</td></tr>
+                <tr><td><strong>Hello / Peace be with you</strong></td><td>Kaltxì</td><td>/kal.ˈtʼɪ/</td><td>Standard everyday greeting among clans</td></tr>
+                <tr><td><strong>Thank you</strong></td><td>Irayo</td><td>/i.ˈɾa.jo/</td><td>Expression of gratitude (often <em>Irayo nìtxan</em> for thank you very much)</td></tr>
+                <tr><td><strong>Eywa be with you</strong></td><td>Eywa ngahu</td><td>/ˈɛj.wa ˈŋa.hu/</td><td>Common blessing invoking the Great Mother of Pandora</td></tr>
+                <tr><td><strong>Until we meet again</strong></td><td>Kìyevame</td><td>/kɪ.jɛ.ˈva.mɛ/</td><td>Traditional Na'vi farewell ("see you soon")</td></tr>
+            </tbody>
+        </table>
+
+        <h3>Na'vi Grammar Basics: Infixes &amp; Ejectives</h3>
+        <p>Unlike English, Na'vi expresses tense and mood by inserting <strong>infixes</strong> directly inside the verb stem—for example, <em>kame</em> ("see") becomes <em>k-am-e</em> or <em>k-ei-ame</em> ("see with joy/spirit" in <em>kameie</em>). Nouns take case suffixes (<em>-l</em> for agent, <em>-ti</em> for patient), allowing flexible word order.</p>
+        <p>Interested in other constructed or ancient scripts? Explore our <a href="alien-translator.html">Alien Language Translator</a> for sci-fi galactic ciphers, our <a href="coptic-translator.html">Coptic Translator</a> for ancient Egyptian script, or our main <a href="/">Elvish Translator</a>.</p>
         """,
         "dictionary": dict_db["navi"]["dictionary"],
         "faq": [
             {
-                "q": "Is Na'vi a complete language?",
-                "a": "Yes, Paul Frommer has expanded the language to over 2,500 words with a fully developed grammar system, making it possible to hold conversations."
+                "q": "Is Na'vi a complete language you can actually learn?",
+                "a": "Yes! Dr. Paul Frommer has expanded Na'vi to over 2,700 official root words with a full grammar, enabling fluent conversation among the LearnNavi community."
             },
             {
-                "q": "How do I pronounce the 'tx' and 'px' in Na'vi?",
-                "a": "These are ejective consonants. To pronounce them, construct the sound (like 't' or 'p') using air compressed in your throat rather than from your lungs, creating a sharp popping sound."
+                "q": "How do I pronounce 'tx', 'px', and 'kx' in Na'vi?",
+                "a": "These are ejective consonants. Close your glottis and release a sharp burst of air compressed in your throat for 't', 'p', or 'k', creating a distinct popping sound."
+            },
+            {
+                "q": "What does 'Oel ngati kameie' literally mean in Na'vi?",
+                "a": "It translates to 'I see you,' using the spiritual verb <em>kame</em> (to see with the mind/heart) with the positive-affection infix <em>-ei-</em>, signifying deep recognition."
+            },
+            {
+                "q": "How do you say 'I love you' in Na'vi?",
+                "a": "You can say <em>Nga yawne lu oer</em> (literally 'You are beloved to me'), using the adjective <em>yawne</em> (beloved)."
+            },
+            {
+                "q": "Can I use Na'vi words for tattoos or ring engravings?",
+                "a": "Yes! Words like <em>yawne</em> (beloved), <em>tirea</em> (spirit), and <em>tìrey</em> (life) are popular for Pandoran tattoos. Use our Calligraphy Exporter above to preview and download a clean PNG stencil."
             }
         ]
     },
@@ -688,24 +724,84 @@ translators_metadata = [
             {"tag": "SCI-FI EMBLEM", "title": "Earth", "word": "⏄⏃⏑⏓⏇", "value": "earth"}
         ],
         "style_description": """
-        <h2>Fictional Alien Scripts</h2>
-        <p>Science fiction frequently utilizes custom runic ciphers to represent advanced extraterrestrial civilizations, from Roswell glyphs to standard galactic alphabets. These scripts add rich atmosphere to gaming campaigns, worldbuilding projects, and artistic designs.</p>
-        <p>Our translator maps your letters to symbolic block representations (⏃, ⏁, ⏂) to produce custom encoded stencils instantly.</p>
+        <h2>Fictional Alien Scripts &amp; Galactic Ciphers</h2>
+        <p>Science fiction frequently utilizes custom geometric ciphers to represent advanced extraterrestrial civilizations—from the Standard Galactic Alphabet (made famous by <em>Commander Keen</em> and <em>Minecraft</em> enchanting tables) to Roswell-inspired alien glyphs and cosmic symbols. These scripts add immersive atmosphere to sci-fi worldbuilding, tabletop RPGs (like <em>Traveller</em> or <em>Starfinder</em>), Discord bios, and minimalist tattoo stencils.</p>
+        <p>Our Alien Language Translator converts English words and custom messages into standardized Unicode geometric glyph blocks (⏃, ⏁, ⏂, ⏋, ⏎) that copy and paste cleanly across any modern device.</p>
+
+        <h3>Real English to Alien Glyph Translation Examples</h3>
+        <p>Preview how common sci-fi terms and phrases encode into our Galactic Glyph cipher:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>English Word / Phrase</th>
+                    <th>Alien Glyph Output</th>
+                    <th>Ideal Use Case</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td><strong>Love</strong></td><td>⏋⏎⏕⏄</td><td>Minimalist wrist tattoo or pendant</td></tr>
+                <tr><td><strong>Star</strong></td><td>⏒⏓⏃⏑</td><td>Sci-fi faction emblem or Discord status</td></tr>
+                <tr><td><strong>Alien</strong></td><td>⏃⏋⏈⏄⏍</td><td>Gamer tag &amp; Roswell-themed art</td></tr>
+                <tr><td><strong>Earth</strong></td><td>⏄⏃⏑⏓⏇</td><td>Planetary logbook or RPG handout</td></tr>
+                <tr><td><strong>Peace</strong></td><td>⏐⏄⏃⏂⏄</td><td>First-contact transmission cipher</td></tr>
+            </tbody>
+        </table>
+
+        <h3>How Extraterrestrial Substitution Ciphers Work</h3>
+        <p>Every English letter A–Z is mapped 1-to-1 to a distinct Unicode Technical &amp; Miscellaneous symbol so encoded messages remain reversible and consistent across platforms. Looking for a spoken sci-fi conlang or an ancient human script instead? Try our <a href="navi-translator.html">Na'vi Language Translator</a> (from <em>Avatar</em>), our <a href="coptic-translator.html">Coptic Translator</a> (ancient Egyptian), or our <a href="/">Elvish Translator</a>.</p>
         """,
         "dictionary": {
             "love": "⏋⏎⏕⏄",
             "star": "⏒⏓⏃⏑",
             "alien": "⏃⏋⏈⏄⏍",
-            "earth": "⏄⏃⏑⏓⏇"
+            "earth": "⏄⏃⏑⏓⏇",
+            "peace": "⏐⏄⏃⏂⏄",
+            "hope": "⏇⏎⏐⏄",
+            "light": "⏋⏈⏆⏇⏓",
+            "void": "⏕⏎⏈⏃",
+            "cosmos": "⏂⏎⏒⏌⏎⏒",
+            "galaxy": "⏆⏃⏋⏃⏗⏘",
+            "planet": "⏐⏋⏃⏍⏄⏓",
+            "moon": "⏌⏎⏎⏍",
+            "sun": "⏒⏔⏍",
+            "ship": "⏒⏇⏈⏐",
+            "signal": "⏒⏈⏆⏍⏃⏋",
+            "portal": "⏐⏎⏑⏓⏃⏋",
+            "nebula": "⏍⏄⏁⏔⏋⏃",
+            "orbit": "⏎⏑⏁⏈⏓",
+            "beacon": "⏁⏄⏃⏂⏎⏍",
+            "contact": "⏂⏎⏍⏓⏃⏂⏓",
+            "home": "⏇⏎⏌⏄",
+            "life": "⏋⏈⏅⏄",
+            "soul": "⏒⏎⏔⏋",
+            "truth": "⏓⏑⏔⏓⏇",
+            "friend": "⏅⏑⏈⏄⏍⏃",
+            "dream": "⏃⏑⏄⏃⏌",
+            "future": "⏅⏔⏓⏔⏑⏄",
+            "destiny": "⏃⏄⏒⏓⏈⏍⏘",
+            "eternal": "⏄⏓⏄⏑⏍⏃⏋",
+            "awakening": "⏃⏖⏃⏊⏄⏍⏈⏍⏆"
         },
         "faq": [
             {
                 "q": "What is the font structure used for the Alien translator?",
-                "a": "It uses a standardized letter-to-glyph replacement cipher, converting characters into geometric, extra-terrestrial unicode blocks."
+                "a": "It uses a standardized 1-to-1 letter-to-glyph substitution cipher, converting English characters into geometric, extraterrestrial Unicode blocks."
             },
             {
-                "q": "Can I copy the alien symbols to Discord or Twitter?",
-                "a": "Yes! The output uses standard Unicode characters, meaning you can copy and paste the generated symbols anywhere online."
+                "q": "Can I copy the alien symbols to Discord, Instagram, or Twitter?",
+                "a": "Yes! Because the output uses standard Unicode characters rather than a proprietary font file, you can copy and paste the alien symbols anywhere online."
+            },
+            {
+                "q": "Can I decode alien text back into English?",
+                "a": "Yes. Because each English letter maps to a unique geometric glyph in our Galactic Cipher table, any word or phrase generated here can be decoded back letter-by-letter."
+            },
+            {
+                "q": "Are these alien glyphs good for sci-fi RPGs and tattoos?",
+                "a": "Definitely! Game masters use them for alien ruins and terminal puzzles in D&D Spelljammer or Starfinder, and you can export transparent PNG stencils above for clean geometric tattoos."
+            },
+            {
+                "q": "How is this different from the Na'vi translator?",
+                "a": "Our Alien Translator encodes English into visual sci-fi glyphs, whereas our Na'vi Translator translates into a full spoken extraterrestrial language with grammar and IPA pronunciation."
             }
         ]
     },
@@ -1121,19 +1217,54 @@ translators_metadata = [
             {"tag": "SACRED CALLIGRAPHY", "title": "Eternal (Eneh)", "word": "ⲉⲛⲉϩ", "value": "eternal"}
         ],
         "style_description": """
-        <h2>The Coptic Language & Alphabet</h2>
-        <p>Coptic is the final stage of the ancient Egyptian language, spoken in Egypt from the 1st century AD. It adapted the Greek alphabet along with seven signs borrowed from Demotic script to represent Egyptian sounds not found in Greek. It remains the liturgical tongue of the Coptic Orthodox Church.</p>
-        <p>Translate classic spiritual and historical concepts like <em>agape</em> (ⲁⲅⲁⲲⲏ - love) or <em>onkh</em> (ⲱⲛϧ - life) with our academic glossary database.</p>
+        <h2>The Coptic Language &amp; Alphabet</h2>
+        <p>Coptic is the final historical stage of the ancient Egyptian language, spoken throughout Egypt from the 1st century AD onward. It adapted the 24-letter Greek alphabet and added seven signs (plus dialectal variants) borrowed directly from Egyptian Demotic script to represent native Egyptian sounds such as <em>sh</em> (ϣ), <em>f</em> (ϥ), and <em>kh</em> (ϧ). Today, Coptic remains preserved as the sacred liturgical language of the Coptic Orthodox Church.</p>
+        <p>Our English to Coptic translator lets you look up verified Sahidic and Bohairic Coptic vocabulary—such as <em>agape</em> (ⲁⲅⲁⲲⲏ, love), <em>hirene</em> (ϩⲓⲣⲏⲛⲏ, peace), and <em>onkh</em> (ⲱⲛϧ, life)—and render custom calligraphy stencils.</p>
+
+        <h3>Real English to Coptic Translation Examples</h3>
+        <p>Explore classic Coptic phrases, blessings, and inscriptions with transliteration:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>English Phrase</th>
+                    <th>Coptic Script</th>
+                    <th>Transliteration</th>
+                    <th>Historical / Liturgical Context</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td><strong>Peace be with you</strong></td><td>ϯϩⲓⲣⲏⲛⲏ ⲛⲉⲙⲱⲧⲉⲛ</td><td>Ti-hirene nemoten</td><td>Traditional Coptic liturgical greeting</td></tr>
+                <tr><td><strong>God is love</strong></td><td>ⲫⲛⲟⲩϯ ⲟⲩⲁⲅⲁⲡⲏ ⲡⲉ</td><td>Phnouti ou-agape pe</td><td>Classic Sahidic/Bohairic scripture phrase</td></tr>
+                <tr><td><strong>Life eternal</strong></td><td>ⲡⲱⲛϧ ⲛ̀ⲉⲛⲉϩ</td><td>P-onkh n-eneh</td><td>Derived from ancient Egyptian <em>ankh</em></td></tr>
+                <tr><td><strong>In the name of God</strong></td><td>ϧⲉⲛ ⲫⲣⲁⲛ ⲙ̀ⲫⲛⲟⲩϯ</td><td>Khen phran m-phnouti</td><td>Opening invocation in Coptic manuscripts</td></tr>
+                <tr><td><strong>Glory and grace</strong></td><td>ⲡⲓⲉⲟⲟⲩ ⲛⲉⲙ ⲡⲓϩⲙⲟⲧ</td><td>Pi-eoou nem pi-hmot</td><td>Common prayer and ring inscription motif</td></tr>
+            </tbody>
+        </table>
+
+        <h3>Coptic Dialects: Sahidic vs. Bohairic</h3>
+        <p>The two most influential Coptic dialects are <strong>Sahidic</strong> (Upper Egypt, used in early monastic literature and the Nag Hammadi texts) and <strong>Bohairic</strong> (Lower Egypt / Nile Delta, which became the standard liturgical dialect). Curious about other ancient or constructed scripts? Compare Coptic with our <a href="navi-translator.html">Na'vi Language Translator</a>, our <a href="alien-translator.html">Alien Language Translator</a>, or our flagship <a href="/">Elvish Translator</a>.</p>
         """,
         "dictionary": dict_db["coptic"]["dictionary"],
         "faq": [
             {
-                "q": "Is Coptic related to Egyptian hieroglyphs?",
-                "a": "Yes! Coptic is grammatically and linguistically the direct descendant of the language of the pharaohs, written in an alphabetic script rather than hieroglyphics."
+                "q": "Is Coptic related to ancient Egyptian hieroglyphs?",
+                "a": "Yes! Coptic is grammatically and linguistically the direct descendant of the language of the pharaohs, written in an alphabetic script rather than hieroglyphics—and it was Coptic that helped Jean-François Champollion decipher the Rosetta Stone."
             },
             {
                 "q": "How many letters are in the Coptic alphabet?",
-                "a": "The Coptic alphabet consists of 32 letters: 25 adopted from Greek and 7 derived from Demotic to write Egyptian sounds."
+                "a": "The standard Coptic alphabet consists of 31–32 letters: 24 adopted from Greek plus 7 derived from Demotic Egyptian to represent sounds Greek lacked."
+            },
+            {
+                "q": "What is the difference between Sahidic and Bohairic Coptic?",
+                "a": "Sahidic was the classical literary dialect of Upper Egypt in late antiquity, while Bohairic originated in the Nile Delta and remains the living liturgical dialect of the Coptic Orthodox Church."
+            },
+            {
+                "q": "What does 'onkh' (ⲱⲛϧ) mean in Coptic?",
+                "a": "<em>Onkh</em> (Bohairic) or <em>onh</em> (Sahidic) means 'life' and is the direct linguistic descendant of the famous ancient Egyptian word and symbol <em>ankh</em>."
+            },
+            {
+                "q": "Can I export Coptic script as a tattoo or engraving stencil?",
+                "a": "Yes! Type your text or select a preset above, then use the Calligraphy Exporter to download a transparent high-resolution PNG stencil."
             }
         ]
     }
@@ -1259,6 +1390,52 @@ for item in translators_metadata:
         </div>
         """
 
+    # Build Related Tools Cards (cross-link navi/alien/coptic cluster, and Elvish cluster)
+    if item["slug"] in ("navi-translator", "alien-translator", "coptic-translator"):
+        cluster_cards = [
+            ("navi-translator", "navi-translator.html", "Na'vi Language Translator", "Translate English into the official Avatar Na'vi language with IPA &amp; calligraphy."),
+            ("alien-translator", "alien-translator.html", "Alien Language Translator", "Encode English into extraterrestrial Galactic Glyph ciphers &amp; sci-fi symbols."),
+            ("coptic-translator", "coptic-translator.html", "Coptic Translator", "Convert English into ancient Egyptian Coptic script &amp; liturgical phrases."),
+        ]
+        related_tools_html = ""
+        for c_slug, c_href, c_title, c_desc in cluster_cards:
+            if c_slug != item["slug"]:
+                related_tools_html += f"""
+                <a href="{c_href}" style="background: rgba(13, 18, 31, 0.7); border: 1px solid var(--border-light); border-radius: 8px; padding: 1rem; text-decoration: none; display: block; transition: all 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border-light)'">
+                    <h3 style="font-size: 1.05rem; color: var(--accent); margin-bottom: 0.4rem;">{c_title}</h3>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 0;">{c_desc}</p>
+                </a>
+                """
+        related_tools_html += """
+                <a href="/" style="background: rgba(13, 18, 31, 0.7); border: 1px solid var(--border-light); border-radius: 8px; padding: 1rem; text-decoration: none; display: block; transition: all 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border-light)'">
+                    <h3 style="font-size: 1.05rem; color: var(--accent); margin-bottom: 0.4rem;">Elvish Translator (Home)</h3>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 0;">Translate English into Tolkien's Sindarin &amp; Quenya with Tengwar PNG exports.</p>
+                </a>
+                <a href="sumerian-cuneiform-translator.html" style="background: rgba(13, 18, 31, 0.7); border: 1px solid var(--border-light); border-radius: 8px; padding: 1rem; text-decoration: none; display: block; transition: all 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border-light)'">
+                    <h3 style="font-size: 1.05rem; color: var(--accent); margin-bottom: 0.4rem;">Sumerian Cuneiform Translator</h3>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 0;">Convert English concepts into ancient Mesopotamian cuneiform wedges.</p>
+                </a>
+        """
+    else:
+        related_tools_html = """
+                <a href="/" style="background: rgba(13, 18, 31, 0.7); border: 1px solid var(--border-light); border-radius: 8px; padding: 1rem; text-decoration: none; display: block; transition: all 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border-light)'">
+                    <h3 style="font-size: 1.05rem; color: var(--accent); margin-bottom: 0.4rem;">English to Elvish Translator</h3>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 0;">Our flagship Tolkien Elvish translator for Sindarin, Quenya &amp; Tengwar calligraphy.</p>
+                </a>
+                <a href="../tools/sindarin-name-generator.html" style="background: rgba(13, 18, 31, 0.7); border: 1px solid var(--border-light); border-radius: 8px; padding: 1rem; text-decoration: none; display: block; transition: all 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border-light)'">
+                    <h3 style="font-size: 1.05rem; color: var(--accent); margin-bottom: 0.4rem;">Sindarin Name Generator</h3>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 0;">Generate authentic High-Elven names for D&amp;D, LOTR fanfic &amp; ring inscriptions.</p>
+                </a>
+                <a href="../articles/tolkien-love-quotes.html" style="background: rgba(13, 18, 31, 0.7); border: 1px solid var(--border-light); border-radius: 8px; padding: 1rem; text-decoration: none; display: block; transition: all 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border-light)'">
+                    <h3 style="font-size: 1.05rem; color: var(--accent); margin-bottom: 0.4rem;">Tolkien Love Quotes</h3>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 0;">Discover 25+ romantic quotes for custom wedding band engravings.</p>
+                </a>
+                <a href="../articles/lotr-wedding-quotes.html" style="background: rgba(13, 18, 31, 0.7); border: 1px solid var(--border-light); border-radius: 8px; padding: 1rem; text-decoration: none; display: block; transition: all 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border-light)'">
+                    <h3 style="font-size: 1.05rem; color: var(--accent); margin-bottom: 0.4rem;">LOTR Wedding Quotes</h3>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 0;">Explore Lord of the Rings wedding vows, readings &amp; Sindarin ring engravings.</p>
+                </a>
+        """
+
     subpage_rendered = subpage_template.replace(
         "{{meta_title}}", item["meta_title"]
     ).replace(
@@ -1293,6 +1470,8 @@ for item in translators_metadata:
         "{{dictionary_table_rows}}", table_rows_html
     ).replace(
         "{{faq_accordion_items}}", faq_html
+    ).replace(
+        "{{related_tools_cards}}", related_tools_html
     ).replace(
         "{{giscus_widget}}", giscus_widget_html
     ).replace(
@@ -1378,7 +1557,7 @@ article_1_body = """
     </tbody>
 </table>
 
-<p>Want to preview how these sayings look in real-time calligraphy? Simply enter any text into our <a href="../index.html">Free Elvish Calligraphy Converter</a> to adjust font sizes, margins, and export a high-resolution PNG stencil for your jeweler.</p>
+<p>Want to preview how these sayings look in real-time calligraphy? Simply enter any text into our <a href="/">Free Elvish Calligraphy Converter</a> to adjust font sizes, margins, and export a high-resolution PNG stencil for your jeweler.</p>
 
 <h2>Elvish Ring Engraving Cost & Price Guide (Laser vs Hand Etching)</h2>
 <p>Before commissioning your custom engraving, you must consider the technical and financial aspects of ring customization. What is the actual price and cost of Elvish ring engraving? Resizing and engraving are separate skills requiring specialized jeweler tools. Here is an overview of standard industry prices in the United States and Europe for Elvish ring engravings:</p>
@@ -1436,7 +1615,7 @@ article_1_body = """
 <p>Commissioning a custom Elvish ring engraving requires careful coordination between your font layout, vector stencil design, and laser jeweler. Follow this 5-step checklist to guarantee flawless results:</p>
 <ol>
     <li><strong>Select Your Elvish Translation:</strong> Choose an authentic romantic phrase in Quenya or Sindarin Elvish (such as <em>"Melmenya"</em> for My Love or <em>"Oira Estel"</em> for Eternal Hope). Browse our curated archive of <a href="tolkien-love-quotes.html">Tolkien love quotes</a> and Beren & Lúthien vows for ring-ready phrases. Avoid Black Speech or Sauron's One Ring curse text.</li>
-    <li><strong>Generate Vector Calligraphy Stencil:</strong> Input your phrase into our <a href="../index.html">Free Elvish Calligraphy Converter</a>. Choose Tengwar font style and letter spacing, then click 'Export PNG' to save a clean, high-resolution stencil.</li>
+    <li><strong>Generate Vector Calligraphy Stencil:</strong> Input your phrase into our <a href="/">Free Elvish Calligraphy Converter</a>. Choose Tengwar font style and letter spacing, then click 'Export PNG' to save a clean, high-resolution stencil.</li>
     <li><strong>Measure Ring Band Width:</strong> Check your wedding ring width. For 3mm to 4mm bands, request a laser font height of 1.2mm. For 5mm to 8mm bands, request 1.8mm to 2.2mm font height.</li>
     <li><strong>Confirm Metal Compatibility:</strong> Ensure your ring material is compatible with laser engraving. Gold, platinum, silver, titanium, and tungsten all produce razor-sharp laser results.</li>
     <li><strong>Verify Alignment & Spelling:</strong> Provide your jeweler with both the English translation reference and the Tengwar PNG stencil. Ask for a digital mock-up before the laser burns the final pattern.</li>
@@ -1466,7 +1645,7 @@ article_1_body = """
 <p>No. Tungsten carbide and titanium are industrial metals that cannot be melted or stretched by traditional jeweler's torches. If your tungsten ring size changes, the ring must be replaced. Gold, silver, and platinum rings can easily be resized by 1-2 sizes for $20 to $60.</p>
 
 <h3>How do I generate a vector Tengwar stencil for my jeweler?</h3>
-<p>You can enter your custom text or select verified Quenya/Sindarin love quotes into our online <a href="../index.html">Elvish Calligraphy Board</a>. Select your font size and colors, then click 'Export PNG' to download a clean stencil ready for laser engraving.</p>
+<p>You can enter your custom text or select verified Quenya/Sindarin love quotes into our online <a href="/">Elvish Calligraphy Board</a>. Select your font size and colors, then click 'Export PNG' to download a clean stencil ready for laser engraving.</p>
 """
 
 # Article 2: tolkien-love-quotes.html (Word count: ~1020 words)
@@ -1524,7 +1703,7 @@ article_2_body = """
     <li><strong>Transliteration (Phonetic):</strong> This keeps the words in English (e.g. 'I love you') but swaps the English letters with their corresponding Tengwar alphabet symbols. This is the method Tolkien himself used on the title page of the Lord of the Rings, and is 100% safe from grammatical disputes.</li>
 </ul>
 
-<p>You can experiment with both modes on our <a href="../index.html">Elvish Calligraphy Board</a> to find the visual arrangement that fits the circumference of your band perfectly.</p>
+<p>You can experiment with both modes on our <a href="/">Elvish Calligraphy Board</a> to find the visual arrangement that fits the circumference of your band perfectly.</p>
 
 <h2>Elvish Dialects for Tolkien Love Quotes Inscriptions</h2>
 <p>To help you choose the correct aesthetic, we compare the primary linguistic standards of Middle-earth:</p>
@@ -1588,6 +1767,47 @@ article_2_body = """
 <p><strong>Sindarin is preferred for Third Age (LOTR) context, while Quenya is ideal for cosmological and poetic vows.</strong> Since Sindarin is the language Arwen and Aragorn spoke to each other, it has a romantic, historical intimacy. Quenya, being the language of the High Elves of Valinor, has a more mythic, epic tone. Ensure that whichever you choose, the characters are generated using a reliable tool that references Tolkien's actual linguistic rules rather than fake substitution tables.</p>
 """
 
+article_3_body = """
+<h2>Why Lord of the Rings Quotes Make Timeless Wedding Vows</h2>
+<p>Few literary works capture devotion, endurance, and eternal love as deeply as J.R.R. Tolkien's <em>The Lord of the Rings</em> and <em>The Silmarillion</em>. From Arwen Evenstar's choice of a mortal life with Aragorn to Samwise Gamgee's unshakeable loyalty, <strong>LOTR wedding quotes</strong> bring mythic beauty to ceremony readings, wedding vows, and custom engraved wedding bands.</p>
+<p>If you are pairing your ceremony vows with matching rings, you can also explore our <a href="tolkien-love-quotes.html">25+ Romantic Tolkien Love Quotes</a>, read our <a href="elvish-ring-engraving-guide.html">Elvish Ring Engraving Guide</a>, or preview any phrase in Tengwar calligraphy using our <a href="/">English to Elvish Translator</a>.</p>
+
+<h2>Best LOTR Wedding Quotes for Vows &amp; Readings</h2>
+<ul>
+    <li><strong>"I would rather share one lifetime with you than face all the ages of this world alone."</strong> — Arwen to Aragorn (<em>The Fellowship of the Ring</em> film adaptation). Ideal for personal wedding vows.</li>
+    <li><strong>"When the evening in the Shire was grey, his footsteps on the hill were like the starlight..."</strong> — A gentle, nostalgic reading for couples who value quiet companionship.</li>
+    <li><strong>"I am glad you are here with me. Here at the end of all things."</strong> — Frodo &amp; Sam. A moving vow about standing together through every season of life.</li>
+    <li><strong>"The world is indeed full of peril, and in it there are many dark places; but still there is much that is fair..."</strong> — Haldir (<em>The Fellowship of the Ring</em>). A hopeful ceremony reading.</li>
+    <li><strong>"In the midst of winter, I found there was, within me, an invincible summer..."</strong> — Pair Tolkien's <em>Beren and Lúthien</em> imagery ("Tinúviel, daughter of twilight") with your own vows for a poetic Middle-earth ceremony.</li>
+</ul>
+
+<h2>Short Elvish Wedding Quotes for Ring Engravings</h2>
+<p>Wedding bands only have space for 15–30 characters of Tengwar script. These concise Sindarin and Quenya phrases fit cleanly inside 4mm–6mm rings:</p>
+<table>
+    <thead>
+        <tr>
+            <th>English Meaning</th>
+            <th>Sindarin / Quenya</th>
+            <th>Recommended Ring Style</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>My heart is yours forever</strong></td><td><em>Gûr nîn an-ui</em> (Sindarin)</td><td>Matching gold or platinum bands</td></tr>
+        <tr><td><strong>One lifetime together</strong></td><td><em>Er cuil oio</em> (Quenya-inspired)</td><td>Inside-band laser engraving</td></tr>
+        <tr><td><strong>Beloved star</strong></td><td><em>El-vellyn / Meleth-elen</em></td><td>Minimalist 4mm band</td></tr>
+        <tr><td><strong>My soul's hope</strong></td><td><em>Estel faer nîn</em> (Sindarin)</td><td>Couple promise or wedding rings</td></tr>
+        <tr><td><strong>Always / Forever</strong></td><td><em>An-ui</em> (Sindarin) / <em>Tennoio</em> (Quenya)</td><td>Short cuff or inner-ring mark</td></tr>
+    </tbody>
+</table>
+
+<h2>How to Prepare Your LOTR Wedding Quote for a Jeweler</h2>
+<ol>
+    <li><strong>Choose Sindarin or Quenya:</strong> Use Sindarin for Arwen &amp; Aragorn-inspired romance, or Quenya for formal ceremonial vows.</li>
+    <li><strong>Avoid the One Ring Inscription:</strong> Never engrave <em>Ash nazg durbatulûk</em> on a wedding ring—it is a Black Speech curse of enslavement, not a love poem.</li>
+    <li><strong>Export a 300 DPI Tengwar Stencil:</strong> Paste your chosen phrase into our <a href="/">Elvish Translator</a>, adjust the font size, and click <strong>Export PNG</strong> so your jeweler can laser-engrave authentic Tengwar script without font substitution errors.</li>
+</ol>
+"""
+
 articles_metadata = [
     {
         "slug": "elvish-ring-engraving-guide",
@@ -1604,6 +1824,14 @@ articles_metadata = [
         "meta_description": "Discover romantic Tolkien love quotes for wedding vows & ring engravings. Includes Lord of the Rings lines, Elvish scripts & free PNG stencil exporter!",
         "publish_date": "2026-06-26",
         "body": article_2_body
+    },
+    {
+        "slug": "lotr-wedding-quotes",
+        "h1": "LOTR Wedding Quotes: Romantic Lord of the Rings Vows & Elvish Ring Sayings",
+        "meta_title": "LOTR Wedding Quotes: Romantic Vows & Elvish Ring Sayings | LoreTranslator",
+        "meta_description": "Best LOTR wedding quotes for ceremony readings, vows & engraved rings. Includes Arwen & Aragorn lines, Sindarin translations & free Tengwar PNG stencils.",
+        "publish_date": "2026-11-26",
+        "body": article_3_body
     }
 ]
 
@@ -1649,7 +1877,8 @@ sitemap_urls = [
     "https://www.loretranslator.com/",
     "https://www.loretranslator.com/tools/sindarin-name-generator.html",
     "https://www.loretranslator.com/articles/elvish-ring-engraving-guide.html",
-    "https://www.loretranslator.com/articles/tolkien-love-quotes.html"
+    "https://www.loretranslator.com/articles/tolkien-love-quotes.html",
+    "https://www.loretranslator.com/articles/lotr-wedding-quotes.html"
 ]
 
 for item in translators_metadata:

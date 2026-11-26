@@ -2,7 +2,7 @@ import os
 import re
 import xml.etree.ElementTree as ET
 
-workspace = "E:/kaifa/loretranslator"
+workspace = os.path.dirname(os.path.abspath(__file__))
 dist_dir = os.path.join(workspace, "dist")
 
 def verify_site():
@@ -73,9 +73,13 @@ def verify_site():
         hrefs = re.findall(r'href="([^"#]+)"', content)
         for href in hrefs:
             if not href.startswith("http") and not href.startswith("mailto"):
-                # Resolve relative path
-                page_dir = os.path.dirname(full_path)
-                target_path = os.path.normpath(os.path.join(page_dir, href))
+                if href == "/":
+                    target_path = os.path.join(dist_dir, "index.html")
+                elif href.startswith("/"):
+                    target_path = os.path.normpath(os.path.join(dist_dir, href.lstrip("/")))
+                else:
+                    page_dir = os.path.dirname(full_path)
+                    target_path = os.path.normpath(os.path.join(page_dir, href))
                 if not os.path.exists(target_path):
                     issues.append(f"[{rel_path}] Broken link: href=\"{href}\" (Resolved path: {target_path} does not exist)")
 

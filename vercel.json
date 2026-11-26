@@ -12,6 +12,26 @@
       "statusCode": 301
     },
     {
+      "source": "/index.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/translators/:slug([^/.]+)",
+      "destination": "/translators/:slug.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/articles/:slug([^/.]+)",
+      "destination": "/articles/:slug.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/tools/:slug([^/.]+)",
+      "destination": "/tools/:slug.html",
+      "statusCode": 301
+    },
+    {
       "source": "/sindarin-translator.html",
       "destination": "/translators/sindarin-translator.html",
       "statusCode": 301
